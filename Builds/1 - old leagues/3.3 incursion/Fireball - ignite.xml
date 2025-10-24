@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="80" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Elementalist" mainSocketGroup="3" viewMode="TREE" banditCruel="None">
+		<PlayerStat stat="AverageHit" value="194816.88"/>
+		<PlayerStat stat="AverageDamage" value="194816.88"/>
+		<PlayerStat stat="Speed" value="4.4352941176471"/>
+		<PlayerStat stat="Speed" value="4.4352941176471"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="5"/>
+		<PlayerStat stat="CritChance" value="5"/>
+		<PlayerStat stat="CritMultiplier" value="1"/>
+		<PlayerStat stat="HitChance" value="100"/>
+		<PlayerStat stat="TotalDPS" value="864070.16188235"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="IgniteDPS" value="38366.208"/>
+		<PlayerStat stat="WithPoisonDPS" value="864070.16188235"/>
+		<PlayerStat stat="AreaOfEffectRadius" value="12"/>
+		<PlayerStat stat="ManaCost" value="87"/>
+		<PlayerStat stat="Str" value="373"/>
+		<PlayerStat stat="ReqStr" value="138"/>
+		<PlayerStat stat="Dex" value="123"/>
+		<PlayerStat stat="ReqDex" value="155"/>
+		<PlayerStat stat="Int" value="312"/>
+		<PlayerStat stat="ReqInt" value="155"/>
+		<PlayerStat stat="Life" value="4565"/>
+		<PlayerStat stat="Spec:LifeInc" value="136"/>
+		<PlayerStat stat="LifeUnreserved" value="4565"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="45.65"/>
+		<PlayerStat stat="LifeLeechGainRate" value="913"/>
+		<PlayerStat stat="Mana" value="883"/>
+		<PlayerStat stat="Spec:ManaInc" value="28"/>
+		<PlayerStat stat="ManaUnreserved" value="715"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="80.973952434881"/>
+		<PlayerStat stat="ManaRegen" value="38.9"/>
+		<PlayerStat stat="ManaLeechGainRate" value="0"/>
+		<PlayerStat stat="EnergyShield" value="42"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="50"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="748"/>
+		<PlayerStat stat="Spec:EvasionInc" value="0"/>
+		<PlayerStat stat="MeleeEvadeChance" value="10"/>
+		<PlayerStat stat="MeleeEvadeChance" value="10"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="10"/>
+		<PlayerStat stat="Armour" value="6533"/>
+		<PlayerStat stat="Spec:ArmourInc" value="0"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="39"/>
+		<PlayerStat stat="EffectiveMovementSpeedMod" value="2.04"/>
+		<PlayerStat stat="BlockChance" value="56"/>
+		<PlayerStat stat="SpellBlockChance" value="11"/>
+		<PlayerStat stat="AttackDodgeChance" value="0"/>
+		<PlayerStat stat="SpellDodgeChance" value="0"/>
+		<PlayerStat stat="FireResist" value="75"/>
+		<PlayerStat stat="ColdResist" value="75"/>
+		<PlayerStat stat="LightningResist" value="75"/>
+		<PlayerStat stat="ChaosResist" value="14"/>
+		<PlayerStat stat="FireResistOverCap" value="1"/>
+		<PlayerStat stat="ColdResistOverCap" value="7"/>
+		<PlayerStat stat="LightningResistOverCap" value="7"/>
+		<PlayerStat stat="ChaosResistOverCap" value="0"/>
+		<PlayerStat stat="PowerCharges" value="0"/>
+		<PlayerStat stat="PowerChargesMax" value="4"/>
+		<PlayerStat stat="FrenzyCharges" value="0"/>
+		<PlayerStat stat="FrenzyChargesMax" value="3"/>
+		<PlayerStat stat="EnduranceCharges" value="0"/>
+		<PlayerStat stat="EnduranceChargesMax" value="3"/>
+	</Build>
+	<Calcs>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="skill_number" number="3"/>
+		<Section collapsed="false" id="SkillSelect"/>
+		<Section collapsed="false" id="HitDamage"/>
+		<Section collapsed="false" id="Dot"/>
+		<Section collapsed="false" id="Speed"/>
+		<Section collapsed="false" id="Crit"/>
+		<Section collapsed="false" id="HitChance"/>
+		<Section collapsed="false" id="SkillTypeStats"/>
+		<Section collapsed="false" id="Bleed"/>
+		<Section collapsed="false" id="Poison"/>
+		<Section collapsed="false" id="Ignite"/>
+		<Section collapsed="false" id="Decay"/>
+		<Section collapsed="false" id="LeechGain"/>
+		<Section collapsed="false" id="MiscEffects"/>
+		<Section collapsed="false" id="Attributes"/>
+		<Section collapsed="false" id="Life"/>
+		<Section collapsed="false" id="Mana"/>
+		<Section collapsed="false" id="EnergyShield"/>
+		<Section collapsed="false" id="Armour"/>
+		<Section collapsed="false" id="Evasion"/>
+		<Section collapsed="false" id="Resist"/>
+		<Section collapsed="false" id="DamageTaken"/>
+		<Section collapsed="false" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="nil" defaultGemLevel="nil" sortGemsByDPS="true">
+		<Skill mainActiveSkillCalcs="1" label="--------------------------------------------------" enabled="true" mainActiveSkill="1">
+			<Gem level="1" skillId="Portal" skillPart="1" quality="0" enabled="true" nameSpec="Portal" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Fireball - Staff - Multi" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem level="20" skillId="Fireball" skillPart="1" quality="0" skillPartCalcs="1" enabled="true" nameSpec="Fireball" skillMinion="SummonedPhantasm"/>
+			<Gem level="20" skillId="VaalFireballSpiralNova" skillPart="1" quality="0" enabled="true" nameSpec="Vaal Fireball" skillMinion="SummonedPhantasm"/>
+			<Gem level="20" skillId="SupportControlledDestruction" quality="0" enabled="true" nameSpec="Controlled Destruction"/>
+			<Gem level="20" skillId="SupportFasterCast" skillPart="1" quality="0" enabled="true" nameSpec="Faster Casting" skillMinion="SummonedChaosGolem"/>
+			<Gem level="20" skillId="SupportChain" skillPart="1" quality="0" enabled="true" nameSpec="Chain" skillMinion="SummonedChaosGolem"/>
+			<Gem level="20" skillId="SupportGreaterMultipleProjectiles" quality="0" enabled="true" nameSpec="Greater Multiple Projectiles"/>
+			<Gem level="20" skillId="SupportMulticast" quality="0" enabled="true" nameSpec="Spell Echo"/>
+			<Gem level="20" skillId="SupportChanceToIgnite" quality="0" enabled="true" nameSpec="Chance to Ignite"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Fireball - Chest - Single target" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem level="20" skillId="Fireball" skillPart="1" quality="0" skillPartCalcs="1" enabled="true" nameSpec="Fireball" skillMinion="SummonedPhantasm"/>
+			<Gem level="20" skillId="VaalFireballSpiralNova" skillPart="1" quality="0" enabled="true" nameSpec="Vaal Fireball" skillMinion="SummonedPhantasm"/>
+			<Gem level="20" skillId="SupportMulticast" quality="0" enabled="true" nameSpec="Spell Echo"/>
+			<Gem level="20" skillId="SupportControlledDestruction" quality="0" enabled="true" nameSpec="Controlled Destruction"/>
+			<Gem level="20" skillId="SupportArcaneSurge" quality="0" enabled="true" nameSpec="Arcane Surge"/>
+			<Gem level="20" skillId="SupportChanceToIgnite" quality="0" enabled="true" nameSpec="Chance to Ignite"/>
+			<Gem level="20" skillId="SupportFirePenetration" quality="0" enabled="true" nameSpec="Fire Penetration"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="20" skillId="MagmaOrb" quality="0" enabled="true" nameSpec="Magma Orb" skillMinion="SummonedPhantasm"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="--------------------------------------------------" enabled="true" mainActiveSkill="1">
+			<Gem level="1" skillId="Portal" quality="0" enabled="true" nameSpec="Portal"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="20" skillId="HeraldOfAsh" quality="0" enabled="true" nameSpec="Herald of Ash"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="vaal impurity of fire - ignore fire res" enabled="true" mainActiveSkill="1">
+			<Gem level="20" quality="0" enabled="true" nameSpec=""/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="20" skillId="ProjectileWeakness" quality="0" enabled="true" nameSpec="Projectile Weakness"/>
+			<Gem level="20" skillId="Flammability" quality="0" enabled="true" nameSpec="Flammability"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="false" mainActiveSkill="1">
+			<Gem level="20" skillId="WarlordsMark" skillPart="1" quality="0" enabled="true" nameSpec="Warlord&apos;s Mark" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="--------------------------------------------------" enabled="true" mainActiveSkill="1">
+			<Gem level="1" skillId="Portal" quality="0" enabled="true" nameSpec="Portal"/>
+		</Skill>
+		<Skill source="Item:4:Martyr of Innocence, Highborn Staff" mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem level="15" skillId="Vengeance" quality="0" enabled="true" nameSpec="Vengeance"/>
+			<Gem level="20" skillId="SupportControlledDestruction" quality="0" enabled="true" nameSpec="Controlled Destruction"/>
+			<Gem level="20" skillId="SupportFasterCast" skillPart="1" quality="0" enabled="true" nameSpec="Faster Casting" skillMinion="SummonedChaosGolem"/>
+			<Gem level="20" skillId="SupportChain" skillPart="1" quality="0" enabled="true" nameSpec="Chain" skillMinion="SummonedChaosGolem"/>
+			<Gem level="20" skillId="SupportGreaterMultipleProjectiles" quality="0" enabled="true" nameSpec="Greater Multiple Projectiles"/>
+			<Gem level="20" skillId="SupportMulticast" quality="0" enabled="true" nameSpec="Spell Echo"/>
+			<Gem level="20" skillId="SupportChanceToIgnite" quality="0" enabled="true" nameSpec="Chance to Ignite"/>
+		</Skill>
+	</Skills>
+	<Tree activeSpec="1">
+		<Spec>
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMCABzcEFhEq51jcXnsOFH7jxrtPLzqakOiABhqRlKnCC-dbAvyRUyLJNjAZtgkyL864Y-mVcb56Lc-IvTVgbiT74iCxxEPOVLw1Rhd7-uFe9Wm4XPfbaZXDlwEs3yDmjvYvTbYZlRMs63x215JUUmxNPdVrl8EQYc1kiqN18-VLmt6_Ez5Nxbz_gp_xpuhRX46WIKbHxhtGZD6na4ulDrY37AsnFgHj0YRLQN1MtGQVVAwIG4RlhJpzRYXHCY87FVq-kkb8WysmCcv70uHZQceVkj310VHl4U7DSj6hW0I9B0UghAhsOvukyc=
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="3"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="24"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+	</Notes>
+	<TreeView searchStr="cast sp" zoomY="306.67934121609" showHeatMap="true" zoomLevel="4" showStatDifferences="true" zoomX="-246.11789888165"/>
+	<Items activeItemSet="1" useSecondWeaponSet="false">
+		<Item variant="3" id="1">
+			Rarity: UNIQUE
+Pyre
+Sapphire Ring
+Variant: Pre 2.6.0
+Variant: Pre 3.0.0
+Variant: Current
+Selected Variant: 3
+LevelReq: 11
+Implicits: 1
+{range:0.78}+(20-30)% to Cold Resistance
+{range:0.939}+(25-35)% to Fire Resistance
+{variant:1,2}{range:0.5}(25-35)% increased Burning Damage
+{variant:3}{range:0.902}(60-80)% increased Burning Damage
+{variant:1}100% of Cold Damage Converted to Fire Damage
+{variant:2,3}40% of Cold Damage Converted to Fire Damage
+10% increased Light Radius
+Ignited Enemies you hit are destroyed on Kill
+			<ModRange range="0.78" id="1"/>
+			<ModRange range="0.939" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.902" id="4"/>
+		</Item>
+		<Item id="2">
+			Rarity: Unique
+Inevitability
+Cobalt Jewel
+Limited to: 2
+Radius: Medium
+(10-15)% increased Fire Damage
+With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectile
+With at least 40 Intelligence in Radius, Magma Orb
+has 10% increased Area of Effect per Chain
+			<ModRange range="0.5" id="1"/>
+		</Item>
+		<Item variant="2" id="3">
+			Rarity: UNIQUE
+Rolling Flames - Special Mods
+Cobalt Jewel
+Variant: Pre 2.6.0
+Variant: Current
+Selected Variant: 2
+Radius: Medium
+Limited to: 2
+Implicits: 0
+{range:1}(5-15)% increased Fire Damage
+{variant:1}With at least 40 Intelligence in Radius, Fireball Projectiles gain Area of Effect Radius as they travel further, up to 50% increased Radius.
+{variant:2}With at least 40 Intelligence in Radius, Fireball Projectiles gain Radius as they travel farther, up to +4 Radius
+// Fireball lvl 20
+88% more damage with ignite
+{range:0.5}Adds 150 fire damage to spells
+{range:0.5}Fireball has (0-0) to (151-226) added Fire Damage
+Fireball has 60% more damage
+Fireball has 0.75 cast time
+// Beacon of ruin shock effectiveness :
+20% more damage
+			<ModRange range="1" id="1"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item id="4">
+			Rarity: UNIQUE
+Martyr of Innocence
+Highborn Staff
+Quality: 20
+Sockets: B-B-B-B-B-B
+LevelReq: 52
+Implicits: 1
+18% Chance to Block
+{range:0.793}(12-16)% Chance to Block
+{range:0.5}Adds (350-400) to (500-600) Fire Damage
+{range:0.841}Adds (130-150) to (200-250) Fire Damage to Spells
+Grants level 15 Vengeance Skill
+100% increased Fire Damage if you have been Hit Recently
+Immune to Freeze and Chill while Ignited
+Damage Penetrates 15% of Fire Resistance if you have Blocked Recently
+			<ModRange range="0.793" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.841" id="4"/>
+		</Item>
+		<Item id="5">
+			Rarity: UNIQUE
+Eye of Innocence
+Citrine Amulet
+LevelReq: 68
+Implicits: 1
+{range:0.878}+(16-24) to Strength and Dexterity
+10% chance to Ignite
+{range:0.902}(50-70)% increased Damage while Ignited
+Take 100 Fire Damage when you Ignite an Enemy
+2% of Fire Damage Leeched as Life while Ignited
+			<ModRange range="0.878" id="1"/>
+			<ModRange range="0.902" id="3"/>
+		</Item>
+		<Item variant="2" id="6">
+			Rarity: Unique
+Dyadus
+Infernal Axe
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 69, 158 Str, 76 Dex
+{variant:1}Adds (170-190) to (200-220) Fire Damage in Main Hand
+{variant:2}Adds (255-285) to (300-330) Fire Damage in Main Hand
+{variant:1}Adds (170-190) to (200-220) Cold Damage in Off Hand
+{variant:2}Adds (255-285) to (300-330) Cold Damage in Off Hand
+(10-15)% increased Attack Speed
+{variant:1}Enemies Chilled by you take 40% increased Burning Damage
+{variant:2}Enemies Chilled by you take 100% increased Burning Damage
+25% Chance to Ignite when in Main Hand
+{variant:1}100% increased Chill Duration on Enemies when in Off Hand
+{variant:2}Chill Enemies for 1 second on Hit with this Weapon when in Off Hand
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="3" id="7">
+			Rarity: UNIQUE
+Rumi&apos;s Concoction
+Granite Flask
+Variant: Pre 1.3.0
+Variant: Pre 2.5.0
+Variant: Current
+Selected Variant: 3
+Quality: 20
+LevelReq: 68
+Implicits: 0
+{variant:1}{range:0.5}(30-40)% Chance to Block during Flask effect
+{variant:2}{range:0.5}(20-30)% Chance to Block during Flask effect
+{variant:3}{range:0.915}(14-20)% Chance to Block during Flask effect
+{variant:1}{range:0.5}(15-20)% Chance to Block Spells during Flask effect
+{variant:2}{range:0.5}(10-15)% Chance to Block Spells during Flask effect
+{variant:3}{range:0.793}(6-10)% Chance to Block Spells during Flask effect
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.915" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.793" id="7"/>
+		</Item>
+		<Item id="8">
+			Rarity: UNIQUE
+Belly of the Beast
+Full Wyrmscale
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 46
+Implicits: 0
+{range:0.841}(150-200)% increased Armour
+{range:0.939}(30-40)% increased maximum Life
+{range:0.902}+(10-15)% to all Elemental Resistances
+50% increased Flask Life Recovery rate
+Extra Gore
+			<ModRange range="0.841" id="1"/>
+			<ModRange range="0.939" id="2"/>
+			<ModRange range="0.902" id="3"/>
+		</Item>
+		<Item variant="3" id="9">
+			Rarity: Unique
+The Searing Touch
+Lathi
+Variant: Pre 2.6.0
+Variant: {2_6}Pre 3.0.0
+Variant: Current
+Requires Level 60, 113 Str, 113 Int
+Implicits: 2
+{variant:1}12% Chance to Block
+{variant:2,3}18% Chance to Block
++2 to Level of Socketed Fire Gems
+{variant:1,2}(30-50)% increased Spell Damage
+{variant:1,2}(20-40)% increased Fire Damage
+{variant:3}(70-90)% increased Fire Damage
+10% increased Cast Speed
+70% increased Burning Damage
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="10">
+			Rarity: UNIQUE
+Mokou&apos;s Embrace
+Ruby Ring
+LevelReq: 16
+Implicits: 1
+{range:0.854}+(20-30)% to Fire Resistance
+{range:0.854}(15-25)% increased Fire Damage
+{range:0.902}+(25-40)% to Cold Resistance
+{range:0.878}(5-10)% chance to Ignite
+20% increased Attack Speed while Ignited
+20% increased Cast Speed while Ignited
++25% chance to be Ignited
+			<ModRange range="0.854" id="1"/>
+			<ModRange range="0.854" id="2"/>
+			<ModRange range="0.902" id="3"/>
+			<ModRange range="0.878" id="4"/>
+		</Item>
+		<Item variant="1" id="11">
+			Rarity: Unique
+Infernal Mantle
+Occultist&apos;s Vestment
+Variant: Pre 2.0.0
+Requires Level 65, 187 Int
+(3-10)% increased Spell Damage
++1 to Level of Socketed Fire Gems
+(25-35)% increased Fire Damage
+100% increased Global Critical Strike Chance
+(190-230)% increased Energy Shield
+15% of Fire Damage Converted to Chaos Damage
+100% increased Spell Damage taken when on Low Mana
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="3" id="12">
+			Rarity: Unique
+The Consuming Dark
+Fiend Dagger
+Variant: Pre 2.2.0
+Variant: {2_6}Pre 3.0.0
+Variant: Current
+Requires Level 53, 58 Dex, 123 Int
+40% increased Global Critical Strike Chance
++1 to Level of Socketed Fire Gems
+{variant:1,2}(40-60)% increased Spell Damage
+{variant:3}(40-60)% increased Fire Damage
++(20-40) to Intelligence
+{variant:1}45% of Fire Damage Converted to Chaos Damage
+{variant:2,3}30% of Fire Damage Converted to Chaos Damage
+{variant:1,2}Your Chaos Damage Poisons Enemies
+{variant:3}Your Chaos Damage has 60% chance to Poison Enemies
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="2" id="13">
+			Rarity: Unique
+Doryani&apos;s Catalyst
+Vaal Sceptre
+Variant: Pre 2.3.0
+Variant: Current
+Requires Level 75, 113 Str, 113 Int
+Implicits: 2
+{variant:1}10% increased Elemental Damage
+{variant:2}32% increased Elemental Damage
+Socketed Gems are Supported by level 20 Elemental Proliferation
+Adds (65-85) to (100-160) Physical Damage
+(11-15)% increased Attack Speed
+(6-10)% increased Cast Speed
+(30-40)% increased Global Critical Strike Chance
+0.2% of Elemental Damage Leeched as Life
+(80-100)% increased Elemental Damage
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="9"/>
+		</Item>
+		<Item variant="2" id="14">
+			Rarity: UNIQUE
+Doryani&apos;s Invitation
+Heavy Belt
+Variant: Physical
+Variant: Fire
+Variant: Cold
+Variant: Lightning
+Selected Variant: 2
+LevelReq: 68
+Implicits: 1
+{range:0.756}+(25-35) to Strength
+{variant:1}{range:0.5}(20-30)% increased Physical Damage
+{variant:2}{range:0.89}(20-30)% increased Fire Damage
+{variant:3}{range:0.5}(20-30)% increased Cold Damage
+{variant:4}{range:0.5}(20-30)% increased Lightning Damage
+{variant:2,3,4}{range:0.756}+(300-350) to Armour
+{variant:1,3,4}{range:0.5}+(30-35)% to Fire Resistance
+{variant:1,2,4}{range:0.817}+(30-35)% to Cold Resistance
+{variant:1,2,3}{range:0.793}+(30-35)% to Lightning Resistance
+{variant:1}0.2% of Physical Damage Leeched as Life
+{variant:2}0.2% of Fire Damage Leeched as Life
+{variant:3}0.2% of Cold Damage Leeched as Life
+{variant:4}0.2% of Lightning Damage Leeched as Life
+{variant:1}Your Flasks grant 25% reduced Enemy Stun Threshold during flask effect
+{variant:2}Your Flasks grant 10% chance to Ignite during flask effect
+{variant:3}Your Flasks grant 10% chance to Freeze during flask effect
+{variant:4}Your Flasks grant 10% chance to Shock during flask effect
+			<ModRange range="0.756" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.89" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.756" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.817" id="8"/>
+			<ModRange range="0.793" id="9"/>
+		</Item>
+		<Item variant="2" id="15">
+			Rarity: Unique
+Atziri&apos;s Promise
+Amethyst Flask
+Variant: {2_6}Pre 3.0.0
+Variant: Current
+Requires Level 68
+2% of Chaos Damage Leeched as Life during Flask effect
+{variant:1}Gain (22-25)% of Physical Damage as Extra Chaos Damage during effect
+{variant:2}Gain (15-20)% of Physical Damage as Extra Chaos Damage during effect
+{variant:1}Gain (13-15)% of Elemental Damage as Extra Chaos Damage during effect
+{variant:2}Gain (10-15)% of Elemental Damage as Extra Chaos Damage during effect
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="16">
+			Rarity: RARE
+Armour Helmet
+Eternal Burgonet
+Crafted: true
+Prefix: {range:0.972}LocalIncreasedPhysicalDamageReductionRating3
+Prefix: {range:0.004}LocalIncreasedPhysicalDamageReductionRatingPercent6
+Prefix: {range:0.768}IncreasedLife8
+Suffix: {range:1}FireResist4
+Suffix: {range:0.464}Strength7
+Suffix: {range:0.746}LightningResist6
+Quality: 20
+Sockets: R-R-R-R
+LevelReq: 69
+Implicits: 1
+{crafted}8% increased Fireball Cast Speed
++40 to Strength
++59 to Armour
+80% increased Armour
++87 to maximum Life
++29% to Fire Resistance
++40% to Lightning Resistance
+		</Item>
+		<Item id="17">
+			Rarity: RARE
+Belt
+Leather Belt
+Crafted: true
+Prefix: {range:0.451}IncreasedLife8
+Prefix: None
+Prefix: None
+Suffix: {range:0.817}LightningResist7
+Suffix: {range:0.141}ColdResist7
+Suffix: {range:0.711}Strength8
+LevelReq: 59
+Implicits: 1
+{range:0.634}+(25-40) to maximum Life
++48 to Strength
++84 to maximum Life
++42% to Cold Resistance
++44% to Lightning Resistance
+			<ModRange range="0.634" id="1"/>
+		</Item>
+		<Item id="18">
+			Rarity: RARE
+Armour Boots
+Titan Greaves
+Crafted: true
+Prefix: {range:0.398}LocalIncreasedPhysicalDamageReductionRatingPercent6
+Prefix: {range:0.542}IncreasedLife7
+Prefix: {range:0.817}MovementVelocity5
+Suffix: {range:0.493}LightningResist4
+Suffix: {range:0.384}Strength8
+Suffix: None
+Quality: 20
+Sockets: R-R-R-R
+LevelReq: 68
+Implicits: 0
++46 to Strength
+84% increased Armour
++75 to maximum Life
++26% to Lightning Resistance
+30% increased Movement Speed
+		</Item>
+		<Item id="20">
+			Rarity: RARE
+Armour Gloves
+Titan Gauntlets
+Crafted: true
+Prefix: {range:0.525}LocalIncreasedPhysicalDamageReductionRating3
+Prefix: {range:0.743}LocalIncreasedPhysicalDamageReductionRatingPercent6
+Prefix: {range:0.827}IncreasedLife7
+Suffix: {range:0.796}Strength8
+Suffix: {range:0.923}ChaosResist5
+Suffix: {range:0.43}Dexterity8
+Quality: 20
+Sockets: R-R-R-R
+LevelReq: 69
+Implicits: 0
++49 to Strength
++46 to Dexterity
++49 to Armour
+88% increased Armour
++77 to maximum Life
++30% to Chaos Resistance
+		</Item>
+		<Item id="19">
+			Rarity: RARE
+Ring
+Coral Ring
+Elder Item
+Crafted: true
+Prefix: {range:1}IncreasedLife3
+Prefix: None
+Prefix: None
+Suffix: {range:0.169}FireResist5
+Suffix: {range:1}ColdResist4
+Suffix: {range:0.035}Strength8
+LevelReq: 59
+Implicits: 1
+{range:0.854}+(20-30) to maximum Life
++43 to Strength
++39 to maximum Life
++31% to Fire Resistance
++29% to Cold Resistance
+			<ModRange range="0.854" id="1"/>
+		</Item>
+		<Item id="21">
+			Rarity: MAGIC
+Sulphur Flask
+Crafted: true
+Quality: 20
+Implicits: 1
+Creates Consecrated Ground on Use
+		</Item>
+		<Item id="22">
+			Rarity: MAGIC
+Silver Flask
+Crafted: true
+Quality: 20
+Implicits: 0
+		</Item>
+		<Item id="23">
+			Rarity: MAGIC
+Quicksilver Flask
+Crafted: true
+Quality: 20
+Implicits: 0
+		</Item>
+		<Item variant="2" id="24">
+			Rarity: Unique
+Rolling Flames
+Cobalt Jewel
+Variant: Pre 2.6.0
+Variant: Current
+Limited to: 2
+Radius: Medium
+(5-15)% increased Fire Damage
+{variant:1}With at least 40 Intelligence in Radius, Fireball Projectiles gain Area of Effect Radius as they travel further, up to 50% increased Radius.
+{variant:2}With at least 40 Intelligence in Radius, Fireball Projectiles gain Radius as they travel farther, up to +4 Radius
+			<ModRange range="0.5" id="1"/>
+		</Item>
+		<Slot name="Gloves" itemId="20"/>
+		<Slot name="Weapon 1" itemId="4"/>
+		<Slot active="true" name="Flask 1" itemId="7"/>
+		<Slot active="true" name="Flask 3" itemId="21"/>
+		<Slot name="Amulet" itemId="5"/>
+		<Slot active="true" name="Flask 2" itemId="15"/>
+		<Slot name="Body Armour" itemId="8"/>
+		<Slot name="Belt" itemId="17"/>
+		<Slot active="true" name="Flask 5" itemId="23"/>
+		<Slot name="Ring 2" itemId="10"/>
+		<Slot active="true" name="Flask 4" itemId="22"/>
+		<Slot name="Boots" itemId="18"/>
+		<Slot name="Ring 1" itemId="19"/>
+		<Slot name="Helmet" itemId="16"/>
+		<ItemSet useSecondWeaponSet="false" id="1">
+			<Slot name="Gloves" itemId="20"/>
+			<Slot name="Weapon 1" itemId="4"/>
+			<Slot active="true" name="Flask 1" itemId="7"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 3" itemId="21"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Amulet" itemId="5"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="0"/>
+			<Slot active="true" name="Flask 2" itemId="15"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2" itemId="0"/>
+			<Slot name="Body Armour" itemId="8"/>
+			<Slot name="Belt" itemId="17"/>
+			<Slot active="true" name="Flask 5" itemId="23"/>
+			<Slot name="Ring 2" itemId="10"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 4" itemId="22"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Boots" itemId="18"/>
+			<Slot name="Ring 1" itemId="19"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Helmet" itemId="16"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="0"/>
+		</ItemSet>
+	</Items>
+	<Config>
+		<Input name="buffPendulum" number="0"/>
+		<Input name="buffConflux" number="0"/>
+		<Input name="conditionIgnited" boolean="true"/>
+		<Input name="enemyIsBoss" string="NONE"/>
+		<Input name="conditionBeenHitRecently" boolean="true"/>
+	</Config>
+</PathOfBuilding>

@@ -1,0 +1,3733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="100" targetVersion="3_0" pantheonMajorGod="Lunaris" bandit="None" className="Ranger" ascendClassName="Pathfinder" mainSocketGroup="5" viewMode="CALCS" pantheonMinorGod="Yugul">
+		<PlayerStat stat="AverageHit" value="6753858.5708"/>
+		<PlayerStat stat="AverageDamage" value="6753858.5708"/>
+		<PlayerStat stat="Speed" value="5.434"/>
+		<PlayerStat stat="Speed" value="5.434"/>
+		<PlayerStat stat="Speed" value="5.434"/>
+		<PlayerStat stat="HitSpeed" value="7.5"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="13.2"/>
+		<PlayerStat stat="CritChance" value="13.2"/>
+		<PlayerStat stat="CritMultiplier" value="1"/>
+		<PlayerStat stat="HitChance" value="100"/>
+		<PlayerStat stat="TotalDPS" value="50653939.281"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="WithBleedDPS" value="50653939.281"/>
+		<PlayerStat stat="IgniteDPS" value="119.505"/>
+		<PlayerStat stat="IgniteDamage" value="478.02"/>
+		<PlayerStat stat="WithIgniteDPS" value="50654058.786"/>
+		<PlayerStat stat="WithPoisonDPS" value="50653939.281"/>
+		<PlayerStat stat="TotalDotDPS" value="119.505"/>
+		<PlayerStat stat="CombinedDPS" value="56282287.54"/>
+		<PlayerStat stat="CombinedAvg" value="50653939.281"/>
+		<PlayerStat stat="AreaOfEffectRadius" value="25"/>
+		<PlayerStat stat="ManaCost" value="4104"/>
+		<PlayerStat stat="Str" value="196"/>
+		<PlayerStat stat="ReqStr" value="180"/>
+		<PlayerStat stat="Dex" value="168"/>
+		<PlayerStat stat="ReqDex" value="159"/>
+		<PlayerStat stat="Int" value="159"/>
+		<PlayerStat stat="ReqInt" value="155"/>
+		<PlayerStat stat="Devotion" value="0"/>
+		<PlayerStat stat="Life" value="4011"/>
+		<PlayerStat stat="Spec:LifeInc" value="78"/>
+		<PlayerStat stat="LifeUnreserved" value="4011"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="975.543"/>
+		<PlayerStat stat="LifeLeechGainRate" value="0"/>
+		<PlayerStat stat="Mana" value="4617"/>
+		<PlayerStat stat="Spec:ManaInc" value="234"/>
+		<PlayerStat stat="ManaUnreserved" value="4617"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="100"/>
+		<PlayerStat stat="ManaRegen" value="-734.2"/>
+		<PlayerStat stat="ManaLeechGainRate" value="0"/>
+		<PlayerStat stat="TotalDegen" value="560.384832"/>
+		<PlayerStat stat="TotalNetRegen" value="-319.041832"/>
+		<PlayerStat stat="NetLifeRegen" value="583.2736176"/>
+		<PlayerStat stat="NetManaRegen" value="-902.3154496"/>
+		<PlayerStat stat="NetEnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShield" value="0"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="0"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="1211"/>
+		<PlayerStat stat="Spec:EvasionInc" value="102"/>
+		<PlayerStat stat="MeleeEvadeChance" value="3"/>
+		<PlayerStat stat="MeleeEvadeChance" value="3"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="3"/>
+		<PlayerStat stat="Armour" value="974"/>
+		<PlayerStat stat="Spec:ArmourInc" value="24"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="34"/>
+		<PlayerStat stat="EffectiveMovementSpeedMod" value="5.236"/>
+		<PlayerStat stat="BlockChance" value="15"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="5"/>
+		<PlayerStat stat="SpellDodgeChance" value="5"/>
+		<PlayerStat stat="FireResist" value="76"/>
+		<PlayerStat stat="FireResistOverCap" value="68"/>
+		<PlayerStat stat="ColdResist" value="76"/>
+		<PlayerStat stat="ColdResistOverCap" value="214"/>
+		<PlayerStat stat="LightningResist" value="76"/>
+		<PlayerStat stat="LightningResistOverCap" value="68"/>
+		<PlayerStat stat="ChaosResist" value="75"/>
+		<PlayerStat stat="ChaosResistOverCap" value="1"/>
+		<PlayerStat stat="PowerCharges" value="3"/>
+		<PlayerStat stat="PowerChargesMax" value="3"/>
+		<PlayerStat stat="FrenzyCharges" value="3"/>
+		<PlayerStat stat="FrenzyChargesMax" value="3"/>
+		<PlayerStat stat="EnduranceCharges" value="0"/>
+		<PlayerStat stat="EnduranceChargesMax" value="3"/>
+	</Build>
+	<Import lastAccountHash="0d42a6f3d08378d5cc1509652e35973f8f447780" lastRealm="PC" lastCharacterHash="7c0ca16422cdcdcd6d794c5b746d11de3de131a8"/>
+	<Calcs>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="skill_number" number="5"/>
+		<Section collapsed="false" id="SkillSelect"/>
+		<Section collapsed="false" id="HitDamage"/>
+		<Section collapsed="false" id="Warcries"/>
+		<Section collapsed="false" id="Dot"/>
+		<Section collapsed="false" id="Speed"/>
+		<Section collapsed="false" id="Crit"/>
+		<Section collapsed="false" id="Impale"/>
+		<Section collapsed="false" id="SkillTypeStats"/>
+		<Section collapsed="false" id="HitChance"/>
+		<Section collapsed="false" id="Bleed"/>
+		<Section collapsed="false" id="Poison"/>
+		<Section collapsed="false" id="Ignite"/>
+		<Section collapsed="false" id="Decay"/>
+		<Section collapsed="false" id="LeechGain"/>
+		<Section collapsed="false" id="EleAilments"/>
+		<Section collapsed="false" id="MiscEffects"/>
+		<Section collapsed="false" id="Attributes"/>
+		<Section collapsed="false" id="Life"/>
+		<Section collapsed="false" id="Mana"/>
+		<Section collapsed="false" id="EnergyShield"/>
+		<Section collapsed="false" id="Armour"/>
+		<Section collapsed="false" id="Evasion"/>
+		<Section collapsed="false" id="Resist"/>
+		<Section collapsed="false" id="Block"/>
+		<Section collapsed="false" id="MiscDefences"/>
+		<Section collapsed="false" id="DamageTaken"/>
+	</Calcs>
+	<Skills sortGemsByDPSField="CombinedDPS" sortGemsByDPS="true" defaultGemQuality="20" defaultGemLevel="20" showSupportGemTypes="ALL" showAltQualityGems="false">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SkillGemBloodRage" skillId="BloodRage" enableGlobal1="true" qualityId="Alternate1" quality="20" enabled="true" nameSpec="Blood Rage"/>
+			<Gem enableGlobal2="false" level="4" gemId="Metadata/Items/Gems/SupportGemAdditionalLevel" skillId="SupportAdditionalLevel" enableGlobal1="true" qualityId="Default" quality="17" enabled="true" nameSpec="Empower"/>
+			<Gem enableGlobal2="false" level="4" gemId="Metadata/Items/Gems/SupportGemAdditionalQuality" skillId="SupportAdditionalQuality" enableGlobal1="true" qualityId="Default" quality="0" enabled="true" nameSpec="Enhance"/>
+			<Gem enableGlobal2="true" level="21" gemId="Metadata/Items/Gems/SkillGemVaalRighteousFire" skillId="VaalRighteousFire" enableGlobal1="false" qualityId="Alternate2" quality="20" enabled="true" nameSpec="Vaal Righteous Fire"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2 Swap" mainActiveSkill="1">
+			<Gem enableGlobal2="false" level="1" gemId="Metadata/Items/Gems/SkillGemPortal" skillId="Portal" enableGlobal1="true" qualityId="Default" quality="20" enabled="true" nameSpec="Portal"/>
+			<Gem enableGlobal2="false" level="4" gemId="Metadata/Items/Gems/SupportGemAdditionalQuality" skillId="SupportAdditionalQuality" enableGlobal1="true" qualityId="Default" quality="0" enabled="true" nameSpec="Enhance"/>
+			<Gem enableGlobal2="false" level="4" gemId="Metadata/Items/Gems/SupportGemLightningPenetrationPlus" skillId="SupportLightningPenetrationPlus" enableGlobal1="true" qualityId="Default" quality="0" enabled="true" nameSpec="Awakened Lightning Penetration"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2" mainActiveSkill="1">
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SkillGemColdSnap" skillId="ColdSnap" enableGlobal1="true" qualityId="Alternate1" quality="20" enabled="true" nameSpec="Cold Snap"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SupportGemBonechill" skillId="SupportBonechill" enableGlobal1="true" qualityId="Alternate2" quality="20" enabled="true" nameSpec="Bonechill"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SkillGemFrostBomb" skillId="FrostBomb" enableGlobal1="true" qualityId="Alternate2" quality="20" enabled="true" nameSpec="Frost Bomb"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem enableGlobal2="false" level="1" gemId="Metadata/Items/Gems/SkillGemImmortalCall" skillId="ImmortalCall" enableGlobal1="true" qualityId="Alternate1" quality="20" enabled="false" nameSpec="Immortal Call"/>
+			<Gem enableGlobal2="false" level="4" gemId="Metadata/Items/Gems/SupportGemAdditionalQuality" skillId="SupportAdditionalQuality" enableGlobal1="true" qualityId="Default" quality="20" enabled="true" nameSpec="Enhance"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SupportGemIncreasedDuration" skillId="SupportIncreasedDuration" enableGlobal1="true" qualityId="Default" quality="20" enabled="false" nameSpec="Increased Duration"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SupportGemArcaneSurge" skillId="SupportArcaneSurge" enableGlobal1="true" qualityId="Alternate2" quality="20" enabled="true" nameSpec="Arcane Surge"/>
+			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" level="20" gemId="Metadata/Items/Gems/SkillGemArcaneCloak" skillId="ArcaneCloak" skillMinionSkill="1" skillMinionItemSet="1" enableGlobal1="true" qualityId="Alternate2" quality="20" enabled="true" nameSpec="Arcane Cloak" skillMinion="AnimatedArmour"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SupportGemSecondWind" skillId="SupportAdditionalCooldown" enableGlobal1="true" qualityId="Default" quality="20" enabled="true" nameSpec="Second Wind"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="2" label="" enabled="true" slot="Body Armour" mainActiveSkill="2">
+			<Gem enableGlobal2="false" level="21" gemId="Metadata/Items/Gems/SkillGemVaalBladeVortex" skillId="VaalBladeVortex" skillPart="3" enableGlobal1="true" qualityId="Default" quality="23" skillPartCalcs="3" enabled="true" nameSpec="Vaal Blade Vortex" skillMinion="SummonedPhantasm"/>
+			<Gem enableGlobal2="false" level="21" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" skillId="SupportDamageAgainstChilled" enableGlobal1="true" qualityId="Alternate2" quality="20" enabled="true" nameSpec="Hypothermia"/>
+			<Gem enableGlobal2="false" level="4" gemId="Metadata/Items/Gems/SupportGemAdditionalLevel" skillId="SupportAdditionalLevel" enableGlobal1="true" qualityId="Default" quality="0" enabled="true" nameSpec="Empower"/>
+			<Gem enableGlobal2="false" level="6" gemId="Metadata/Items/Gems/SupportGemControlledDestructionPlus" skillId="SupportControlledDestructionPlus" enableGlobal1="true" qualityId="Default" quality="20" enabled="true" nameSpec="Awakened Controlled Destruction"/>
+			<Gem enableGlobal2="false" level="21" gemId="Metadata/Items/Gems/SupportGemHandcastSpellBoost" skillId="SupportHandcastSpellBoost" enableGlobal1="true" qualityId="Alternate1" quality="20" enabled="true" nameSpec="Intensify"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SupportGemHandcastAnticipation" skillId="SupportHandcastAnticipation" enableGlobal1="true" qualityId="Alternate1" quality="20" enabled="true" nameSpec="Unleash"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SupportGemConcentratedEffect" skillId="SupportConcentratedEffect" enableGlobal1="true" qualityId="Default" quality="20" enabled="false" nameSpec="Concentrated Effect"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1 Swap" mainActiveSkill="1">
+			<Gem enableGlobal2="false" level="3" gemId="Metadata/Items/Gems/SupportGemMinionDamagePlus" skillId="SupportMinionDamagePlus" enableGlobal1="true" qualityId="Default" quality="0" enabled="true" nameSpec="Awakened Minion Damage"/>
+			<Gem enableGlobal2="false" level="2" gemId="Metadata/Items/Gems/SupportGemAddedChaosDamagePlus" skillId="SupportAddedChaosDamagePlus" enableGlobal1="true" qualityId="Default" quality="0" enabled="true" nameSpec="Awakened Added Chaos Damage"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Ring 2" mainActiveSkill="1">
+			<Gem enableGlobal2="false" level="21" gemId="Metadata/Items/Gems/SkillGemHatred" skillId="Hatred" enableGlobal1="true" qualityId="Alternate1" quality="20" enabled="true" nameSpec="Hatred"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="1">
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SkillGemDash" skillId="QuickDodge" enableGlobal1="true" qualityId="Alternate2" quality="20" enabled="true" nameSpec="Dash"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SupportGemSecondWind" skillId="SupportAdditionalCooldown" enableGlobal1="true" qualityId="Alternate1" quality="20" enabled="true" nameSpec="Second Wind"/>
+			<Gem enableGlobal2="false" level="4" gemId="Metadata/Items/Gems/SupportGemAdditionalQuality" skillId="SupportAdditionalQuality" enableGlobal1="true" qualityId="Default" quality="0" enabled="true" nameSpec="Enhance"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SkillGemBerserk" skillId="Berserk" enableGlobal1="true" qualityId="Alternate2" quality="23" enabled="true" nameSpec="Berserk"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem enableGlobal2="false" level="21" gemId="Metadata/Items/Gems/SkillGemVigilantStrike" skillId="VigilantStrike" enableGlobal1="true" qualityId="Default" quality="23" enabled="true" nameSpec="Vigilant Strike"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SkillGemGeneralsCry" skillId="GeneralsCry" enableGlobal1="true" qualityId="Alternate1" quality="20" enabled="true" nameSpec="General&apos;s Cry"/>
+			<Gem enableGlobal2="false" level="20" gemId="Metadata/Items/Gems/SkillGemDesecrate" skillId="Desecrate" enableGlobal1="true" qualityId="Default" quality="20" enabled="true" nameSpec="Desecrate"/>
+		</Skill>
+		<Skill source="Item:51:Rage Claw, Fingerless Silk Gloves" mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem enableGlobal2="false" level="1" skillId="EnchantmentOfBladesOnHit4" enableGlobal1="true" qualityId="Default" quality="0" enabled="true" nameSpec="Commandment of Blades"/>
+		</Skill>
+		<Skill source="Item:17:Dread Knot, Ruby Ring" mainActiveSkillCalcs="1" label="" enabled="true" slot="Ring 1" mainActiveSkill="1">
+			<Gem enableGlobal2="false" level="1" gemId="Metadata/Items/Gems/SkillGemFrostbite" skillId="Frostbite" enableGlobal1="true" qualityId="Default" quality="0" enabled="true" nameSpec="Frostbite"/>
+		</Skill>
+	</Skills>
+	<Tree activeSpec="1">
+		<Spec ascendClassId="3" nodes="7388,23471,10829,5237,22994,40132,17421,36634,12613,6038,11497,11820,65744,66768,41866,47251,57240,1006,65760,32640,14056,9206,51101,34098,2311,55906,29712,2094,59800,5289,18901,56589,58854,6230,43385,46519,65296,65552,66576,66770,49639,28475,66778,35503,65568,46882,65762,61666,9373,65770,10490,34906,60398,65747,49178,52502,9408,34483,61306,27203,13714,42760,94,28330,65616,3109,65554,66640,7960,46910,65562,19144,33479,65632,41967,65570,33196,19858,65578,24256,55485,42041,50459,66579,10532,5408,61805,61305,26740,65034,2491,31683,21650,36881,39821,18402,20987,6542,51440,65618,46393,16167,66642,66585,17546,63976,34400,65626,40631,54142,66650,57061,19732,8930,30733,65634,36678,21634,64111,58474,60803,25178,62319,65642,14156,46578,63139,238,60942,16775,22703,43374" treeVersion="3_13" classId="2">
+			<EditedNodes>
+				<EditedNode editorSeed="12323" nodeId="5289">
+					+15 to maximum Mana
+					15% increased maximum Mana
+					10% of Damage taken Recouped as Mana
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="14147" nodeId="9788">
+					6% increased Cast Speed
+					+12% to Critical Strike Multiplier for Spells
+					4% increased Movement Speed
+					15% chance to Avoid interruption from Stuns while Casting
+					Gain 5% of Physical Damage as Extra Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="14147" nodeId="18865">
+					10% increased maximum Energy Shield
+					6% increased maximum Life
+					20% increased Melee Damage
+				</EditedNode>
+				<EditedNode editorSeed="4105" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Flames" nodeId="25439">
+					26% increased Fire Damage
+					0.2% of Fire Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="6118" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="38129">
+					+10% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="6118" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="15549">
+					+10% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="6118" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Cult of Lightning" nodeId="23690">
+					+1% to maximum Lightning Resistance
+					+22% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="6118" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="11334">
+					+9% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7919" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Lightning" nodeId="23690">
+					34% increased Lightning Damage
+					0.2% of Lightning Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="4250" nodeId="4481">
+					Damage with Weapons Penetrates 6% Elemental Resistance
+					20% increased Elemental Damage with Attack Skills
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="4250" nodeId="43385">
+					20% of Physical Damage Converted to Cold Damage
+					16% increased Cold Damage with Attack Skills
+					+20 to Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="4250" nodeId="65502">
+					+30% to Critical Strike Multiplier
+					20% increased Elemental Damage
+				</EditedNode>
+				<EditedNode editorSeed="4250" nodeId="48614">
+					+1 to Maximum Frenzy Charges
+					5% increased Attack and Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="4250" nodeId="24133">
+					24% increased Evasion Rating
+					+8% to all Elemental Resistances
+					+1% to maximum Cold Resistance
+					+3% chance to Evade Attack Hits
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="4250" nodeId="17171">
+					24% increased Cold Damage
+					20% increased Projectile Speed
+					10% chance to Freeze
+					20% increased Effect of Cold Ailments
+					20% increased Projectile Damage
+				</EditedNode>
+				<EditedNode editorSeed="4250" nodeId="19858">
+					10% increased maximum Life
+					20% increased Life Recovery from Flasks
+					20% increased Flask Recovery rate
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="4250" icon="Art/2DArt/SkillIcons/passives/ForkingProjectilesNotable.png" nodeName="Split Shot" nodeId="7069">
+					Projectiles have 50% chance for an additional Projectile when Forking
+					+20 to Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="4250" nodeId="49621">
+					5% increased Attack Speed
+					+100 to Accuracy Rating
+					15% increased Global Accuracy Rating
+					+20 to Dexterity
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="7246" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="46578">
+					+10% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7246" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="30733">
+					+8% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7246" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="49178">
+					+10% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="81180" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="34173">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="81180" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="51559">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="81180" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="54694">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="81180" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="33435">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="5848" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					+20 to Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="5848" icon="Art/2DArt/SkillIcons/passives/chargedex.png" nodeName="Savagery" nodeId="23066">
+					+1 to Maximum Frenzy Charges
+					Minions have 15% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="5848" nodeId="48438">
+					24% increased Evasion Rating and Armour
+					8% increased maximum Life
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="5848" nodeId="34009">
+					Regenerate 1% of Life per second
+					8% increased Melee Physical Damage
+					+2 to Melee Strike Range
+					+20 to Strength
+					+20 to Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="5848" nodeId="25456">
+					+3% Chance to Block Attack Damage while Dual Wielding
+					Attack Skills deal 24% increased Damage while Dual Wielding
+					6% increased Attack Speed while Dual Wielding
+					10% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="5848" nodeId="58921">
+					+1 to Minimum Frenzy Charges
+					8% chance to gain a Frenzy Charge on Kill
+					8% increased Damage per Frenzy Charge
+					20% increased Elemental Damage
+				</EditedNode>
+				<EditedNode editorSeed="5848" nodeId="4833">
+					+1 to Maximum Endurance Charges
+					Gain 5% of Physical Damage as Extra Cold Damage
+				</EditedNode>
+				<EditedNode editorSeed="5848" nodeId="21435">
+					24% increased Evasion Rating and Armour
+					+12% to all Elemental Resistances
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="3354" icon="Art/2DArt/SkillIcons/passives/golemsblood.png" nodeName="Golem&apos;s Blood" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="3354" icon="Art/2DArt/SkillIcons/passives/Meleerange.png" nodeName="Master of the Arena" nodeId="34009">
+					Regenerate 1% of Life per second
+					8% increased Melee Physical Damage
+					+2 to Melee Strike Range
+					+20 to Strength
+					5% increased Attack and Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="3354" icon="Art/2DArt/SkillIcons/passives/LifeArmourAndEvasion.png" nodeName="Bravery" nodeId="48438">
+					24% increased Evasion Rating and Armour
+					8% increased maximum Life
+					5% increased Attack and Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="3354" icon="Art/2DArt/SkillIcons/passives/bladebarrier.png" nodeName="Dervish" nodeId="25456">
+					+3% Chance to Block Attack Damage while Dual Wielding
+					Attack Skills deal 24% increased Damage while Dual Wielding
+					6% increased Attack Speed while Dual Wielding
+					20% increased Elemental Damage
+				</EditedNode>
+				<EditedNode editorSeed="2253" nodeId="65224">
+					20% increased Damage with Bows
+					12% increased Global Accuracy Rating
+					+10 to maximum Life
+					4% increased Movement Speed
+					20% increased Damage Over Time with Bow Skills
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="2253" nodeId="7085">
+					+2% Chance to Block Attack Damage while Dual Wielding or holding a Shield
+					10% increased Attack Speed
+					+10 to Strength and Dexterity
+					+20 to Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="2253" nodeId="4481">
+					Damage with Weapons Penetrates 6% Elemental Resistance
+					20% increased Elemental Damage with Attack Skills
+					+20 to Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="2253" nodeId="24133">
+					24% increased Evasion Rating
+					+8% to all Elemental Resistances
+					+1% to maximum Cold Resistance
+					+3% chance to Evade Attack Hits
+					25% increased Critical Strike Chance
+				</EditedNode>
+				<EditedNode editorSeed="2253" nodeId="48614">
+					+1 to Maximum Frenzy Charges
+					25% increased Critical Strike Chance
+				</EditedNode>
+				<EditedNode editorSeed="992" nodeId="7085">
+					+2% Chance to Block Attack Damage while Dual Wielding or holding a Shield
+					10% increased Attack Speed
+					+10 to Strength and Dexterity
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="992" nodeId="19858">
+					10% increased maximum Life
+					20% increased Life Recovery from Flasks
+					20% increased Flask Recovery rate
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="992" nodeId="31508">
+					20% increased Attack Damage
+					5% increased Movement Speed
+					20% increased Critical Strike Chance
+					+10 to Dexterity and Intelligence
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="992" nodeId="24133">
+					24% increased Evasion Rating
+					+8% to all Elemental Resistances
+					+1% to maximum Cold Resistance
+					+3% chance to Evade Attack Hits
+					+20 to Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="38129">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Chance" nodeId="45272">
+					11% increased Critical Strike Chance
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Block" nodeId="41689">
+					+1% Chance to Block Attack Damage
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Exquisite Pain" nodeId="7555">
+					26% increased Damage over Time
+					11% increased Skill Effect Duration
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="39524">
+					3% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="12189">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="21301">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Ritual of Flesh" nodeId="23690">
+					9% increased maximum Life
+					Regenerate 0.9% of Life per second
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="48778">
+					+8% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Damage Over Time" nodeId="44183">
+					7% increased Damage over Time
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Curse Effect" nodeId="5875">
+					4% increased Effect of your Curses
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Ancient Hex" nodeId="9788">
+					13% increased Effect of your Curses
+					Curse Skills have 20% increased Skill Effect Duration
+				</EditedNode>
+				<EditedNode editorSeed="6387" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Damage Over Time" nodeId="37671">
+					9% increased Damage over Time
+				</EditedNode>
+				<EditedNode editorSeed="4394" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Might" nodeId="23690">
+					4% chance to deal Double Damage
+					32% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="4394" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="48778">
+					+9% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="4394" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="16970">
+					11% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="4394" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area Damage" nodeId="37175">
+					9% increased Area Damage
+				</EditedNode>
+				<EditedNode editorSeed="4394" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Winds" nodeId="25439">
+					0.2% of Physical Damage Leeched as Life
+					28% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="18865">
+					20% increased Area of Effect of Aura Skills
+					11% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Soul Worship" nodeId="44788">
+					10% increased maximum Energy Shield
+					0.3% of Spell Damage Leeched as Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Damage" nodeId="59699">
+					8% increased Attack Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="25789">
+					4% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="51923">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="55247">
+					3% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Immolation" nodeId="50690">
+					26% increased Fire Damage
+					Damage Penetrates 4% Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Shock Chance" nodeId="48778">
+					4% chance to Shock
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Spell Dodge" nodeId="44183">
+					1% chance to Dodge Spell Hits
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Thaumaturgical Aptitude" nodeId="62094">
+					26% increased Spell Damage
+					45% increased Critical Strike Chance for Spells
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="33911">
+					9% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="16602">
+					9% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Chaos Damage" nodeId="57259">
+					12% increased Chaos Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="12189">
+					9% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Mana" nodeId="27659">
+					6% increased maximum Mana
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Darkness" nodeId="21602">
+					27% increased Chaos Damage
+					0.2% of Chaos Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Fire Damage" nodeId="52095">
+					10% increased Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Thunder" nodeId="25439">
+					32% increased Lightning Damage
+					Damage Penetrates 2% Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Energy Shield" nodeId="2348">
+					5% increased maximum Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="37175">
+					11% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Mana" nodeId="16970">
+					5% increased maximum Mana
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="11334">
+					+8% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Physical Damage" nodeId="54452">
+					10% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Evasion" nodeId="46092">
+					10% increased Evasion Rating
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Physical Damage" nodeId="61320">
+					12% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="57615">
+					8% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Legacy of the Vaal" nodeId="23690">
+					11% increased Attack Damage
+					+10% to Chaos Resistance
+					6% increased Area of Effect
+					1% chance to Dodge Spell Hits
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="39524">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="63799">
+					3% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="43328">
+					9% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Cult of Fire" nodeId="41137">
+					+1% to maximum Fire Resistance
+					+25% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Minion Damage" nodeId="15549">
+					Minions deal 12% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="11200">
+					2% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Minion Damage" nodeId="8296">
+					Minions deal 12% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Legacy of the Vaal" nodeId="15852">
+					8% increased Armour
+					17% increased Mana Regeneration Rate
+					2% increased Movement Speed
+					6% chance to Freeze
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Ritual of Flesh" nodeId="9788">
+					8% increased maximum Life
+					Regenerate 1.1% of Life per second
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cast Speed" nodeId="23438">
+					3% increased Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Attack Dodge" nodeId="5875">
+					1% chance to Dodge Attack Hits
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cold Damage" nodeId="42133">
+					11% increased Cold Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="21301">
+					+13% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Projectile Damage" nodeId="36371">
+					12% increased Projectile Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Winds" nodeId="7555">
+					0.2% of Physical Damage Leeched as Life
+					35% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="57565">
+					+6% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="38129">
+					11% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Mana Regeneration" nodeId="17849">
+					13% increased Mana Regeneration Rate
+				</EditedNode>
+				<EditedNode editorSeed="2117" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="37671">
+					9% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="14529" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					+20 to Strength
+				</EditedNode>
+				<EditedNode editorSeed="14529" nodeId="4833">
+					+1 to Maximum Endurance Charges
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="14529" nodeId="49538">
+					Attack Skills deal 24% increased Damage while holding a Shield
+					40% increased Defences from Equipped Shield
+					+3% Chance to Block Attack Damage while holding a Shield
+					+20 to Strength
+				</EditedNode>
+				<EditedNode editorSeed="2478" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="55247">
+					3% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="2478" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Flames" nodeId="18865">
+					31% increased Fire Damage
+					0.2% of Fire Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="2478" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Immolation" nodeId="23690">
+					31% increased Fire Damage
+					Damage Penetrates 2% Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2478" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="8948">
+					+7% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2478" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="63799">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="2478" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="27659">
+					+8% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2478" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="11334">
+					+14% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2478" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="37671">
+					+11% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="16723" nodeId="23066">
+					+1 to Maximum Frenzy Charges
+					20% increased Melee Damage
+				</EditedNode>
+				<EditedNode editorSeed="16723" icon="Art/2DArt/SkillIcons/passives/LifeArmourAndEvasion.png" nodeName="Bravery" nodeId="48438">
+					24% increased Evasion Rating and Armour
+					8% increased maximum Life
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="16723" nodeId="21435">
+					24% increased Evasion Rating and Armour
+					+12% to all Elemental Resistances
+					+15% to Melee Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="11125" nodeId="21958">
+					10% increased maximum Life
+					+5% to all Elemental Resistances
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="11125" nodeId="15711">
+					10% increased Area of Effect
+					20% increased Area Damage
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="11125" nodeId="53493">
+					50% increased Critical Strike Chance for Spells
+					+15% to Critical Strike Multiplier for Spells
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="11125" nodeId="30225">
+					25% increased Lightning Damage
+					5% increased Cast Speed with Lightning Skills
+					+15% to Lightning Resistance
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="408" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="23690">
+					20% increased Area of Effect of Aura Skills
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="408" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="48778">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="408" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="46092">
+					5% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="408" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="51923">
+					5% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="408" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="37671">
+					5% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="5559" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Might" nodeId="41137">
+					3% chance to deal Double Damage
+					30% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="5559" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Might" nodeId="50690">
+					4% chance to deal Double Damage
+					35% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="5559" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="48778">
+					11% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="5559" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="42133">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="5559" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Evasion" nodeId="57259">
+					7% increased Evasion Rating
+				</EditedNode>
+				<EditedNode editorSeed="5559" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="23438">
+					11% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="5559" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="16602">
+					+10% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="30914" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="35958">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="30914" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="36949">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="30914" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="54694">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="30914" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="34173">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="1661" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="38129">
+					2% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="1661" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="15549">
+					11% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="1661" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Automaton Studies" nodeId="23690">
+					38% increased Armour
+					3% additional Physical Damage Reduction
+				</EditedNode>
+				<EditedNode editorSeed="1661" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Curse Effect" nodeId="48778">
+					4% increased Effect of your Curses
+				</EditedNode>
+				<EditedNode editorSeed="1661" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="11334">
+					3% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="13416" nodeId="35958">
+					20% increased Armour
+					10% increased maximum Energy Shield
+					10% increased Energy Shield Recharge Rate
+					+8% to all Elemental Resistances
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="13416" nodeId="19103">
+					Minions have 20% increased maximum Life
+					Regenerate 1% of Life per second
+					Minions deal 20% increased Damage
+					Minions Regenerate 1% of Life per second
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="13416" nodeId="36949">
+					8% increased maximum Life
+					3% increased effect of Non-Curse Auras from your Skills
+					+20 to Strength
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="13416" nodeId="33435">
+					+12% to all Elemental Resistances
+					12% increased Elemental Damage
+					10% chance to Freeze, Shock and Ignite
+					12% increased Physical Damage
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="7795" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Might" nodeId="9788">
+					2% chance to deal Double Damage
+					25% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="11504" nodeId="31359">
+					+10% to Damage over Time Multiplier for Poison
+					+10% to Chaos Resistance
+					10% increased Poison Duration
+					30% increased Damage with Poison
+					+20% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="11504" nodeId="47484">
+					+100 to Accuracy Rating
+					15% increased Global Accuracy Rating
+					+20 to Dexterity
+					25% increased Critical Strike Chance
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="11504" nodeId="41989">
+					15% increased Evasion Rating
+					10% increased maximum Energy Shield
+					5% increased maximum Life
+					Regenerate 0.5% of Life per second
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="1306" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="49178">
+					10% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="1306" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="13714">
+					3% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="1306" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Mana" nodeId="57061">
+					6% increased maximum Mana
+				</EditedNode>
+				<EditedNode editorSeed="1306" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Frost" nodeId="5289">
+					35% increased Cold Damage
+					10% of Physical Damage Converted to Cold Damage
+				</EditedNode>
+				<EditedNode editorSeed="12653" icon="Art/2DArt/SkillIcons/passives/chargedex.png" nodeName="Savagery" nodeId="23066">
+					+1 to Maximum Frenzy Charges
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="12653" icon="Art/2DArt/SkillIcons/passives/shieldwall.png" nodeName="Defiance" nodeId="49538">
+					Attack Skills deal 24% increased Damage while holding a Shield
+					40% increased Defences from Equipped Shield
+					+3% Chance to Block Attack Damage while holding a Shield
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="12653" icon="Art/2DArt/SkillIcons/passives/LifeArmourAndEvasion.png" nodeName="Bravery" nodeId="48438">
+					24% increased Evasion Rating and Armour
+					8% increased maximum Life
+					0.4% of Attack Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="12653" icon="Art/2DArt/SkillIcons/passives/Meleerange.png" nodeName="Master of the Arena" nodeId="34009">
+					Regenerate 1% of Life per second
+					8% increased Melee Physical Damage
+					+2 to Melee Strike Range
+					+20 to Strength
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="12653" icon="Art/2DArt/SkillIcons/passives/golemsblood.png" nodeName="Golem&apos;s Blood" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="1812" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="23690">
+					20% increased Area of Effect of Aura Skills
+					14% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="1812" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="12189">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4959" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="53802">
+					20% increased Area of Effect of Aura Skills
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="1047" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cold Damage" nodeId="27659">
+					7% increased Cold Damage
+				</EditedNode>
+				<EditedNode editorSeed="1047" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="48778">
+					10% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="1047" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Spell Block" nodeId="37671">
+					1% Chance to Block Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="1047" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="21301">
+					+6% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="1047" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Fire Damage" nodeId="8948">
+					7% increased Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="10872" nodeId="11420">
+					20% increased Spell Damage
+					5% increased Cast Speed
+					+20 to Intelligence
+					10% chance to Intimidate Enemies for 4 seconds on Hit
+				</EditedNode>
+				<EditedNode editorSeed="10872" icon="Art/2DArt/SkillIcons/passives/chargeint.png" nodeName="Instability" nodeId="20528">
+					+1 to Maximum Power Charges
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="10872" nodeId="22972">
+					25% increased Damage while wielding a Wand
+					5% increased Attack Speed with Wands
+					Increases and Reductions to Spell Damage also apply to Attacks while wielding a Wand
+					10% chance to Intimidate Enemies for 4 seconds on Hit
+				</EditedNode>
+				<EditedNode editorSeed="10872" icon="Art/2DArt/SkillIcons/passives/ManaandSpellDamage.png" nodeName="Prodigal Perfection" nodeId="10115">
+					10% increased Spell Damage
+					15% increased maximum Mana
+					2% increased Spell Damage per 100 Maximum Mana, up to 40%
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="4381" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="38129">
+					4% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="4381" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Projectile Damage" nodeId="15549">
+					8% increased Projectile Damage
+				</EditedNode>
+				<EditedNode editorSeed="4381" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Might" nodeId="23690">
+					4% chance to deal Double Damage
+					32% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="4381" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="48778">
+					10% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="4381" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area of Effect" nodeId="11334">
+					6% increased Area of Effect
+				</EditedNode>
+				<EditedNode editorSeed="4381" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="37671">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="10294" nodeId="42443">
+					+1 to Maximum Frenzy Charges
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="10294" nodeId="27788">
+					8% increased maximum Life
+					0.4% of Attack Damage Leeched as Life
+					20% increased Totem Damage
+				</EditedNode>
+				<EditedNode editorSeed="10294" nodeId="24067">
+					10% chance to gain Elusive on Kill
+					25% increased Elusive Effect
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="10294" nodeId="24050">
+					12% increased Damage
+					20% increased Mana Regeneration Rate
+					+20 to Intelligence
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="10294" nodeId="25411">
+					+1 to Maximum Power Charges
+					20% increased Burning Damage
+				</EditedNode>
+				<EditedNode editorSeed="6872" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Cult of Chaos" nodeId="42041">
+					+1% to maximum Chaos Resistance
+					+16% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="10423" nodeId="24256">
+					20% increased maximum Mana
+					Guard Skills have 25% increased Duration
+					Recover 20% of Mana over 1 second when you use a Guard Skill
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="4960" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Ritual of Flesh" nodeId="23690">
+					8% increased maximum Life
+					Regenerate 1% of Life per second
+				</EditedNode>
+				<EditedNode editorSeed="4912" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="15405">
+					10% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="4912" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="46910">
+					10% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="4912" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="50862">
+					10% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="10143" nodeId="23066">
+					+1 to Maximum Frenzy Charges
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="10143" nodeId="58921">
+					+1 to Minimum Frenzy Charges
+					8% chance to gain a Frenzy Charge on Kill
+					8% increased Damage per Frenzy Charge
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="10143" nodeId="48438">
+					24% increased Evasion Rating and Armour
+					8% increased maximum Life
+					30% increased Melee Critical Strike Chance
+				</EditedNode>
+				<EditedNode editorSeed="10143" nodeId="14813">
+					+25 to maximum Mana
+					15% increased maximum Mana
+					10% increased Effect of Non-Curse Auras from your Skills on Enemies
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="150440" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="34173">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="150440" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="13164">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="15340" icon="Art/2DArt/SkillIcons/passives/criticalstrikemultiplier2.png" nodeName="Titanic Impacts" nodeId="32059">
+					12% increased Accuracy Rating with Two Handed Melee Weapons
+					40% increased Critical Strike Chance with Two Handed Melee Weapons
+					+20% to Critical Strike Multiplier with Two Handed Melee Weapons
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="4722" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area of Effect" nodeId="6580">
+					7% increased Area of Effect
+				</EditedNode>
+				<EditedNode editorSeed="7539" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Immolation" nodeId="23690">
+					30% increased Fire Damage
+					Damage Penetrates 2% Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7539" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Flames" nodeId="41137">
+					30% increased Fire Damage
+					0.2% of Fire Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="16935" nodeId="5430">
+					Gain 5% of Physical Damage as Extra Fire Damage
+					20% of Physical Damage Converted to Fire Damage
+					24% increased Fire Damage with Attack Skills
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="16935" nodeId="65108">
+					8% increased maximum Life
+					6% reduced Mana Cost of Skills
+					+20 to Strength
+				</EditedNode>
+				<EditedNode editorSeed="16935" icon="Art/2DArt/SkillIcons/passives/barricade.png" nodeName="Sanctuary" nodeId="20832">
+					+4% Chance to Block Spell Damage while holding a Shield
+					+12% Elemental Resistances while holding a Shield
+					+4% Chance to Block Attack Damage while holding a Shield
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="16935" nodeId="58831">
+					50% increased Melee Critical Strike Chance
+					+25% to Melee Critical Strike Multiplier
+					20% increased Totem Damage
+				</EditedNode>
+				<EditedNode editorSeed="15341" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					8% increased Warcry Buff Effect
+				</EditedNode>
+				<EditedNode editorSeed="15341" icon="Art/2DArt/SkillIcons/passives/criticalstrikemultiplier2.png" nodeName="Titanic Impacts" nodeId="32059">
+					12% increased Accuracy Rating with Two Handed Melee Weapons
+					40% increased Critical Strike Chance with Two Handed Melee Weapons
+					+20% to Critical Strike Multiplier with Two Handed Melee Weapons
+					10% increased Effect of Fortify on you
+				</EditedNode>
+				<EditedNode editorSeed="15341" nodeId="34009">
+					Regenerate 1% of Life per second
+					8% increased Melee Physical Damage
+					+2 to Melee Strike Range
+					+20 to Strength
+					+20% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="15341" nodeId="34666">
+					25% increased Physical Damage with Two Handed Melee Weapons
+					Attacks with Two Handed Melee Weapons deal 25% increased Damage with Ailments
+					5% increased Attack Speed with Two Handed Melee Weapons
+					25% increased Stun Duration with Two Handed Melee Weapons on Enemies
+					8% increased Warcry Buff Effect
+				</EditedNode>
+				<EditedNode editorSeed="15341" nodeId="4833">
+					+1 to Maximum Endurance Charges
+					+20 to Strength
+				</EditedNode>
+				<EditedNode editorSeed="15341" nodeId="48438">
+					24% increased Evasion Rating and Armour
+					8% increased maximum Life
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="15341" nodeId="21435">
+					24% increased Evasion Rating and Armour
+					+12% to all Elemental Resistances
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="12809">
+					6% increased Attack Speed
+					+10 to Maximum Rage
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="21958">
+					10% increased maximum Life
+					+5% to all Elemental Resistances
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="44102">
+					25% increased Mine Damage
+					15% reduced Mana Reservation of Skills that throw Mines
+					Mines have a 10% chance to be Detonated an Additional Time
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="14000" icon="Art/2DArt/SkillIcons/passives/LifeArmourAndEvasion.png" nodeName="Bravery" nodeId="48438">
+					24% increased Evasion Rating and Armour
+					8% increased maximum Life
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="4833">
+					+1 to Maximum Endurance Charges
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="44955">
+					25% increased Cold Damage
+					5% increased Cast Speed with Cold Skills
+					+15% to Cold Resistance
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="21435">
+					24% increased Evasion Rating and Armour
+					+12% to all Elemental Resistances
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="33545">
+					8% increased Attack Speed
+					6% increased Cast Speed
+					5% increased Movement Speed
+					10% chance to Intimidate Enemies for 4 seconds on Hit
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="27163">
+					20% increased maximum Mana
+					Regenerate 3 Mana per second
+					20% increased Mana Recovery from Flasks
+					Gain 3% of Maximum Mana as Extra Maximum Energy Shield
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="14000" icon="Art/2DArt/SkillIcons/passives/Meleerange.png" nodeName="Master of the Arena" nodeId="34009">
+					Regenerate 1% of Life per second
+					8% increased Melee Physical Damage
+					+2 to Melee Strike Range
+					+20 to Strength
+					Regenerate 1% of Life per second
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="53493">
+					50% increased Critical Strike Chance for Spells
+					+15% to Critical Strike Multiplier for Spells
+					You take 10% reduced Extra Damage from Critical Strikes
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="23690">
+					+30 to Accuracy Rating
+					Light Radius is based on Energy Shield instead of Life
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="27203">
+					8% increased maximum Life
+					12% increased maximum Mana
+					+20% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="19730">
+					30% increased Damage while in Blood Stance
+					15% increased Area of Effect while in Sand Stance
+					10% increased Attack Speed if you&apos;ve changed Stance Recently
+					30% increased Melee Critical Strike Chance
+				</EditedNode>
+				<EditedNode editorSeed="14000" icon="Art/2DArt/SkillIcons/passives/golemsblood.png" nodeName="Golem&apos;s Blood" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					20% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="14000" icon="Art/2DArt/SkillIcons/passives/executioner.png" nodeName="Destroyer" nodeId="34666">
+					25% increased Physical Damage with Two Handed Melee Weapons
+					Attacks with Two Handed Melee Weapons deal 25% increased Damage with Ailments
+					5% increased Attack Speed with Two Handed Melee Weapons
+					25% increased Stun Duration with Two Handed Melee Weapons on Enemies
+					Regenerate 1% of Life per second
+				</EditedNode>
+				<EditedNode editorSeed="14000" icon="Art/2DArt/SkillIcons/passives/criticalstrikemultiplier2.png" nodeName="Titanic Impacts" nodeId="32059">
+					12% increased Accuracy Rating with Two Handed Melee Weapons
+					40% increased Critical Strike Chance with Two Handed Melee Weapons
+					+20% to Critical Strike Multiplier with Two Handed Melee Weapons
+					+15% to Melee Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="14000" icon="Art/2DArt/SkillIcons/passives/lightningint.png" nodeName="Crackling Speed" nodeId="7555">
+					16% increased Lightning Damage
+					6% increased Cast Speed
+					10% increased Effect of Lightning Ailments
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="14000" icon="Art/2DArt/SkillIcons/passives/EnduranceChargeNotable.png" nodeName="Disciple of the Unyielding" nodeId="64882">
+					+1 to Minimum Endurance Charges
+					8% chance to gain an Endurance Charge on Kill
+					8% increased Damage per Endurance Charge
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="7440">
+					Warcries cannot Exert Travel Skills
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="14000" nodeId="23066">
+					+1 to Maximum Frenzy Charges
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="14000" icon="Art/2DArt/SkillIcons/passives/accuracydex.png" nodeName="Acuity" nodeId="49621">
+					5% increased Attack Speed
+					+100 to Accuracy Rating
+					15% increased Global Accuracy Rating
+					+20 to Dexterity
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="7651" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Lightning" nodeId="7555">
+					30% increased Lightning Damage
+					10% of Physical Damage Converted to Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="827" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="23690">
+					20% increased Area of Effect of Aura Skills
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="3124" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Thunder" nodeId="23690">
+					35% increased Lightning Damage
+					Damage Penetrates 3% Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="10909" nodeId="23038">
+					25% increased Physical Damage with Axes
+					Axe Attacks deal 25% increased Damage with Ailments
+					8% increased Attack Speed with Axes
+					10% chance to gain Onslaught for 4 seconds on Kill
+					30% increased Melee Critical Strike Chance
+				</EditedNode>
+				<EditedNode editorSeed="10909" nodeId="33082">
+					+10% to Damage over Time Multiplier for Bleeding
+					30% increased Physical Damage with Swords
+					Sword Attacks deal 30% increased Damage with Ailments
+					Attacks have 15% chance to cause Bleeding
+					30% increased Melee Critical Strike Chance
+				</EditedNode>
+				<EditedNode editorSeed="10909" nodeId="33287">
+					20% increased Armour
+					6% increased maximum Life
+					20% increased Life Recovery from Flasks
+					20% increased Armour
+				</EditedNode>
+				<EditedNode editorSeed="3092" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Physical Damage" nodeId="21301">
+					12% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="3092" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Stillness" nodeId="23690">
+					33% increased Cold Damage
+					Damage Penetrates 4% Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3092" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Evasion" nodeId="48778">
+					7% increased Evasion Rating
+				</EditedNode>
+				<EditedNode editorSeed="3092" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="15549">
+					10% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="3092" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="37671">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="7540" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="13714">
+					+9% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7540" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Damage" nodeId="46578">
+					9% increased Attack Damage
+				</EditedNode>
+				<EditedNode editorSeed="7540" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Skill Duration" nodeId="30733">
+					4% increased Skill Effect Duration
+				</EditedNode>
+				<EditedNode editorSeed="7540" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Energy Shield" nodeId="49178">
+					4% increased maximum Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="160000" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Eternal Resilience" nodeId="11420">
+					Gain 1 Endurance Charge every second if you&apos;ve been Hit Recently
+				</EditedNode>
+				<EditedNode editorSeed="3268" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Immolation" nodeId="23690">
+					30% increased Fire Damage
+					Damage Penetrates 2% Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3485" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Flames" nodeId="23690">
+					35% increased Fire Damage
+					0.2% of Fire Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="1809" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="38129">
+					7% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="1809" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="15549">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="1809" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Frost" nodeId="23690">
+					27% increased Cold Damage
+					0.2% of Cold Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="1809" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="48778">
+					+10% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="1809" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Fire Damage" nodeId="37671">
+					10% increased Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="15344" nodeId="34009">
+					Regenerate 1% of Life per second
+					8% increased Melee Physical Damage
+					+2 to Melee Strike Range
+					+20 to Strength
+					+20% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="15344" nodeId="21435">
+					24% increased Evasion Rating and Armour
+					+12% to all Elemental Resistances
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="15344" nodeId="32059">
+					12% increased Accuracy Rating with Two Handed Melee Weapons
+					40% increased Critical Strike Chance with Two Handed Melee Weapons
+					+20% to Critical Strike Multiplier with Two Handed Melee Weapons
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="15344" nodeId="19730">
+					30% increased Damage while in Blood Stance
+					15% increased Area of Effect while in Sand Stance
+					10% increased Attack Speed if you&apos;ve changed Stance Recently
+					0.4% of Attack Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="6684" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Shadows" nodeId="5289">
+					34% increased Chaos Damage
+					25% chance to inflict Withered for 2 seconds on Hit
+				</EditedNode>
+				<EditedNode editorSeed="6684" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Spell Block" nodeId="57061">
+					1% Chance to Block Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="6684" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Energy Shield" nodeId="13714">
+					4% increased maximum Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="6684" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="30733">
+					+13% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="6684" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Chaos Damage" nodeId="49178">
+					9% increased Chaos Damage
+				</EditedNode>
+				<EditedNode editorSeed="1024" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Energy Flow Studies" nodeId="23690">
+					10% increased maximum Energy Shield
+					10% increased Energy Shield Recharge Rate
+				</EditedNode>
+				<EditedNode editorSeed="3707" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Frost" nodeId="18865">
+					30% increased Cold Damage
+					0.2% of Cold Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="5840" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="7388">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="5840" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Ritual of Flesh" nodeId="11420">
+					6% increased maximum Life
+					Regenerate 1% of Life per second
+				</EditedNode>
+				<EditedNode editorSeed="4369" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="12189">
+					+9% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7131" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Armour" nodeId="13009">
+					12% increased Armour
+				</EditedNode>
+				<EditedNode editorSeed="7131" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="60398">
+					+10% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="7131" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="7388">
+					+10% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Darkness" nodeId="18865">
+					26% increased Chaos Damage
+					0.2% of Chaos Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="45272">
+					+9% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Lightning" nodeId="25439">
+					31% increased Lightning Damage
+					10% of Physical Damage Converted to Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Cult of Chaos" nodeId="50690">
+					+1% to maximum Chaos Resistance
+					+17% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="5875">
+					+10% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Stillness" nodeId="7555">
+					26% increased Cold Damage
+					Damage Penetrates 3% Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="27659">
+					3% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Blood-Quenched Bulwark" nodeId="23690">
+					+6 Life gained when you Block
+					+5% Chance to Block Attack Damage
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="48778">
+					+9% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Frost" nodeId="21602">
+					32% increased Cold Damage
+					10% of Physical Damage Converted to Cold Damage
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Flames" nodeId="62094">
+					27% increased Fire Damage
+					10% of Physical Damage Converted to Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Cult of Chaos" nodeId="9788">
+					+1% to maximum Chaos Resistance
+					+17% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3900" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cast Speed" nodeId="37671">
+					2% increased Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="2038" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area of Effect" nodeId="27659">
+					5% increased Area of Effect
+				</EditedNode>
+				<EditedNode editorSeed="2038" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Might" nodeId="23690">
+					2% chance to deal Double Damage
+					31% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="2038" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Physical Damage" nodeId="37175">
+					9% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="2038" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="37671">
+					3% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="2038" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area Damage" nodeId="48778">
+					12% increased Area Damage
+				</EditedNode>
+				<EditedNode editorSeed="2038" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Flames" nodeId="9788">
+					30% increased Fire Damage
+					10% of Physical Damage Converted to Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="2038" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="25439">
+					20% increased Area of Effect of Aura Skills
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4530" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Flames" nodeId="9788">
+					35% increased Fire Damage
+					10% of Physical Damage Converted to Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="4530" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Flames" nodeId="23690">
+					35% increased Fire Damage
+					10% of Physical Damage Converted to Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="4530" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Physical Damage" nodeId="37175">
+					9% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="16078" icon="Art/2DArt/SkillIcons/passives/BenefitsfromHavingaMana.png" nodeName="Aqueous Accelerant" nodeId="41137">
+					Flasks applied to you have 10% increased Effect
+					8% increased Attack and Cast Speed during Effect of any Mana Flask
+					10% increased Mana Recovery Rate during Effect of any Mana Flask
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="4821" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Flames" nodeId="23690">
+					35% increased Fire Damage
+					0.2% of Fire Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="4450" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="38129">
+					4% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="4450" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Projectile Damage" nodeId="15549">
+					8% increased Projectile Damage
+				</EditedNode>
+				<EditedNode editorSeed="4450" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Might" nodeId="23690">
+					4% chance to deal Double Damage
+					32% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="4450" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="48778">
+					10% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="4450" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area of Effect" nodeId="11334">
+					6% increased Area of Effect
+				</EditedNode>
+				<EditedNode editorSeed="4450" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="37671">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="7722" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Stillness" nodeId="23690">
+					30% increased Cold Damage
+					Damage Penetrates 3% Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7722" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="37671">
+					+9% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="35000" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="34173">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="35000" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="15046">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="35000" icon="Art/2DArt/SkillIcons/passives/EternalEmpireDefensiveNotable.dds" nodeName="Axiom Warden" nodeId="54694">
+					Minions have 80% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="35000" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="35958">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="7559" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="49605">
+					+8% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="7671" nodeId="23066">
+					+1 to Maximum Frenzy Charges
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="7671" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="7671" nodeId="34009">
+					Regenerate 1% of Life per second
+					8% increased Melee Physical Damage
+					+2 to Melee Strike Range
+					+20 to Strength
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="7808" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="38129">
+					+12% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7808" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="15549">
+					+14% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7808" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Skill Duration" nodeId="48778">
+					4% increased Skill Effect Duration
+				</EditedNode>
+				<EditedNode editorSeed="7808" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="21301">
+					8% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="7808" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="11334">
+					+10% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7808" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="37671">
+					+14% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="8296">
+					+14% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="46092">
+					+7% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="51923">
+					+6% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="8948">
+					3% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Frost" nodeId="23690">
+					32% increased Cold Damage
+					10% of Physical Damage Converted to Cold Damage
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="21301">
+					+10% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="57565">
+					+12% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="48778">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="27659">
+					+8% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Cult of Chaos" nodeId="62094">
+					+1% to maximum Chaos Resistance
+					+18% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="52095">
+					+10% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="1600" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="37671">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="6719" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="23690">
+					20% increased Area of Effect of Aura Skills
+					12% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4104" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="15405">
+					3% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="4104" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area of Effect" nodeId="65034">
+					5% increased Area of Effect
+				</EditedNode>
+				<EditedNode editorSeed="4104" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area of Effect" nodeId="50862">
+					6% increased Area of Effect
+				</EditedNode>
+				<EditedNode editorSeed="3094" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Ritual of Flesh" nodeId="11420">
+					8% increased maximum Life
+					Regenerate 1% of Life per second
+				</EditedNode>
+				<EditedNode editorSeed="3094" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="60398">
+					3% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="10500" nodeId="19144">
+					24% increased Evasion Rating and Armour
+					+10% to all Elemental Resistances
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="135" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Flames" nodeId="23690">
+					30% increased Fire Damage
+					0.2% of Fire Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="8000" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="38129">
+					3% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="8000" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="15549">
+					+11% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="8000" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Fire Damage" nodeId="8948">
+					10% increased Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="8000" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Physical Damage" nodeId="27659">
+					8% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="8000" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Flames" nodeId="23690">
+					33% increased Fire Damage
+					0.2% of Fire Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="8000" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Skill Duration" nodeId="48778">
+					7% increased Skill Effect Duration
+				</EditedNode>
+				<EditedNode editorSeed="8000" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Physical Damage" nodeId="21301">
+					8% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="8000" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="11334">
+					+9% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="8000" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="37671">
+					10% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="2808" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area of Effect" nodeId="15549">
+					6% increased Area of Effect
+				</EditedNode>
+				<EditedNode editorSeed="2808" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Immolation" nodeId="23690">
+					28% increased Fire Damage
+					Damage Penetrates 4% Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2808" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="48778">
+					9% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="2808" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Physical Damage" nodeId="11334">
+					9% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="2808" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="27659">
+					+9% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="14488" icon="Art/2DArt/SkillIcons/passives/BattleRouse.png" nodeName="Battle Rouse" nodeId="5289">
+					+15 to maximum Mana
+					15% increased maximum Mana
+					10% of Damage taken Recouped as Mana
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="17083" icon="Art/2DArt/SkillIcons/passives/OneHandedPhysicalAndLeechNotable.png" nodeName="Gladiator&apos;s Perseverance" nodeId="63727">
+					20% increased Physical Damage with One Handed Melee Weapons
+					Attacks with One Handed Melee Weapons deal 20% increased Damage with Ailments
+					0.6% of Physical Attack Damage Leeched as Life
+					10% increased Maximum total Recovery per second from Life Leech
+					30% increased Attack Damage while Leeching
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="17083" nodeId="27301">
+					30% increased Physical Damage with Two Handed Melee Weapons
+					Attacks with Two Handed Melee Weapons deal 30% increased Damage with Ailments
+					100% increased total Recovery per second from Life Leech
+					Overwhelm 12% Physical Damage Reduction
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="4596" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="38129">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="4596" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="15549">
+					10% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="4596" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Frost" nodeId="23690">
+					30% increased Cold Damage
+					0.2% of Cold Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="3342" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="33435">
+					20% increased Area of Effect of Aura Skills
+					12% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="3342" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="36949">
+					20% increased Area of Effect of Aura Skills
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="3342" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="30693">
+					20% increased Area of Effect of Aura Skills
+					10% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="3342" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="60472">
+					3% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="3981" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Mana" nodeId="13009">
+					5% increased maximum Mana
+				</EditedNode>
+				<EditedNode editorSeed="3981" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="36542">
+					+9% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3981" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area Damage" nodeId="37569">
+					12% increased Area Damage
+				</EditedNode>
+				<EditedNode editorSeed="3981" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Construct Studies" nodeId="11420">
+					32% increased Evasion Rating
+					5% chance to Blind Enemies on Hit
+				</EditedNode>
+				<EditedNode editorSeed="3981" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Spell Block" nodeId="57264">
+					1% Chance to Block Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="3981" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Spell Block" nodeId="7388">
+					1% Chance to Block Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="3981" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Armour" nodeId="31875">
+					10% increased Armour
+				</EditedNode>
+				<EditedNode editorSeed="3981" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="4397">
+					7% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="3981" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="60398">
+					3% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="1159" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Frost" nodeId="23690">
+					35% increased Cold Damage
+					10% of Physical Damage Converted to Cold Damage
+				</EditedNode>
+				<EditedNode editorSeed="7500" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Cult of Chaos" nodeId="42041">
+					+1% to maximum Chaos Resistance
+					+18% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7500" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="10829">
+					+7% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7500" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Chaos Damage" nodeId="18402">
+					11% increased Chaos Damage
+				</EditedNode>
+				<EditedNode editorSeed="7500" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cast Speed" nodeId="8930">
+					3% increased Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="14646" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="14646" nodeId="48438">
+					24% increased Evasion Rating and Armour
+					8% increased maximum Life
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="14646" nodeId="25456">
+					+3% Chance to Block Attack Damage while Dual Wielding
+					Attack Skills deal 24% increased Damage while Dual Wielding
+					6% increased Attack Speed while Dual Wielding
+					20% increased Armour
+				</EditedNode>
+				<EditedNode editorSeed="42069" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Thunder" nodeId="11420">
+					30% increased Lightning Damage
+					Damage Penetrates 3% Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3519" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Lightning" nodeId="34661">
+					35% increased Lightning Damage
+					0.2% of Lightning Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="3519" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Attack Dodge" nodeId="4184">
+					1% chance to Dodge Attack Hits
+				</EditedNode>
+				<EditedNode editorSeed="3519" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="7388">
+					3% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="3519" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="60398">
+					+6% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3519" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="11420">
+					20% increased Area of Effect of Aura Skills
+					13% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="2863" nodeId="23066">
+					+1 to Maximum Frenzy Charges
+					5% chance to Blind Enemies on Hit
+				</EditedNode>
+				<EditedNode editorSeed="2863" nodeId="48438">
+					24% increased Evasion Rating and Armour
+					8% increased maximum Life
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="2863" nodeId="64882">
+					+1 to Minimum Endurance Charges
+					8% chance to gain an Endurance Charge on Kill
+					8% increased Damage per Endurance Charge
+					You gain Onslaught for 8 seconds on Kill
+				</EditedNode>
+				<EditedNode editorSeed="2863" nodeId="60002">
+					10% increased Global Accuracy Rating
+					10% increased Projectile Speed
+					20% increased Projectile Damage
+					+20 to Strength
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="2863" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					5% increased Attack and Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="2863" nodeId="21435">
+					24% increased Evasion Rating and Armour
+					+12% to all Elemental Resistances
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="15569" nodeId="12809">
+					6% increased Attack Speed
+					+10 to Maximum Rage
+					Regenerate 1% of Life per second
+				</EditedNode>
+				<EditedNode editorSeed="15569" icon="Art/2DArt/SkillIcons/passives/GenericWarcryNode3.png" nodeName="Combat Control" nodeId="7440">
+					Warcries cannot Exert Travel Skills
+					20% increased Melee Damage
+				</EditedNode>
+				<EditedNode editorSeed="15569" nodeId="48807">
+					10% increased Attack Speed
+					10% increased Global Accuracy Rating
+					Ignore all Movement Penalties from Armour
+					+20 to Dexterity
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="15569" nodeId="42041">
+					6% increased maximum Life
+					30% increased Life Recovery from Flasks
+					Flasks applied to you have 8% increased Effect
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="15569" nodeId="5289">
+					+15 to maximum Mana
+					15% increased maximum Mana
+					10% of Damage taken Recouped as Mana
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="6525" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Stillness" nodeId="23690">
+					30% increased Cold Damage
+					Damage Penetrates 4% Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="6525" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="11334">
+					+12% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="6525" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="48778">
+					+12% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="11635" nodeId="58831">
+					50% increased Melee Critical Strike Chance
+					+25% to Melee Critical Strike Multiplier
+					You take 10% reduced Extra Damage from Critical Strikes
+				</EditedNode>
+				<EditedNode editorSeed="11635" nodeId="20832">
+					+4% Chance to Block Spell Damage while holding a Shield
+					+12% Elemental Resistances while holding a Shield
+					+4% Chance to Block Attack Damage while holding a Shield
+					+20 to Strength
+				</EditedNode>
+				<EditedNode editorSeed="11635" nodeId="65108">
+					8% increased maximum Life
+					6% reduced Mana Cost of Skills
+					10% increased Effect of Fortify on you
+				</EditedNode>
+				<EditedNode editorSeed="11635" nodeId="5430">
+					Gain 5% of Physical Damage as Extra Fire Damage
+					20% of Physical Damage Converted to Fire Damage
+					24% increased Fire Damage with Attack Skills
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="4320" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Shadows" nodeId="7440">
+					28% increased Chaos Damage
+					25% chance to inflict Withered for 2 seconds on Hit
+				</EditedNode>
+				<EditedNode editorSeed="4320" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="49178">
+					3% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="128960" icon="Art/2DArt/SkillIcons/passives/EternalEmpireDefensiveNotable.dds" nodeName="Axiom Warden" nodeId="11730">
+					Minions have 80% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="128960" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="33435">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="13024" nodeId="17171">
+					24% increased Cold Damage
+					20% increased Projectile Speed
+					10% chance to Freeze
+					20% increased Effect of Cold Ailments
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="13024" nodeId="49621">
+					5% increased Attack Speed
+					+100 to Accuracy Rating
+					15% increased Global Accuracy Rating
+					+20 to Dexterity
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="4887" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Might" nodeId="23690">
+					4% chance to deal Double Damage
+					30% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="4887" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="15549">
+					+6% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="905" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="38129">
+					+12% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="905" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="21301">
+					+11% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="905" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Flesh to Flames" nodeId="23690">
+					30% increased Fire Damage
+					10% of Physical Damage Converted to Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="905" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Energy Shield" nodeId="48778">
+					4% increased maximum Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="905" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Chance" nodeId="15549">
+					13% increased Critical Strike Chance
+				</EditedNode>
+				<EditedNode editorSeed="905" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Curse Effect" nodeId="37671">
+					3% increased Effect of your Curses
+				</EditedNode>
+				<EditedNode editorSeed="4507" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="38129">
+					10% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="4507" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Energy Shield" nodeId="21301">
+					5% increased maximum Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="4507" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Cult of Fire" nodeId="23690">
+					+1% to maximum Fire Resistance
+					+25% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="4507" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cast Speed" nodeId="15549">
+					2% increased Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="4507" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="37671">
+					11% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="1432" nodeId="17171">
+					24% increased Cold Damage
+					20% increased Projectile Speed
+					10% chance to Freeze
+					20% increased Effect of Cold Ailments
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="1432" nodeId="65502">
+					+30% to Critical Strike Multiplier
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="7884" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="46578">
+					+7% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7884" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="30691">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="7884" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Cult of Chaos" nodeId="7440">
+					+1% to maximum Chaos Resistance
+					+17% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7884" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="13714">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="7884" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="476">
+					+8% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="1312" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Darkness" nodeId="12809">
+					31% increased Chaos Damage
+					0.2% of Chaos Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="7113" nodeId="17171">
+					24% increased Cold Damage
+					20% increased Projectile Speed
+					10% chance to Freeze
+					20% increased Effect of Cold Ailments
+					20% increased Projectile Damage
+				</EditedNode>
+				<EditedNode editorSeed="7113" nodeId="19858">
+					10% increased maximum Life
+					20% increased Life Recovery from Flasks
+					20% increased Flask Recovery rate
+					20% increased Elemental Damage
+				</EditedNode>
+				<EditedNode editorSeed="7113" nodeId="65502">
+					+30% to Critical Strike Multiplier
+					5% increased Attack and Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="156840" icon="Art/2DArt/SkillIcons/passives/EternalEmpireDefensiveNotable.dds" nodeName="Axiom Warden" nodeId="15046">
+					Minions have 80% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="156840" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="30693">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="156840" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="11730">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="7948" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Curse Effect" nodeId="32210">
+					4% increased Effect of your Curses
+				</EditedNode>
+				<EditedNode editorSeed="7948" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="27659">
+					7% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="2047" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area of Effect" nodeId="38129">
+					4% increased Area of Effect
+				</EditedNode>
+				<EditedNode editorSeed="2047" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="15549">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="2047" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="8948">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="2047" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Block" nodeId="27659">
+					+1% Chance to Block Attack Damage
+				</EditedNode>
+				<EditedNode editorSeed="2047" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Immolation" nodeId="23690">
+					30% increased Fire Damage
+					Damage Penetrates 2% Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2047" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="48778">
+					3% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="2047" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cast Speed" nodeId="21301">
+					2% increased Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="2047" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Fire Damage" nodeId="11334">
+					8% increased Fire Damage
+				</EditedNode>
+				<EditedNode editorSeed="2047" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Spell Block" nodeId="37671">
+					1% Chance to Block Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="4231" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Might" nodeId="23690">
+					4% chance to deal Double Damage
+					33% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="231" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="38129">
+					10% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="231" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Block" nodeId="15549">
+					+1% Chance to Block Attack Damage
+				</EditedNode>
+				<EditedNode editorSeed="231" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="8948">
+					7% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="231" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="27659">
+					3% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="231" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Exquisite Pain" nodeId="23690">
+					27% increased Damage over Time
+					9% increased Skill Effect Duration
+				</EditedNode>
+				<EditedNode editorSeed="231" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="48778">
+					11% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="231" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="21301">
+					+11% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="231" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="11334">
+					+13% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="231" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Projectile Damage" nodeId="37671">
+					10% increased Projectile Damage
+				</EditedNode>
+				<EditedNode editorSeed="10793" icon="Art/2DArt/SkillIcons/passives/MineManaReservationNotable.png" nodeName="Efficient Explosives" nodeId="44102">
+					25% increased Mine Damage
+					15% reduced Mana Reservation of Skills that throw Mines
+					Mines have a 10% chance to be Detonated an Additional Time
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="81000" icon="Art/2DArt/SkillIcons/passives/EternalEmpireDefensiveNotable.dds" nodeName="Superiority" nodeId="26960">
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="81000" icon="Art/2DArt/SkillIcons/passives/EternalEmpireDefensiveNotable.dds" nodeName="Superiority" nodeId="53802">
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="81000" icon="Art/2DArt/SkillIcons/passives/EternalEmpireDefensiveNotable.dds" nodeName="Superiority" nodeId="21330">
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="81000" icon="Art/2DArt/SkillIcons/passives/EternalEmpireDefensiveNotable.dds" nodeName="Superiority" nodeId="10835">
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Spell Block" nodeId="7388">
+					1% Chance to Block Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Ritual of Flesh" nodeId="18865">
+					10% increased maximum Life
+					Regenerate 1% of Life per second
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="39648">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="21678">
+					10% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="53802">
+					20% increased Area of Effect of Aura Skills
+					13% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="48778">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="44183">
+					+7% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="5875">
+					+10% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="17821">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="16602">
+					+10% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="38129">
+					+14% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="49698">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="13714">
+					3% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="18146">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="12189">
+					+10% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Lightning Damage" nodeId="27659">
+					10% increased Lightning Damage
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="23690">
+					20% increased Area of Effect of Aura Skills
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Soul Worship" nodeId="64077">
+					10% increased maximum Energy Shield
+					0.3% of Spell Damage Leeched as Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="52095">
+					+10% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Energy Shield" nodeId="13009">
+					4% increased maximum Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="12013">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cast Speed" nodeId="8948">
+					3% increased Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Flames" nodeId="11420">
+					30% increased Fire Damage
+					0.2% of Fire Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="61320">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="21330">
+					20% increased Area of Effect of Aura Skills
+					13% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Thaumaturgical Aptitude" nodeId="62094">
+					35% increased Spell Damage
+					50% increased Critical Strike Chance for Spells
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Chance" nodeId="60398">
+					11% increased Critical Strike Chance
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Spell Dodge" nodeId="15549">
+					1% chance to Dodge Spell Hits
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="60648">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="8296">
+					+10% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Shadows" nodeId="57199">
+					30% increased Chaos Damage
+					25% chance to inflict Withered for 2 seconds on Hit
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Mana Regeneration" nodeId="4397">
+					15% increased Mana Regeneration Rate
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Thaumaturgical Aptitude" nodeId="9788">
+					35% increased Spell Damage
+					50% increased Critical Strike Chance for Spells
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="32210">
+					3% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Thaumaturgical Aptitude" nodeId="41137">
+					35% increased Spell Damage
+					50% increased Critical Strike Chance for Spells
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="21301">
+					+8% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="31875">
+					+8% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Thaumaturgical Aptitude" nodeId="7555">
+					30% increased Spell Damage
+					35% increased Critical Strike Chance for Spells
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="11334">
+					2% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="42981">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="23438">
+					+10% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="4050" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="37671">
+					+11% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7339" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="65034">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="7339" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="46910">
+					3% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="3837" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="38129">
+					+14% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3837" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Evasion" nodeId="48778">
+					8% increased Evasion Rating
+				</EditedNode>
+				<EditedNode editorSeed="3837" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="11334">
+					+9% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="3837" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="37671">
+					2% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="4617" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Thunder" nodeId="23690">
+					35% increased Lightning Damage
+					Damage Penetrates 4% Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="5195" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="15549">
+					8% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="5195" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Bloody Savagery" nodeId="23690">
+					Bleeding you inflict deals Damage 10% faster
+					28% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="5195" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="37671">
+					12% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="5956" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="12189">
+					2% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="5956" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="27659">
+					3% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="5956" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Flesh Worship" nodeId="23690">
+					9% increased maximum Life
+					0.4% of Attack Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="5956" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Projectile Damage" nodeId="48778">
+					10% increased Projectile Damage
+				</EditedNode>
+				<EditedNode editorSeed="5956" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="8948">
+					+9% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="5956" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="5875">
+					3% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="5956" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Revitalising Lightning" nodeId="9788">
+					33% increased Lightning Damage
+					0.2% of Lightning Damage Leeched as Life
+				</EditedNode>
+				<EditedNode editorSeed="5956" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="37671">
+					3% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="5322" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="27659">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="5322" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="48778">
+					3% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="5322" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="37671">
+					+13% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="5322" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="32210">
+					+6% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="5322" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="21678">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="5322" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Minion Damage" nodeId="8948">
+					Minions deal 12% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="7569" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="38129">
+					+9% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7569" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="15549">
+					+12% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7569" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Stillness" nodeId="23690">
+					31% increased Cold Damage
+					Damage Penetrates 4% Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7569" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area Damage" nodeId="27659">
+					12% increased Area Damage
+				</EditedNode>
+				<EditedNode editorSeed="7569" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="11334">
+					10% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="7569" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cast Speed" nodeId="37671">
+					2% increased Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="13252" nodeId="6799">
+					8% reduced Mana Reserved
+					6% increased effect of Non-Curse Auras from your Skills
+					+20 to Strength
+				</EditedNode>
+				<EditedNode editorSeed="13252" nodeId="44102">
+					25% increased Mine Damage
+					15% reduced Mana Reservation of Skills that throw Mines
+					Mines have a 10% chance to be Detonated an Additional Time
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="13252" nodeId="50338">
+					20% increased Projectile Speed
+					15% increased Projectile Damage
+					+20 to Dexterity
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="2130" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					+20 to Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="2130" nodeId="25456">
+					+3% Chance to Block Attack Damage while Dual Wielding
+					Attack Skills deal 24% increased Damage while Dual Wielding
+					6% increased Attack Speed while Dual Wielding
+					5% increased Dexterity
+				</EditedNode>
+				<EditedNode editorSeed="2130" nodeId="48438">
+					24% increased Evasion Rating and Armour
+					8% increased maximum Life
+					+20% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2130" nodeId="21435">
+					24% increased Evasion Rating and Armour
+					+12% to all Elemental Resistances
+					5% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="4199" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="37671">
+					12% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="4199" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="15549">
+					8% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="4199" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Bloody Savagery" nodeId="23690">
+					Bleeding you inflict deals Damage 10% faster
+					28% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="4199" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="48778">
+					+14% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2763" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Physical Damage" nodeId="38129">
+					12% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="2763" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area of Effect" nodeId="21301">
+					6% increased Area of Effect
+				</EditedNode>
+				<EditedNode editorSeed="2763" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Cult of Chaos" nodeId="23690">
+					+1% to maximum Chaos Resistance
+					+16% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2763" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Mana Regeneration" nodeId="48778">
+					15% increased Mana Regeneration Rate
+				</EditedNode>
+				<EditedNode editorSeed="2763" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Physical Damage" nodeId="27659">
+					12% increased Physical Damage
+				</EditedNode>
+				<EditedNode editorSeed="2763" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Spell Dodge" nodeId="15549">
+					1% chance to Dodge Spell Hits
+				</EditedNode>
+				<EditedNode editorSeed="2763" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Chance" nodeId="11334">
+					12% increased Critical Strike Chance
+				</EditedNode>
+				<EditedNode editorSeed="2763" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="37671">
+					4% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="6052" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="38129">
+					11% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="6052" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cast Speed" nodeId="15549">
+					3% increased Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="6052" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Soul Worship" nodeId="23690">
+					8% increased maximum Energy Shield
+					0.3% of Spell Damage Leeched as Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="6052" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Mana" nodeId="48778">
+					6% increased maximum Mana
+				</EditedNode>
+				<EditedNode editorSeed="6052" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Block" nodeId="11334">
+					+1% Chance to Block Attack Damage
+				</EditedNode>
+				<EditedNode editorSeed="6052" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Armour" nodeId="37671">
+					8% increased Armour
+				</EditedNode>
+				<EditedNode editorSeed="11365" nodeId="4207">
+					15% reduced Skill Effect Duration
+					Debuffs on you expire 15% faster
+					+20 to Strength
+				</EditedNode>
+				<EditedNode editorSeed="11365" nodeId="33545">
+					8% increased Attack Speed
+					6% increased Cast Speed
+					5% increased Movement Speed
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="6617" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Temple Paths" nodeId="11420">
+					+10% to all Elemental Resistances
+					4% chance to Dodge Spell Hits
+				</EditedNode>
+				<EditedNode editorSeed="6617" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="36542">
+					+14% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="6617" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Shock Chance" nodeId="57264">
+					3% chance to Shock
+				</EditedNode>
+				<EditedNode editorSeed="6617" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="31875">
+					3% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="6617" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="37569">
+					12% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="6617" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Damage Over Time" nodeId="4397">
+					10% increased Damage over Time
+				</EditedNode>
+				<EditedNode editorSeed="6617" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="60398">
+					+14% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="6617" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Skill Duration" nodeId="7388">
+					7% increased Skill Effect Duration
+				</EditedNode>
+				<EditedNode editorSeed="10000" icon="Art/2DArt/SkillIcons/passives/DevotionNotable.dds" nodeName="Martyr&apos;s Might" nodeId="14606">
+					5% additional Physical Damage Reduction while you have at least 150 Devotion
+				</EditedNode>
+				<EditedNode editorSeed="10000" icon="Art/2DArt/SkillIcons/passives/DevotionNotable.dds" nodeName="Martyr&apos;s Might" nodeId="18865">
+					5% additional Physical Damage Reduction while you have at least 150 Devotion
+				</EditedNode>
+				<EditedNode editorSeed="10000" icon="Art/2DArt/SkillIcons/passives/DevotionNotable.dds" nodeName="Frenzied Faith" nodeId="10542">
+					+1 to Minimum Frenzy Charges while you have at least 150 Devotion
+				</EditedNode>
+				<EditedNode editorSeed="10000" icon="Art/2DArt/SkillIcons/passives/DevotionNotable.dds" nodeName="Martyr&apos;s Might" nodeId="25439">
+					5% additional Physical Damage Reduction while you have at least 150 Devotion
+				</EditedNode>
+				<EditedNode editorSeed="11432" nodeId="23066">
+					+1 to Maximum Frenzy Charges
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="11432" nodeId="1325">
+					10% increased maximum Life
+					Regenerate 1.6% of Life per second
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="11432" nodeId="34009">
+					Regenerate 1% of Life per second
+					8% increased Melee Physical Damage
+					+2 to Melee Strike Range
+					+20 to Strength
+					+15% to Melee Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="1712" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Skill Duration" nodeId="21301">
+					7% increased Skill Effect Duration
+				</EditedNode>
+				<EditedNode editorSeed="1712" icon="Art/2DArt/SkillIcons/passives/VaalNotableOffensive.dds" nodeName="Ritual of Stillness" nodeId="23690">
+					26% increased Cold Damage
+					Damage Penetrates 4% Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="1712" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="48778">
+					+9% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="1712" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Spell Dodge" nodeId="8948">
+					1% chance to Dodge Spell Hits
+				</EditedNode>
+				<EditedNode editorSeed="1712" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Skill Duration" nodeId="27659">
+					4% increased Skill Effect Duration
+				</EditedNode>
+				<EditedNode editorSeed="1712" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="37671">
+					+10% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="15368" nodeId="27788">
+					8% increased maximum Life
+					0.4% of Attack Damage Leeched as Life
+					+20 to Strength
+				</EditedNode>
+				<EditedNode editorSeed="15368" nodeId="42443">
+					+1 to Maximum Frenzy Charges
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="15368" nodeId="41989">
+					15% increased Evasion Rating
+					10% increased maximum Energy Shield
+					5% increased maximum Life
+					Regenerate 0.5% of Life per second
+					5% increased Strength
+				</EditedNode>
+				<EditedNode editorSeed="20540" icon="Art/2DArt/SkillIcons/passives/EternalEmpireDefensiveNotable.dds" nodeName="Axiom Warden" nodeId="53118">
+					Minions have 80% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="20540" icon="Art/2DArt/SkillIcons/passives/EternalEmpireDefensiveNotable.dds" nodeName="Axiom Warden" nodeId="33287">
+					Minions have 80% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="20540" icon="Art/2DArt/SkillIcons/passives/EternalEmpireOffensiveNotable.dds" nodeName="Slum Lord" nodeId="37326">
+					Minions deal 80% increased Damage
+				</EditedNode>
+				<EditedNode editorSeed="1927" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Spell Damage" nodeId="15405">
+					11% increased Spell Damage
+				</EditedNode>
+				<EditedNode editorSeed="1927" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Cold Resistance" nodeId="50862">
+					+13% to Cold Resistance
+				</EditedNode>
+				<EditedNode editorSeed="1927" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Freeze Chance" nodeId="65034">
+					6% chance to Freeze
+				</EditedNode>
+				<EditedNode editorSeed="1927" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="44606">
+					4% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="1927" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Energy Shield" nodeId="46910">
+					5% increased maximum Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="1927" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Area of Effect" nodeId="33740">
+					5% increased Area of Effect
+				</EditedNode>
+				<EditedNode editorSeed="10764" nodeId="36949">
+					8% increased maximum Life
+					3% increased effect of Non-Curse Auras from your Skills
+					+20 to Strength
+					5% chance to deal Double Damage
+				</EditedNode>
+				<EditedNode editorSeed="10764" nodeId="30693">
+					25% increased Melee Critical Strike Chance
+					Damage with Weapons Penetrates 3% Elemental Resistance
+					24% increased Elemental Damage with Attack Skills
+					+10 to Strength and Intelligence
+					20% increased Melee Damage
+				</EditedNode>
+				<EditedNode editorSeed="10764" nodeId="33435">
+					+12% to all Elemental Resistances
+					12% increased Elemental Damage
+					10% chance to Freeze, Shock and Ignite
+					12% increased Physical Damage
+					10% increased Effect of Fortify on you
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Energy Shield" nodeId="26270">
+					4% increased maximum Energy Shield
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="44347">
+					20% increased Area of Effect of Aura Skills
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="51559">
+					20% increased Area of Effect of Aura Skills
+					12% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Movement Speed" nodeId="31153">
+					3% increased Movement Speed
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalNotableDefensive.dds" nodeName="Commanding Presence" nodeId="14665">
+					20% increased Area of Effect of Aura Skills
+					15% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Chaos Resistance" nodeId="29199">
+					+9% to Chaos Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="44202">
+					4% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Fire Resistance" nodeId="23027">
+					+12% to Fire Resistance
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="7092">
+					5% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Damage" nodeId="29061">
+					10% increased Attack Damage
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Armour" nodeId="47427">
+					12% increased Armour
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Life" nodeId="37999">
+					2% increased maximum Life
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="22472">
+					4% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+				<EditedNode editorSeed="2228" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cold Damage" nodeId="37639">
+					7% increased Cold Damage
+				</EditedNode>
+				<EditedNode editorSeed="7042" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Lightning Resistance" nodeId="38129">
+					+11% to Lightning Resistance
+				</EditedNode>
+				<EditedNode editorSeed="7042" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Attack Speed" nodeId="15549">
+					4% increased Attack Speed
+				</EditedNode>
+				<EditedNode editorSeed="7042" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Cast Speed" nodeId="48778">
+					2% increased Cast Speed
+				</EditedNode>
+				<EditedNode editorSeed="7042" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Evasion" nodeId="37671">
+					9% increased Evasion Rating
+				</EditedNode>
+				<EditedNode editorSeed="7042" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Mana" nodeId="27659">
+					4% increased maximum Mana
+				</EditedNode>
+				<EditedNode editorSeed="7042" icon="Art/2DArt/SkillIcons/passives/VaalOffensive.dds" nodeName="Critical Strike Multiplier" nodeId="11334">
+					+6% to Critical Strike Multiplier
+				</EditedNode>
+				<EditedNode editorSeed="7042" icon="Art/2DArt/SkillIcons/passives/VaalDefensive.dds" nodeName="Aura Effect" nodeId="8948">
+					3% increased effect of Non-Curse Auras from your Skills
+				</EditedNode>
+			</EditedNodes>
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIDABzcW68qTRR1WdKcxEQNjxoxRReWLOkuLKOKuJPfmAPuf4A26CP2x52FMgkH2mJ0EAgu6ZgUqUnV3Q3l5hhWqXm1t_8QwedvO4qvtyLw4iSdKPqIWuvuwBrNFiTAhrPvempDNZKnCABebqoMJR8Ytz5KyILHo--BrE2SXsDYvaQ5KSQVIPFt73lodP4KCbt7w1SSkBGbjUfiUfsZjsjwtTk_J0SK-eiGYJ63037e5U0UIuJ4DY9GVILkau2DYlrzbzdMtfL2owDu7g5Bh1ivqW4=
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="41"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="3"/>
+				<Socket nodeId="9408" itemId="43"/>
+				<Socket nodeId="36634" itemId="13"/>
+				<Socket nodeId="34483" itemId="22"/>
+				<Socket nodeId="12613" itemId="33"/>
+				<Socket nodeId="2491" itemId="12"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="6230" itemId="14"/>
+				<Socket nodeId="10532" itemId="57"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="29712" itemId="35"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="46519" itemId="7"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="3109" itemId="6"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="46393" itemId="8"/>
+				<Socket nodeId="7960" itemId="10"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="28475" itemId="37"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61666" itemId="42"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="46882" itemId="46"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="31683" itemId="38"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="61305" itemId="9"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+	</Notes>
+	<TreeView searchStr="" zoomY="-83.690738675439" showHeatMap="false" zoomLevel="2" showStatDifferences="true" zoomX="-459.58468257293"/>
+	<Items activeItemSet="1" useSecondWeaponSet="false">
+		<Item id="36">
+			Rarity: RARE
+Viper Gnarl
+Oscillating Sceptre
+Unique ID: 87c165274b27fe8c8ddd3cca5b3163f837a30549f572dc580a977475d14bfe55
+Redeemer Item
+Item Level: 85
+Quality: 30
+Sockets: W-W-W
+LevelReq: 30
+Implicits: 4
+{crafted}Quality does not increase Physical Damage
+{crafted}Grants 1% increased Area of Effect per 4% Quality
+Item sells for much more to vendors
+Elemental Overload
+22% increased Cast Speed
++138 to maximum Mana
++1 to Level of all Spell Skill Gems
++1 to Level of all Physical Spell Skill Gems
+Hatred has 40% increased Aura Effect
+{crafted}5% chance to deal Double Damage
+		</Item>
+		<Item id="30">
+			Rarity: RARE
+Hate Spell
+Opal Sceptre
+Unique ID: dacf72d8e1fcaf7fa8cb9acb194e6826ba502ca3583830170f53da07a882d5b1
+Item Level: 83
+Quality: 30
+Sockets: W-W-W
+LevelReq: 60
+Implicits: 2
+40% increased Elemental Damage
+Item sells for much more to vendors
++39 to Strength
+Adds 17 to 29 Fire Damage to Spells
+19% increased Cast Speed
+91% increased Critical Strike Chance for Spells
++64 to maximum Mana
+		</Item>
+		<Item id="21">
+			Rarity: RARE
+Damnation Weaver
+Sambar Sceptre
+Unique ID: b877220acd771bb9ef341647203f759a7073bc58ea38fdfdae3a46b8ec270ad3
+Redeemer Item
+Item Level: 81
+Quality: 30
+Sockets: W-W-W
+LevelReq: 70
+Implicits: 4
+{crafted}Quality does not increase Physical Damage
+{crafted}Grants 1% increased Area of Effect per 4% Quality
+Damage Penetrates 6% Elemental Resistances
+Item sells for much more to vendors
+22% increased Cast Speed
++139 to maximum Mana
++1 to Level of all Spell Skill Gems
++1 to Level of all Physical Spell Skill Gems
+Hatred has 40% increased Aura Effect
+{crafted}Trigger a Socketed Spell when you Use a Skill
+		</Item>
+		<Item id="20">
+			Rarity: RARE
+Eagle Blow
+Karui Sceptre
+Unique ID: adfda3734a09fee6f04d8854b80aa1dcec119609662c189d0ca58852b1031661
+Item Level: 83
+Quality: 0
+Sockets: G-R-B
+LevelReq: 56
+Implicits: 1
++6% to Quality of Socketed Gems
+17% increased Cast Speed
++101 to maximum Mana
++16% to Fire Resistance
++7% to Cold Resistance
+{crafted}+6% to Quality of Socketed Gems
+		</Item>
+		<Item id="16">
+			Rarity: UNIQUE
+Indigon
+Hubris Circlet
+Unique ID: 54e1232c9f14b87fa6a729b00e0466ad0059080a07997391f805ed39c6da8741
+Shaper Item
+Item Level: 86
+Quality: 0
+Sockets: W-W-W-B
+LevelReq: 69
+Implicits: 1
+{crafted}Berserk has 30% increased Buff Effect
+158% increased Energy Shield
+10% increased maximum Mana
+Recover 9% of Life when you use a Mana Flask
+Non-instant Mana Recovery from Flasks is also Recovered as Life
+53% increased Mana Cost of Skills for each 200 total Mana you have Spent Recently
+25% increased Spell Damage for each 200 total Mana you have Spent Recently, up to 2000%
+		</Item>
+		<Item id="26">
+			Rarity: RARE
+Foe Keep
+Astral Plate
+Unique ID: ae295e76737dffc8c132aadb2a2ada6619247168ca3babae2d566120a4a045a2
+Crusader Item
+Redeemer Item
+Item Level: 100
+Quality: 30
+Sockets: W-W-W-W-W-W
+LevelReq: 62
+Implicits: 4
+{crafted}Quality does not increase Defences
+{crafted}Grants +1 to Maximum Life per 2% Quality
++12% to all Elemental Resistances
+Item sells for much more to vendors
+15% increased Mana Recovery rate
++40% to Fire Resistance
++47% to Cold Resistance
+12% increased Area of Effect
+35% increased Mana Recovery from Flasks
+18% of Physical Damage from Hits taken as Cold Damage
+9% of Cold Damage taken Recouped as Life
+Enemies you Kill Explode, dealing 5% of their Life as Physical Damage
+{tags:resource,life,mana}{crafted}{range:1}(5-8)% increased maximum Life
+{tags:resource,life,mana}{crafted}{range:1}(5-8)% increased maximum Mana
+			<ModRange range="1" id="13"/>
+			<ModRange range="1" id="14"/>
+		</Item>
+		<Item id="51">
+			Rarity: RARE
+Rage Claw
+Fingerless Silk Gloves
+Unique ID: c87f7950020eb560b8b67c8be8a02283cf8f5f35a96e89b53caec8d375d83666
+Warlord Item
+Hunter Item
+Item Level: 85
+Quality: 20
+Sockets: W-W-W-B
+LevelReq: 70
+Implicits: 2
+{crafted}Trigger Commandment of Blades on Hit
+16% increased Spell Damage
++79 to maximum Life
++34% to Cold Resistance
++47% to Lightning Resistance
+Culling Strike
+24% increased Area of Effect
+10% chance to Unnerve Enemies for 4 seconds on Hit
+{crafted}24% of Physical Damage Converted to Cold Damage
+		</Item>
+		<Item id="56">
+			Rarity: UNIQUE
+Hand of the Fervent
+Zealot Gloves
+Item Level: 83
+Quality: 6
+Sockets: B-R-R-R
+LevelReq: 43
+Implicits: 1
++1 to Maximum Frenzy Charges
+Armour: 174 (augmented)
+Energy Shield: 33 (augmented)
+Str: 34
+Int: 34
+117% increased Armour and Energy Shield
++70 to maximum Life
+Gain Sacrificial Zeal when you use a Skill, dealing you 150% of the Skill&apos;s Mana Cost as Physical Damage per Second
+Hits Overwhelm 10% of Physical Damage Reduction while you have Sacrificial Zeal
+Note: ~price 2 exalted
+Corrupted
+		</Item>
+		<Item id="53">
+			Rarity: UNIQUE
+Hand of the Fervent
+Zealot Gloves
+Item Level: 81
+Quality: 20
+Sockets: G-R-R-B
+LevelReq: 43
+Implicits: 1
++2 to Level of Socketed Duration Gems
+Armour: 172 (augmented)
+Energy Shield: 33 (augmented)
+Str: 34
+Int: 34
+100% increased Armour and Energy Shield
++68 to maximum Life
+Gain Sacrificial Zeal when you use a Skill, dealing you 150% of the Skill&apos;s Mana Cost as Physical Damage per Second
+Hits Overwhelm 13% of Physical Damage Reduction while you have Sacrificial Zeal
+Corrupted
+		</Item>
+		<Item id="55">
+			Rarity: UNIQUE
+Hand of the Fervent
+Zealot Gloves
+Item Level: 76
+Quality: 0
+Sockets: B-G
+LevelReq: 43
+Implicits: 1
+Curse Enemies with Elemental Weakness on Hit, with 44% increased Effect
+Armour: 173 (augmented)
+Energy Shield: 33 (augmented)
+Str: 34
+Int: 34
+122% increased Armour and Energy Shield
++64 to maximum Life
+Gain Sacrificial Zeal when you use a Skill, dealing you 150% of the Skill&apos;s Mana Cost as Physical Damage per Second
+Hits Overwhelm 14% of Physical Damage Reduction while you have Sacrificial Zeal
+Note: ~price 5 exalted
+Corrupted
+		</Item>
+		<Item id="23">
+			Rarity: RARE
+Rage Claw
+Fingerless Silk Gloves
+Unique ID: c87f7950020eb560b8b67c8be8a02283cf8f5f35a96e89b53caec8d375d83666
+Warlord Item
+Hunter Item
+Item Level: 85
+Quality: 20
+Sockets: W-W-W-B
+LevelReq: 70
+Implicits: 2
+{crafted}Trigger Commandment of Blades on Hit
+16% increased Spell Damage
++79 to maximum Life
++34% to Cold Resistance
++47% to Lightning Resistance
+Culling Strike
+24% increased Area of Effect if you&apos;ve dealt a Culling Strike Recently
+10% chance to Unnerve Enemies for 4 seconds on Hit
+{crafted}24% of Physical Damage Converted to Cold Damage
+		</Item>
+		<Item id="32">
+			Rarity: RARE
+Invasion Span
+Two-Toned Boots (Evasion/Energy Shield)
+Unique ID: d981cba522dd867194de9879d74a08311e9a908198e256d76369ac31a467fac1
+Shaper Item
+Hunter Item
+Item Level: 86
+Quality: 27
+Sockets: W-W-W-R
+LevelReq: 70
+Implicits: 2
+{crafted}70% increased Mana Regeneration Rate if you&apos;ve cast a Spell Recently
++12% to Cold and Lightning Resistances
++78 to maximum Life
++44% to Fire Resistance
+35% increased Movement Speed
+19% increased Cooldown Recovery Rate
+25% increased Effect of Tailwind on you
+You have Tailwind if you have dealt a Critical Strike Recently
+{crafted}+54 to maximum Mana
+		</Item>
+		<Item id="29">
+			Rarity: RARE
+Ghoul Torc
+Blue Pearl Amulet
+Unique ID: 823cd39dd6b31e75df5b46ccefe736726532f51d657d64aa4faaed4b80efcf76
+Warlord Item
+Hunter Item
+Item Level: 84
+LevelReq: 77
+Implicits: 2
+{crafted}Allocates Aqueous Accelerant
+56% increased Mana Regeneration Rate
++88 to maximum Life
++50% to Cold Resistance
++49% to Lightning Resistance
++40% to Chaos Resistance
++1 to Level of all Dexterity Skill Gems
++1 to Level of all Physical Skill Gems
+		</Item>
+		<Item id="17">
+			Rarity: RARE
+Dread Knot
+Ruby Ring
+Unique ID: cbe66edccd8272191c72f6cb5d4f5cdcefd63022e46477f12e7fce576c4fa908
+Hunter Item
+Redeemer Item
+Item Level: 86
+LevelReq: 65
+Implicits: 1
++30% to Fire Resistance
++80 to maximum Life
+91% increased Mana Regeneration Rate
++30% to Chaos Resistance
+Curse Enemies with Frostbite on Hit, with 20% increased Effect
+45% reduced Reflected Elemental Damage Taken
+{crafted}+42 to maximum Mana
+{crafted}6% of Damage taken Recouped as Mana
+		</Item>
+		<Item id="31">
+			Rarity: UNIQUE
+Essence Worm
+Unset Ring
+Unique ID: 79afa6523338f63c64b8c8311ec7ded15f4f97f61a90865db917be0c2e7a0aa1
+Item Level: 80
+Sockets: G
+LevelReq: 5
+Implicits: 2
+{crafted}Your Scout Towers have 25% increased Range
+Has 1 Socket
++2 to Level of Socketed Aura Gems
+Socketed Gems Reserve No Mana
+40% increased Mana Reserved
+		</Item>
+		<Item id="54">
+			Rarity: RARE
+New Item
+Ruby Ring
+Redeemer Item
+Crafted: true
+Prefix: {range:1}IncreasedLife7
+Prefix: None
+Prefix: None
+Suffix: {range:1}CurseOnHitFrostbiteInfluence2
+Suffix: {range:0.296}LightningResist8
+Suffix: {range:0.923}ChaosResist5
+Quality: 0
+LevelReq: 67
+Implicits: 1
+{tags:elemental,fire,resistance}{range:1}+(20-30)% to Fire Resistance
++79 to maximum Life
++47% to Lightning Resistance
++30% to Chaos Resistance
+Curse Enemies with Frostbite on Hit, with 32% increased Effect
+{tags:resource,life,mana}{crafted}{range:1}+(36-40) to maximum Mana
+{tags:resource,life,mana}{crafted}6% of Damage taken Recouped as Mana
+			<ModRange range="1" id="1"/>
+			<ModRange range="1" id="6"/>
+		</Item>
+		<Item id="19">
+			Rarity: RARE
+Honour Leash
+Stygian Vise
+Unique ID: 7e24f28d643e6728cf846ae78aa8219fa20b408871ac8f0274de116517b3a17b
+Redeemer Item
+Item Level: 86
+Sockets: A
+Implicits: 2
+{crafted}15% increased Area of Effect while you have Arcane Surge
+Has 1 Abyssal Socket
++105 to maximum Life
+24% increased Mana Recovery rate
++34% to Chaos Resistance
+17% reduced Flask Charges used
+30% increased Flask Mana Recovery rate
+{crafted}33% reduced Flask Charges gained
+{crafted}Flasks applied to you have 14% increased Effect
+		</Item>
+		<Item id="25">
+			Rarity: UNIQUE
+The Wise Oak
+Bismuth Flask
+Unique ID: 3a524429d656089e1f1fa383957fc03a1eaaa4a019019f70134baa0eeac1e55c
+Item Level: 70
+Quality: 20
+LevelReq: 8
+Implicits: 0
+During Flask Effect, 10% reduced Damage taken of each Element for which your Uncapped Elemental Resistance is lowest
+During Flask Effect, Damage Penetrates 15% Resistance of each Element for which your Uncapped Elemental Resistance is highest
+		</Item>
+		<Item id="24">
+			Rarity: UNIQUE
+Taste of Hate
+Sapphire Flask
+Unique ID: 67aec22ba3ebb63b7af63158c2f6b7204e6698a6543ef2d6c987eac5bc7ebfb9
+Item Level: 75
+Quality: 20
+LevelReq: 18
+Implicits: 0
+20% of Physical Damage from Hits taken as Cold Damage during Flask effect
+Gain 20% of Physical Damage as Extra Cold Damage during effect
+30% chance to Avoid being Chilled during Flask effect
+30% chance to Avoid being Frozen during Flask effect
+		</Item>
+		<Item id="27">
+			Rarity: MAGIC
+Alchemist&apos;s Basalt Flask of the Order
+Unique ID: c0e9668a77087c50ce1e39c00095f59b77816f893fd113823dc38885427d8a08
+Item Level: 72
+Quality: 26
+LevelReq: 48
+Implicits: 0
+25% increased effect
+33% reduced Duration
+{crafted}12% increased Movement Speed during Flask effect
+{crafted}50% Chance to avoid being Stunned during Flask Effect
+		</Item>
+		<Item id="34">
+			Rarity: MAGIC
+Enduring Eternal Mana Flask of Warding
+Unique ID: 519651a927548eaf4b499dd3afb3248b83c7fc2f5a33aaa1331a9a0d835db406
+Item Level: 76
+Quality: 26
+LevelReq: 65
+Implicits: 0
+30% reduced Amount Recovered
+Immune to Curses during Flask effect
+Removes Curses on use
+30% reduced Duration
+Flask Effect is not removed at Full Mana
+Flask Effect does not Queue
+		</Item>
+		<Item id="28">
+			Rarity: MAGIC
+Alchemist&apos;s Quicksilver Flask of Adrenaline
+Unique ID: d2ab2966399adc3b7e70fffa3b77c94a41e62dff42c92ada7863c1bf8832a24b
+Item Level: 73
+Quality: 20
+LevelReq: 16
+Implicits: 0
+27% increased Movement Speed during Flask effect
+25% increased effect
+33% reduced Duration
+		</Item>
+		<Item id="52">
+			Rarity: MAGIC
+Enduring Divine Mana Flask of Warding
+Item Level: 83
+Quality: 26
+LevelReq: 60
+Implicits: 0
+30% reduced Amount Recovered
+Immune to Curses during Flask effect
+Removes Curses on use
+30% reduced Duration
+Flask Effect is not removed at Full Mana
+Flask Effect does not Queue
+		</Item>
+		<Item id="18">
+			Rarity: RARE
+Ancient Iridescence
+Murderous Eye Jewel
+Unique ID: d6d3327c177cfb1b638c253f40ab22a01c2e2f00c5f701338f340650bd7d3a45
+Item Level: 83
+LevelReq: 66
+Implicits: 1
+10% reduced Reflected Elemental Damage taken
++9 to Strength and Intelligence
++34 to maximum Life
++39 to maximum Mana
+7% chance to gain Onslaught for 4 seconds on Kill
+		</Item>
+		<Item id="3">
+			Rarity: UNIQUE
+Conqueror&apos;s Potency
+Cobalt Jewel
+Unique ID: c6a46d9cdaa65184dcbc10312022430b4fdb9469a3e8c8d4ceb31b2728ff568a
+Item Level: 1
+Limited to: 1
+Implicits: 1
+7% increased Effect of Non-Damaging Ailments
+4% increased Effect of your Curses
+Flasks applied to you have 8% increased Effect
+3% increased effect of Non-Curse Auras from your Skills
+Corrupted
+		</Item>
+		<Item id="12">
+			Rarity: RARE
+Phoenix Joy
+Large Cluster Jewel
+Unique ID: d6f80110a3c08a823baaf40b63bffb2b3149d50d69340d7ee1a04586f184a262
+Item Level: 83
+LevelReq: 60
+Implicits: 4
+{crafted}Adds 8 Passive Skills
+{crafted}2 Added Passive Skills are Jewel Sockets
+{crafted}Added Small Passive Skills grant: 10% increased Elemental Damage
+10% reduced Reflected Elemental Damage taken
+Added Small Passive Skills also grant: +3% to Chaos Resistance
+1 Added Passive Skill is Inspired Oppression
+1 Added Passive Skill is Vengeful Commander
+1 Added Passive Skill is Widespread Destruction
+		</Item>
+		<Item id="6">
+			Rarity: RARE
+Soul Scar
+Viridian Jewel
+Unique ID: 3fcd8d9c2c28b4fb6fe51135cd2321bf5b2b2b302598a1c2a3a51279a94b472c
+Item Level: 80
+Implicits: 1
+1% increased Flask Effect Duration
+7% increased maximum Life
+10% increased maximum Mana
++12% to Chaos Resistance
++12% to Fire and Cold Resistances
+		</Item>
+		<Item id="14">
+			Rarity: UNIQUE
+Unnatural Instinct
+Viridian Jewel
+Unique ID: f181585b94d0b56b7f113de15c13ba4d3f85502304e867dadbd25f9cce035ac2
+Item Level: 80
+LevelReq: 26
+Radius: Small
+Limited to: 1
+Implicits: 2
+Corrupted Blood cannot be inflicted on you
+7% increased Effect of Non-Damaging Ailments
+Allocated Small Passive Skills in Radius grant nothing
+Grants all bonuses of Unallocated Small Passive Skills in Radius
+Corrupted
+		</Item>
+		<Item id="10">
+			Rarity: RARE
+Fulgent Eye
+Large Cluster Jewel
+Unique ID: c6e1446f05315bb918f64adf59587991ea08c86be7fc19262e4a2231e43080e6
+Item Level: 83
+LevelReq: 60
+Implicits: 4
+{crafted}Adds 8 Passive Skills
+{crafted}2 Added Passive Skills are Jewel Sockets
+{crafted}Added Small Passive Skills grant: 10% increased Elemental Damage
+10% reduced Reflected Elemental Damage taken
+Added Small Passive Skills also grant: +3% to Chaos Resistance
+1 Added Passive Skill is Inspired Oppression
+1 Added Passive Skill is Vengeful Commander
+1 Added Passive Skill is Widespread Destruction
+		</Item>
+		<Item id="43">
+			Rarity: RARE
+Apocalypse Eye
+Medium Cluster Jewel
+Unique ID: 599f694eec748a121a60408d46976b92330d74ce68103ebda3487293ecf6c92f
+Item Level: 82
+LevelReq: 54
+Implicits: 4
+{crafted}Adds 4 Passive Skills
+{crafted}1 Added Passive Skill is a Jewel Socket
+{crafted}Added Small Passive Skills grant: 6% increased Flask Effect Duration
+1% increased Flask Effect Duration
+Added Small Passive Skills also grant: +3 to All Attributes
+Added Small Passive Skills also grant: +3% to Chaos Resistance
+1 Added Passive Skill is Liquid Inspiration
+1 Added Passive Skill is Spiked Concoction
+		</Item>
+		<Item id="40">
+			Rarity: UNIQUE
+Megalomaniac
+Medium Cluster Jewel
+Unique ID: 0075d7788172d3e0f6630d268e58e0044e2774005fb1bebc4ee0b9d08957c23c
+Item Level: 82
+LevelReq: 54
+Implicits: 0
+Adds 4 Passive Skills
+Added Small Passive Skills grant Nothing
+1 Added Passive Skill is Dread March
+1 Added Passive Skill is Enduring Composure
+1 Added Passive Skill is Vengeful Commander
+Corrupted
+		</Item>
+		<Item id="33">
+			Rarity: UNIQUE
+Watcher&apos;s Eye
+Prismatic Jewel
+Unique ID: 2e7bee6ab8d78f24afd23b065d02fb589dc3d813b45565319d8a06b876b64c1c
+Item Level: 85
+Limited to: 1
+Implicits: 1
+20% increased total Recovery per second from Mana Leech
+4% increased maximum Energy Shield
+5% increased maximum Life
+6% increased maximum Mana
+37% of Physical Damage Converted to Cold Damage while affected by Hatred
+Damage Penetrates 15% Cold Resistance while affected by Hatred
+		</Item>
+		<Item id="41">
+			Rarity: RARE
+Behemoth Bliss
+Medium Cluster Jewel
+Unique ID: a5938f60e99eaf6f86e666e24c0d462fa240743c25cdba8d71ebf65c95769388
+Item Level: 70
+LevelReq: 54
+Implicits: 4
+{crafted}Adds 5 Passive Skills
+{crafted}1 Added Passive Skill is a Jewel Socket
+{crafted}Added Small Passive Skills grant: 6% increased Flask Effect Duration
+1% increased Flask Effect Duration
+Added Small Passive Skills also grant: +3% to Chaos Resistance
+Added Small Passive Skills also grant: 4% increased Mana Regeneration Rate
+1 Added Passive Skill is Distilled Perfection
+1 Added Passive Skill is Liquid Inspiration
+		</Item>
+		<Item id="37">
+			Rarity: UNIQUE
+Lethal Pride
+Timeless Jewel
+Unique ID: 48f30f07983a44489b03544a0d8ea47450894d95b7296f4a1ca8228cb9692bd6
+Item Level: 86
+Radius: Large
+Implicits: 1
+10% reduced Reflected Elemental Damage taken
+Commanded leadership over 15901 warriors under Akoya
+Passives in radius are Conquered by the Karui
+Historic
+5% Chance to deal double damage
+		</Item>
+		<Item id="35">
+			Rarity: RARE
+Armageddon Shine
+Medium Cluster Jewel
+Unique ID: 26bf74d98b204f62bb8fda33b3864a92e80f1f61020eda04fdc8eff1e0d758c5
+Item Level: 71
+LevelReq: 54
+Implicits: 4
+{crafted}Adds 5 Passive Skills
+{crafted}1 Added Passive Skill is a Jewel Socket
+{crafted}Added Small Passive Skills grant: 6% increased Flask Effect Duration
+1% increased Flask Effect Duration
+Added Small Passive Skills also grant: +4% to Chaos Resistance
+Added Small Passive Skills also grant: 5% increased Mana Regeneration Rate
+1 Added Passive Skill is Distilled Perfection
+1 Added Passive Skill is Liquid Inspiration
+		</Item>
+		<Item id="38">
+			Rarity: UNIQUE
+The Vigil
+Crimson Jewel
+Unique ID: b71b30e4568d3735a06a36de4bcaf4e781cac2f999986ca6e6fa143f4d0258a8
+Item Level: 83
+LevelReq: 48
+Radius: Medium
+Limited to: 1
+Implicits: 1
+You cannot be Cursed with Silence
+13% increased Armour
+With at least 40 Strength in Radius, Vigilant Strike
+Fortifies you and Nearby Allies for 12 seconds
+Corrupted
+		</Item>
+		<Item id="22">
+			Rarity: RARE
+Entropy Branch
+Crimson Jewel
+Unique ID: cbbba7afd69a978bd7f5c1af73b2c9800328b3902674e4644f645b565975dfd4
+Item Level: 75
+Implicits: 1
+1% of Damage taken Recouped as Mana
++16 to Strength
++16 to Intelligence
+7% increased maximum Life
+10% increased maximum Mana
+		</Item>
+		<Item id="13">
+			Rarity: UNIQUE
+Thread of Hope
+Crimson Jewel
+Unique ID: 8545bcf8e4052cb3abc21614e9f6525ab52ec170a0b78c877feb9f3957e9f8d1
+Item Level: 80
+Radius: Variable
+Implicits: 2
+4% increased Area of Effect
+7% increased Effect of Non-Damaging Ailments
+Only affects Passives in Very Large Ring
+Passives in Radius can be Allocated without being connected to your tree
+-18% to all Elemental Resistances
+Corrupted
+		</Item>
+		<Item id="8">
+			Rarity: RARE
+Damnation Ruin
+Medium Cluster Jewel
+Unique ID: c320426d8548be68b60548172d5b48bceadb75027f4b6820101dafc6753f26d3
+Item Level: 83
+LevelReq: 60
+Implicits: 4
+{crafted}Adds 5 Passive Skills
+{crafted}1 Added Passive Skill is a Jewel Socket
+{crafted}Added Small Passive Skills grant: 10% increased Effect of Non-Damaging Ailments
+1% increased Flask Effect Duration
+Added Small Passive Skills also grant: +3 to Intelligence
+Added Small Passive Skills also grant: 5% increased Mana Regeneration Rate
+1 Added Passive Skill is Cold Conduction
+1 Added Passive Skill is Inspired Oppression
+		</Item>
+		<Item id="7">
+			Rarity: RARE
+Empyrean Spark
+Medium Cluster Jewel
+Unique ID: cd26263f128ba8dffa1fa45945f3ce56faf2dc509f73c4c75b04c8640832767f
+Item Level: 83
+LevelReq: 54
+Implicits: 4
+{crafted}Adds 5 Passive Skills
+{crafted}1 Added Passive Skill is a Jewel Socket
+{crafted}Added Small Passive Skills grant: 6% increased Flask Effect Duration
+1% of Damage taken Recouped as Mana
+Added Small Passive Skills also grant: +3 to All Attributes
+Added Small Passive Skills also grant: 5% increased Mana Regeneration Rate
+1 Added Passive Skill is Distilled Perfection
+1 Added Passive Skill is Liquid Inspiration
+		</Item>
+		<Item id="46">
+			Rarity: RARE
+Chimeric Curio
+Large Cluster Jewel
+Unique ID: 7a3aea136eef6da78746c6895fb9206070b35a01ad5363f9eacd4d979cea8e1d
+Item Level: 80
+LevelReq: 54
+Implicits: 4
+{crafted}Adds 8 Passive Skills
+{crafted}2 Added Passive Skills are Jewel Sockets
+{crafted}Added Small Passive Skills grant: 12% increased Cold Damage
+10% reduced Reflected Elemental Damage taken
+Added Small Passive Skills also grant: +4% to Chaos Resistance
+1 Added Passive Skill is Blast-Freeze
+1 Added Passive Skill is Vengeful Commander
+1 Added Passive Skill is Widespread Destruction
+		</Item>
+		<Item id="9">
+			Rarity: RARE
+Eagle Dew
+Cobalt Jewel
+Unique ID: 414db1a21e1323ce9251ff45c52c12aab7aa1286c0ac2751c2374a521aaa5954
+Item Level: 71
+Implicits: 1
+1% increased Flask Effect Duration
++16 to Intelligence
+7% increased maximum Life
+10% increased maximum Mana
+		</Item>
+		<Item id="42">
+			Rarity: RARE
+Ancient Arbiter
+Searching Eye Jewel
+Unique ID: bf78d9e4e746c148199dfc2efc14e1257798e1b13a3e554e2d4c7c4ad64b452f
+Item Level: 83
+LevelReq: 60
+Implicits: 1
+10% chance to Avoid being Shocked
++35 to maximum Life
++34 to maximum Mana
+8% increased Effect of Cold Ailments
+25% increased Mana Regeneration Rate while moving
+Corrupted
+		</Item>
+		<Item id="50">
+			Rarity: RARE
+Ancient Arbiter
+Searching Eye Jewel
+Item Level: 83
+LevelReq: 60
+Implicits: 1
+10% chance to Avoid being Shocked
++35 to maximum Life
++34 to maximum Mana
+8% increased Effect of Cold Ailments
+25% increased Mana Regeneration Rate while moving
+Corrupted
+		</Item>
+		<Item id="4">
+			Rarity: RARE
+Behemoth Scar
+Small Cluster Jewel
+Unique ID: 8ba7ce93a6fd79ee977842582688195bdbd32aad6bc28aff59e4494103cf062f
+Item Level: 71
+LevelReq: 54
+Implicits: 3
+{crafted}Adds 2 Passive Skills
+{crafted}Added Small Passive Skills grant: 6% increased maximum Mana
+10% reduced Reflected Elemental Damage taken
+Added Small Passive Skills also grant: +4% to Chaos Resistance
+Added Small Passive Skills also grant: +5 to Intelligence
+1 Added Passive Skill is Liquid Inspiration
+		</Item>
+		<Item id="15">
+			Rarity: RARE
+Brood Spark
+Small Cluster Jewel
+Unique ID: 0244054f07ae5980c8c0d1c83859ae376652f212907c53b2b17921126ee38315
+Item Level: 81
+LevelReq: 62
+Implicits: 3
+{crafted}Adds 2 Passive Skills
+{crafted}Added Small Passive Skills grant: 15% increased Armour
+1% of Damage taken Recouped as Mana
+Added Small Passive Skills also grant: +3% to Fire Resistance
+Added Small Passive Skills also grant: 8% increased Mana Regeneration Rate
+1 Added Passive Skill is Enduring Composure
+		</Item>
+		<Item id="1">
+			Rarity: RARE
+Ghoul Solace
+Small Cluster Jewel
+Unique ID: 66b02efbd5c7eb289c063b2291c721de91af10722ab95e277de3248854f048e8
+Item Level: 83
+LevelReq: 62
+Implicits: 3
+{crafted}Adds 2 Passive Skills
+{crafted}Added Small Passive Skills grant: 4% increased maximum Life
+1% increased Movement Speed
+Added Small Passive Skills also grant: +11 to Intelligence
+Added Small Passive Skills also grant: 8% increased Mana Regeneration Rate
+1 Added Passive Skill is Fettle
+		</Item>
+		<Item id="5">
+			Rarity: RARE
+Hypnotic Curio
+Small Cluster Jewel
+Unique ID: 6bf589b51231cc6cb0384544dd24316386a5c68775c53b587cde732a58e030cd
+Item Level: 83
+LevelReq: 54
+Implicits: 3
+{crafted}Adds 2 Passive Skills
+{crafted}Added Small Passive Skills grant: 6% increased maximum Mana
+1% of Damage taken Recouped as Mana
+Added Small Passive Skills also grant: +5 to Strength
+Added Small Passive Skills have 25% increased Effect
+1 Added Passive Skill is Liquid Inspiration
+		</Item>
+		<Item id="39">
+			Rarity: UNIQUE
+Lethal Pride
+Timeless Jewel
+Unique ID: 48f30f07983a44489b03544a0d8ea47450894d95b7296f4a1ca8228cb9692bd6
+Item Level: 86
+Radius: Large
+Implicits: 1
+10% reduced Reflected Elemental Damage taken
+Commanded leadership over 15901 warriors under Akoya
+Passives in radius are Conquered by the Karui
+Historic
+		</Item>
+		<Item id="2">
+			Rarity: RARE
+Loath Ornament
+Small Cluster Jewel
+Unique ID: 44d82a82c8b9ba0df74cb354a4a4e3a8b018da0ef64e122274d2af93ea446dc3
+Item Level: 84
+LevelReq: 67
+Implicits: 3
+{crafted}Adds 2 Passive Skills
+{crafted}Added Small Passive Skills grant: 6% increased maximum Mana
+1% increased Movement Speed
+Added Small Passive Skills also grant: +8 to Maximum Life
+Added Small Passive Skills also grant: +14 to Strength
+1 Added Passive Skill is Liquid Inspiration
+		</Item>
+		<Item id="45">
+			Rarity: UNIQUE
+Megalomaniac
+Medium Cluster Jewel
+Item Level: 82
+LevelReq: 54
+Implicits: 0
+Adds 4 Passive Skills
+Added Small Passive Skills grant Nothing
+1 Added Passive Skill is Cult-Leader
+1 Added Passive Skill is Enduring Composure
+1 Added Passive Skill is Force Multiplier
+Note: ~b/o 5 exalted
+Corrupted
+		</Item>
+		<Item id="44">
+			Rarity: UNIQUE
+Megalomaniac
+Medium Cluster Jewel
+Item Level: 83
+LevelReq: 54
+Implicits: 0
+Adds 4 Passive Skills
+Added Small Passive Skills grant Nothing
+1 Added Passive Skill is Enduring Composure
+1 Added Passive Skill is Eye to Eye
+1 Added Passive Skill is Holistic Health
+Note: ~price 11 exalted
+Corrupted
+		</Item>
+		<Item id="48">
+			Rarity: UNIQUE
+Megalomaniac
+Medium Cluster Jewel
+Item Level: 82
+LevelReq: 54
+Implicits: 0
+Adds 4 Passive Skills
+Added Small Passive Skills grant Nothing
+1 Added Passive Skill is Enduring Composure
+1 Added Passive Skill is Mage Hunter
+1 Added Passive Skill is Sadist
+Note: ~price 25 exalted
+Corrupted
+		</Item>
+		<Item id="47">
+			Rarity: UNIQUE
+Megalomaniac
+Medium Cluster Jewel
+Item Level: 82
+LevelReq: 54
+Implicits: 0
+Adds 4 Passive Skills
+Added Small Passive Skills grant Nothing
+1 Added Passive Skill is Dread March
+1 Added Passive Skill is Enduring Composure
+1 Added Passive Skill is Vengeful Commander
+Note: ~price 5 exalted
+Corrupted
+		</Item>
+		<Item id="49">
+			Rarity: UNIQUE
+Megalomaniac
+Medium Cluster Jewel
+Item Level: 80
+LevelReq: 54
+Implicits: 0
+Adds 4 Passive Skills
+Added Small Passive Skills grant Nothing
+1 Added Passive Skill is Distilled Perfection
+1 Added Passive Skill is Enduring Composure
+1 Added Passive Skill is Holistic Health
+Corrupted
+		</Item>
+		<Item id="11">
+			Rarity: UNIQUE
+Watcher&apos;s Eye
+Prismatic Jewel
+Unique ID: 5a6346b2cd0f7dd6e2bbe140a7331af0795a01c1e5a5b8f14e017524a5413953
+Item Level: 85
+Limited to: 1
+Implicits: 1
+1% increased Flask Effect Duration
+6% increased maximum Energy Shield
+6% increased maximum Life
+4% increased maximum Mana
+38% of Physical Damage Converted to Cold Damage while affected by Hatred
+Unaffected by Enfeeble while affected by Grace
+		</Item>
+		<Item id="57">
+			Rarity: UNIQUE
+Megalomaniac
+Medium Cluster Jewel
+Item Level: 82
+LevelReq: 60
+Implicits: 0
+Adds 4 Passive Skills
+Added Small Passive Skills grant Nothing
+1 Added Passive Skill is Fettle
+1 Added Passive Skill is Exploit Weakness
+1 Added Passive Skill is Vengeful Commander
+Note: ~price 2 exalted
+Corrupted
+		</Item>
+		<Slot name="Weapon 1" itemId="36"/>
+		<Slot active="true" name="Flask 3" itemId="27"/>
+		<Slot name="Gloves" itemId="51"/>
+		<Slot name="Belt" itemId="19"/>
+		<Slot active="true" name="Flask 5" itemId="28"/>
+		<Slot name="Helmet" itemId="16"/>
+		<Slot active="true" name="Flask 1" itemId="25"/>
+		<Slot name="Belt Abyssal Socket 1" itemId="18"/>
+		<Slot active="true" name="Flask 4" itemId="34"/>
+		<Slot active="true" name="Flask 2" itemId="24"/>
+		<Slot name="Weapon 2" itemId="21"/>
+		<Slot name="Weapon 2 Swap" itemId="20"/>
+		<Slot name="Weapon 1 Swap" itemId="30"/>
+		<Slot name="Ring 2" itemId="31"/>
+		<Slot name="Body Armour" itemId="26"/>
+		<Slot name="Ring 1" itemId="17"/>
+		<Slot name="Boots" itemId="32"/>
+		<Slot name="Amulet" itemId="29"/>
+		<ItemSet useSecondWeaponSet="false" id="1">
+			<Slot name="Weapon 1Swap Abyssal Socket 5" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1" itemId="36"/>
+			<Slot name="Boots Abyssal Socket 5" itemId="0"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 3" itemId="27"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 3" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 5" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 5" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 4" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 6" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 6" itemId="0"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 3" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 6" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot name="Gloves" itemId="51"/>
+			<Slot name="Helmet Abyssal Socket 3" itemId="0"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 4" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 4" itemId="0"/>
+			<Slot name="Belt" itemId="19"/>
+			<Slot name="Gloves Abyssal Socket 4" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 4" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 5" itemId="28"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 3" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 5" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 6" itemId="0"/>
+			<Slot name="Helmet" itemId="16"/>
+			<Slot active="true" name="Flask 1" itemId="25"/>
+			<Slot name="Gloves Abyssal Socket 5" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 6" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 3" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 3" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 4" itemId="0"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="18"/>
+			<Slot name="Body Armour Abyssal Socket 3" itemId="0"/>
+			<Slot active="true" name="Flask 4" itemId="34"/>
+			<Slot active="true" name="Flask 2" itemId="24"/>
+			<Slot name="Belt Abyssal Socket 5" itemId="0"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 3" itemId="0"/>
+			<Slot name="Weapon 2" itemId="21"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 6" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 4" itemId="0"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 4" itemId="0"/>
+			<Slot name="Weapon 2 Swap" itemId="20"/>
+			<Slot name="Weapon 1 Swap" itemId="30"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 6" itemId="0"/>
+			<Slot name="Ring 2" itemId="31"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 6" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Body Armour" itemId="26"/>
+			<Slot name="Gloves Abyssal Socket 3" itemId="0"/>
+			<Slot name="Ring 1" itemId="17"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 4" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 5" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 6" itemId="0"/>
+			<Slot name="Boots" itemId="32"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 5" itemId="0"/>
+			<Slot name="Amulet" itemId="29"/>
+		</ItemSet>
+	</Items>
+	<Config>
+		<Input name="conditionLeeching" boolean="true"/>
+		<Input name="conditionCritRecently" boolean="true"/>
+		<Input name="enemyIsBoss" string="Sirus"/>
+		<Input name="multiplierManaSpentRecently" number="20000"/>
+		<Input name="conditionMoving" boolean="true"/>
+		<Input name="intensifyIntensity" number="3"/>
+		<Input name="enemyHasLessCurseEffectOnSelf" number="0"/>
+		<Input name="waveOfConvictionExposureType" string="Cold"/>
+		<Input name="overridePowerCharges" number="3"/>
+		<Input name="conditionEnemyUnnerved" boolean="true"/>
+		<Input name="buffAlchemistsGenius" boolean="true"/>
+		<Input name="buffFortify" boolean="true"/>
+		<Input name="conditionFrozenEnemyRecently" boolean="true"/>
+		<Input name="enemyAwakeningLevel" number="8"/>
+		<Input name="conditionCastSpellRecently" boolean="true"/>
+		<Input name="conditionEnemyChilledByYourHits" boolean="true"/>
+		<Input name="conditionEnemyChilled" boolean="true"/>
+		<Input name="conditionSoulGainPrevention" boolean="true"/>
+		<Input name="useFrenzyCharges" boolean="true"/>
+		<Input name="brandAttachedToEnemy" boolean="true"/>
+		<Input name="buffOnslaught" boolean="true"/>
+		<Input name="enemyHit" number="20000"/>
+		<Input name="usePowerCharges" boolean="true"/>
+		<Input name="sigilOfPowerStages" number="2"/>
+		<Input name="overrideEnduranceCharges" number="3"/>
+		<Input name="conditionEnemyBleeding" boolean="true"/>
+		<Input name="conditionShockedEnemyRecently" boolean="true"/>
+		<Input name="conditionEnemyShocked" boolean="true"/>
+		<Input name="conditionBeenHitRecently" boolean="true"/>
+	</Config>
+</PathOfBuilding>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="90" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Occultist" mainSocketGroup="1" viewMode="ITEMS" banditCruel="None">
+		<PlayerStat stat="AverageHit" value="0"/>
+		<PlayerStat stat="AverageDamage" value="0"/>
+		<PlayerStat stat="Speed" value="2.4"/>
+		<PlayerStat stat="Speed" value="2.4"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="0"/>
+		<PlayerStat stat="CritChance" value="0"/>
+		<PlayerStat stat="CritMultiplier" value="1.5"/>
+		<PlayerStat stat="HitChance" value="100"/>
+		<PlayerStat stat="TotalDPS" value="0"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="WithPoisonDPS" value="0"/>
+		<PlayerStat stat="AreaOfEffectRadius" value="37"/>
+		<PlayerStat stat="ManaCost" value="50"/>
+		<PlayerStat stat="Str" value="300"/>
+		<PlayerStat stat="ReqStr" value="191"/>
+		<PlayerStat stat="Dex" value="50"/>
+		<PlayerStat stat="ReqDex" value="98"/>
+		<PlayerStat stat="Int" value="388"/>
+		<PlayerStat stat="ReqInt" value="155"/>
+		<PlayerStat stat="Life" value="5641"/>
+		<PlayerStat stat="Spec:LifeInc" value="152"/>
+		<PlayerStat stat="LifeUnreserved" value="5641"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="157.948"/>
+		<PlayerStat stat="LifeLeechGainRate" value="0"/>
+		<PlayerStat stat="Mana" value="3432"/>
+		<PlayerStat stat="Spec:ManaInc" value="162"/>
+		<PlayerStat stat="ManaUnreserved" value="3432"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="100"/>
+		<PlayerStat stat="ManaRegen" value="148.9"/>
+		<PlayerStat stat="ManaLeechGainRate" value="0"/>
+		<PlayerStat stat="EnergyShield" value="1099"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="90"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="355"/>
+		<PlayerStat stat="Spec:EvasionInc" value="0"/>
+		<PlayerStat stat="MeleeEvadeChance" value="12"/>
+		<PlayerStat stat="MeleeEvadeChance" value="12"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="12"/>
+		<PlayerStat stat="Armour" value="1235"/>
+		<PlayerStat stat="Spec:ArmourInc" value="0"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="9"/>
+		<PlayerStat stat="EffectiveMovementSpeedMod" value="1.27"/>
+		<PlayerStat stat="BlockChance" value="22"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="0"/>
+		<PlayerStat stat="SpellDodgeChance" value="0"/>
+		<PlayerStat stat="FireResist" value="-43"/>
+		<PlayerStat stat="ColdResist" value="-43"/>
+		<PlayerStat stat="LightningResist" value="-43"/>
+		<PlayerStat stat="ChaosResist" value="12"/>
+		<PlayerStat stat="FireResistOverCap" value="0"/>
+		<PlayerStat stat="ColdResistOverCap" value="0"/>
+		<PlayerStat stat="LightningResistOverCap" value="0"/>
+		<PlayerStat stat="ChaosResistOverCap" value="0"/>
+		<PlayerStat stat="PowerCharges" value="0"/>
+		<PlayerStat stat="PowerChargesMax" value="3"/>
+		<PlayerStat stat="FrenzyCharges" value="0"/>
+		<PlayerStat stat="FrenzyChargesMax" value="3"/>
+		<PlayerStat stat="EnduranceCharges" value="0"/>
+		<PlayerStat stat="EnduranceChargesMax" value="3"/>
+	</Build>
+	<Import/>
+	<Calcs>
+		<Input name="skill_number" number="1"/>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Section collapsed="false" id="SkillSelect"/>
+		<Section collapsed="false" id="HitDamage"/>
+		<Section collapsed="false" id="Dot"/>
+		<Section collapsed="false" id="Speed"/>
+		<Section collapsed="false" id="Crit"/>
+		<Section collapsed="false" id="HitChance"/>
+		<Section collapsed="false" id="SkillTypeStats"/>
+		<Section collapsed="false" id="Bleed"/>
+		<Section collapsed="false" id="Poison"/>
+		<Section collapsed="false" id="Ignite"/>
+		<Section collapsed="false" id="Decay"/>
+		<Section collapsed="false" id="LeechGain"/>
+		<Section collapsed="false" id="MiscEffects"/>
+		<Section collapsed="false" id="Attributes"/>
+		<Section collapsed="false" id="Life"/>
+		<Section collapsed="false" id="Mana"/>
+		<Section collapsed="false" id="EnergyShield"/>
+		<Section collapsed="false" id="Armour"/>
+		<Section collapsed="false" id="Evasion"/>
+		<Section collapsed="false" id="Resist"/>
+		<Section collapsed="false" id="DamageTaken"/>
+		<Section collapsed="false" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="nil" defaultGemLevel="nil" sortGemsByDPS="true">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemWarlordsMark" enableGlobal2="false" skillMinionItemSet="1" quality="0" skillPart="1" skillId="WarlordsMark" skillPartCalcs="1" enabled="true" nameSpec="Warlord&apos;s Mark" skillMinion="SummonedChaosGolem"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemTemporalChains" enableGlobal2="false" quality="0" skillPart="1" skillId="TemporalChains" enabled="true" nameSpec="Temporal Chains" skillMinion="SummonedChaosGolem"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemEnfeeble" enableGlobal2="false" quality="0" skillPart="1" skillId="Enfeeble" enabled="true" nameSpec="Enfeeble" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+	</Skills>
+	<Tree activeSpec="1">
+		<Spec>
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMBABzcenBEq5ctHRRKn1nzjxqUbyUhvOpqQ3pUpcQ1kqcIgh5sCwj0PCgQUacrghDAZhZvj0Y64Y-mVcYo-rc-IvQsnLiT74iCx-yKlSBObR1P7-uhL8HFKlOqqX6hDlwEs3yDg9tJT-vkm6FMsw0ffOX-CmD4muBVrmdxQnqFMuwY1886xkGHvoqIQvk3RZ0EB2aeRX4aOGZUXyptGYm8EVCRB9sL37BJsVgHYt1p2P6zMtGQVaDmnDK5b-Nq-tKYTXIPES1q-nzwogDYvVNS0B_56Goba9v-jxhqRUd4L6ZXTeO9gpy-wfPyRbyq6-6TJw==
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="11"/>
+				<Socket nodeId="36634" itemId="12"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61419" itemId="12"/>
+				<Socket nodeId="41263" itemId="1"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+	</Notes>
+	<TreeView searchStr="curse" zoomY="180.70508403574" showHeatMap="false" zoomLevel="2" showStatDifferences="true" zoomX="-162.25096551566"/>
+	<Items activeItemSet="1" useSecondWeaponSet="false">
+		<Item id="1">
+			Rarity: UNIQUE
+Intuitive Leap
+Viridian Jewel
+Radius: Small
+Implicits: 0
+Passives in Radius can be Allocated without being connected to your tree
+		</Item>
+		<Item variant="4" id="2">
+			Rarity: UNIQUE
+Cloak of Defiance
+Lacquered Garb
+Variant: Pre 1.3.0
+Variant: Pre 3.0.0
+Variant: Pre 3.5.0
+Variant: Current
+Selected Variant: 4
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 52
+Implicits: 0
+{variant:1,2,3}{range:0.5}(110-150)% increased Evasion and Energy Shield
+{variant:4}{range:0.963}(300-400)% increased Evasion and Energy Shield
+{variant:1,2}{range:0.5}+(90-110) to maximum Mana
+{variant:3,4}{range:0.768}+(100-150) to maximum Mana
+{variant:1,2}{range:0.5}(40-50)% increased Mana Regeneration Rate
+{variant:1}When hit, 10% of Damage is taken from Mana before Life
+{variant:3,4}10% of Damage is taken from Mana before Life
+{variant:3,4}1% of Mana Regenerated per second
+Mind Over Matter
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.963" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.768" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item id="3">
+			Rarity: UNIQUE
+Mind of the Council
+Harlequin Mask
+Quality: 20
+Sockets: G-G-G-G
+LevelReq: 57
+Implicits: 0
+{range:0.5}(230-260)% increased Evasion and Energy Shield
+{range:0.5}(20-30)% increased maximum Mana
+10% chance to Shock
++20% chance to be Shocked
+30% of Lightning Damage is taken from Mana before Life when Hit
+Recover 3% of Maximum Mana when you Shock an Enemy
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+		</Item>
+		<Item id="4">
+			Rarity: RELIC
+New Item
+Embroidered Gloves
+Quality: 20
+Sockets: B-B-B-B
+LevelReq: 36
+Implicits: 0
++64 to maximum energy shield
+You can apply an additional Curse
+16% increased Cast speed with Curse skills
+0.2% of spell damage leeched as Energy shield for each curse on enemy
+Trigger Socketed Curse Spells when you cast a Curse
+		</Item>
+		<Item id="5">
+			Rarity: RARE
+New Item
+Leather Belt
+Crafted: true
+Prefix: {range:0.028}IncreasedLife8
+Prefix: None
+Prefix: None
+Suffix: {range:0.838}Strength9
+Suffix: None
+Suffix: None
+Quality: 0
+LevelReq: 65
+Implicits: 1
+{range:0.646}+(25-40) to maximum Life
++54 to Strength
++80 to maximum Life
+			<ModRange range="0.646" id="1"/>
+		</Item>
+		<Item id="6">
+			Rarity: RARE
+New Item
+Sorcerer Boots
+Crafted: true
+Prefix: {range:0.035}IncreasedLife7
+Prefix: {range:0.289}MovementVelocity5
+Prefix: {range:0.817}IncreasedMana8
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: B-B-B-B
+LevelReq: 67
+Implicits: 0
++70 to maximum Life
++53 to maximum Mana
+30% increased Movement Speed
+		</Item>
+		<Item id="7">
+			Rarity: RARE
+New Item
+Hubris Circlet
+Crafted: true
+Prefix: {range:0.486}IncreasedLife8
+Prefix: {range:0.366}IncreasedMana9
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: B-B-B-B
+LevelReq: 69
+Implicits: 0
++84 to maximum Life
++56 to maximum Mana
+		</Item>
+		<Item id="8">
+			Rarity: RARE
+New Item
+Onyx Amulet
+Crafted: true
+Prefix: {range:0.877}IncreasedLife6
+Prefix: {range:0.933}IncreasedMana10
+Prefix: None
+Suffix: {range:0.796}Strength8
+Suffix: None
+Suffix: None
+Quality: 0
+LevelReq: 59
+Implicits: 1
+{range:1}+(10-16) to all Attributes
++49 to Strength
++68 to maximum Life
++64 to maximum Mana
+			<ModRange range="1" id="1"/>
+		</Item>
+		<Item id="9">
+			Rarity: RARE
+New Item
+Glorious Plate
+Crafted: true
+Prefix: {range:0.025}IncreasedLife10
+Prefix: {range:0.028}LocalBaseArmourAndLife4
+Prefix: None
+Suffix: {range:0.511}Strength8
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: R-R-R-R-R-R
+LevelReq: 68
+Implicits: 0
++47 to Strength
++97 to Armour
++134 to maximum Life
+		</Item>
+		<Item id="10">
+			Rarity: RARE
+New Item
+Coral Ring
+Crafted: true
+Prefix: {range:0.028}IncreasedLife6
+Prefix: {range:0.018}IncreasedMana10
+Prefix: {range:0.489}IncreasedEnergyShield10
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 0
+LevelReq: 55
+Implicits: 1
+{range:1}+(20-30) to maximum Life
++40 to maximum Energy Shield
++60 to maximum Life
++60 to maximum Mana
+			<ModRange range="1" id="1"/>
+		</Item>
+		<Item id="11">
+			Rarity: RARE
+New Item
+Cobalt Jewel
+Crafted: true
+Prefix: {range:1}PercentIncreasedLifeJewel
+Prefix: {range:0.5}PercentIncreasedManaJewel
+Suffix: None
+Suffix: None
+Quality: 0
+LevelReq: 0
+Implicits: 0
+7% increased maximum Life
+7% increased maximum Mana
+0.2% of spell damage leeched as Energy shield
+		</Item>
+		<Item id="12">
+			Rarity: RARE
+New Item
+Hypnotic Eye Jewel
+Crafted: true
+Prefix: {range:0.958}AbyssJewelAddedLife3
+Prefix: {range:1}AbyssJewelAddedMana3
+Suffix: None
+Suffix: None
+Quality: 0
+LevelReq: 60
+Implicits: 0
++45 to maximum Life
++45 to maximum Mana
+		</Item>
+		<Item id="13">
+			Rarity: RARE
+New Item
+Archon Kite Shield
+Crafted: true
+Prefix: {range:0.141}IncreasedLife9
+Prefix: {range:0.141}IncreasedMana11
+Prefix: {range:0.88}LocalBaseEnergyShieldAndLife2
+Suffix: {range:0.465}Strength7
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: B-B-B
+LevelReq: 68
+Implicits: 1
++12% to all Elemental Resistances
++40 to Strength
++15 to maximum Energy Shield
++119 to maximum Life
++65 to maximum Mana
+		</Item>
+		<Slot name="Gloves" itemId="4"/>
+		<Slot name="Amulet" itemId="8"/>
+		<Slot name="Weapon 2" itemId="13"/>
+		<Slot name="Body Armour" itemId="9"/>
+		<Slot name="Ring 2" itemId="10"/>
+		<Slot name="Boots" itemId="6"/>
+		<Slot name="Ring 1" itemId="10"/>
+		<Slot name="Helmet" itemId="7"/>
+		<Slot name="Belt" itemId="5"/>
+		<ItemSet useSecondWeaponSet="false" id="1">
+			<Slot name="Gloves" itemId="4"/>
+			<Slot name="Weapon 1" itemId="0"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot name="Flask 3" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Amulet" itemId="8"/>
+			<Slot name="Flask 1" itemId="0"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Flask 5" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="0"/>
+			<Slot name="Flask 2" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2" itemId="13"/>
+			<Slot name="Body Armour" itemId="9"/>
+			<Slot name="Flask 4" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Ring 2" itemId="10"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Boots" itemId="6"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Ring 1" itemId="10"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Helmet" itemId="7"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt" itemId="5"/>
+		</ItemSet>
+	</Items>
+	<Config/>
+</PathOfBuilding>

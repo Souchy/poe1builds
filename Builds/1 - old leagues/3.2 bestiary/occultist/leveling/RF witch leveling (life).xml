@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="24" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="None" mainSocketGroup="1" viewMode="SKILLS" banditCruel="None">
+		<PlayerStat stat="AverageHit" value="0"/>
+		<PlayerStat stat="AverageDamage" value="0"/>
+		<PlayerStat stat="Speed" value="1.09"/>
+		<PlayerStat stat="Speed" value="1.09"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="0"/>
+		<PlayerStat stat="CritChance" value="0"/>
+		<PlayerStat stat="CritMultiplier" value="1"/>
+		<PlayerStat stat="HitChance" value="100"/>
+		<PlayerStat stat="TotalDPS" value="0"/>
+		<PlayerStat stat="TotalDot" value="3944.7576"/>
+		<PlayerStat stat="WithPoisonDPS" value="3944.7576"/>
+		<PlayerStat stat="AreaOfEffectRadius" value="16"/>
+		<PlayerStat stat="ManaCost" value="0"/>
+		<PlayerStat stat="Str" value="64"/>
+		<PlayerStat stat="ReqStr" value="155"/>
+		<PlayerStat stat="Dex" value="24"/>
+		<PlayerStat stat="ReqDex" value="63"/>
+		<PlayerStat stat="Int" value="242"/>
+		<PlayerStat stat="ReqInt" value="52"/>
+		<PlayerStat stat="Life" value="598"/>
+		<PlayerStat stat="Spec:LifeInc" value="38"/>
+		<PlayerStat stat="LifeUnreserved" value="598"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="429.88"/>
+		<PlayerStat stat="LifeLeechGainRate" value="0"/>
+		<PlayerStat stat="Mana" value="408"/>
+		<PlayerStat stat="Spec:ManaInc" value="28"/>
+		<PlayerStat stat="ManaUnreserved" value="408"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="100"/>
+		<PlayerStat stat="ManaRegen" value="10"/>
+		<PlayerStat stat="ManaLeechGainRate" value="0"/>
+		<PlayerStat stat="TotalDegen" value="142.6"/>
+		<PlayerStat stat="NetLifeRegen" value="287.28"/>
+		<PlayerStat stat="EnergyShield" value="46"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="10"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="131"/>
+		<PlayerStat stat="Spec:EvasionInc" value="0"/>
+		<PlayerStat stat="MeleeEvadeChance" value="22"/>
+		<PlayerStat stat="MeleeEvadeChance" value="22"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="22"/>
+		<PlayerStat stat="Armour" value="125"/>
+		<PlayerStat stat="Spec:ArmourInc" value="20"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="21"/>
+		<PlayerStat stat="MovementSpeedMod" value="0.97"/>
+		<PlayerStat stat="BlockChance" value="22"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="0"/>
+		<PlayerStat stat="SpellDodgeChance" value="0"/>
+		<PlayerStat stat="FireResist" value="75"/>
+		<PlayerStat stat="ColdResist" value="75"/>
+		<PlayerStat stat="LightningResist" value="54"/>
+		<PlayerStat stat="ChaosResist" value="0"/>
+		<PlayerStat stat="FireResistOverCap" value="68"/>
+		<PlayerStat stat="ColdResistOverCap" value="29"/>
+		<PlayerStat stat="LightningResistOverCap" value="0"/>
+		<PlayerStat stat="ChaosResistOverCap" value="0"/>
+	</Build>
+	<Calcs>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="skill_number" number="1"/>
+		<Section collapsed="false" id="SkillSelect"/>
+		<Section collapsed="false" id="HitDamage"/>
+		<Section collapsed="false" id="Dot"/>
+		<Section collapsed="false" id="Speed"/>
+		<Section collapsed="false" id="Crit"/>
+		<Section collapsed="false" id="HitChance"/>
+		<Section collapsed="false" id="SkillTypeStats"/>
+		<Section collapsed="false" id="Bleed"/>
+		<Section collapsed="false" id="Poison"/>
+		<Section collapsed="false" id="Ignite"/>
+		<Section collapsed="false" id="Decay"/>
+		<Section collapsed="false" id="LeechGain"/>
+		<Section collapsed="false" id="MiscEffects"/>
+		<Section collapsed="false" id="Attributes"/>
+		<Section collapsed="false" id="Life"/>
+		<Section collapsed="false" id="Mana"/>
+		<Section collapsed="false" id="EnergyShield"/>
+		<Section collapsed="false" id="Armour"/>
+		<Section collapsed="false" id="Evasion"/>
+		<Section collapsed="false" id="Resist"/>
+		<Section collapsed="false" id="DamageTaken"/>
+		<Section collapsed="false" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="nil" defaultGemLevel="1" sortGemsByDPS="true">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="1" skillId="RighteousFire" skillPart="1" quality="0" skillPartCalcs="1" enabled="true" nameSpec="Righteous Fire"/>
+			<Gem level="1" skillId="SupportConcentratedEffect" quality="0" enabled="true" nameSpec="Concentrated Effect"/>
+			<Gem level="1" skillId="SupportElementalFocus" quality="0" enabled="true" nameSpec="Elemental Focus"/>
+			<Gem level="1" skillId="SupportIncreasedBurningDamage" skillPart="1" quality="0" enabled="false" nameSpec="Burning Damage" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="false" mainActiveSkill="1">
+			<Gem level="1" skillId="FireBeam" skillPart="1" quality="0" enabled="true" nameSpec="Scorching Ray"/>
+			<Gem level="1" skillId="SupportIncreasedBurningDamage" quality="0" enabled="true" nameSpec="Burning Damage"/>
+			<Gem level="1" skillId="SupportElementalFocus" quality="0" enabled="true" nameSpec="Elemental Focus"/>
+			<Gem level="1" skillId="SupportEfficacy" quality="0" enabled="true" nameSpec="Efficacy"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="--------------------------------------------------" enabled="true" mainActiveSkill="1"/>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="1" skillId="FlickerStrike" skillPart="1" quality="0" enabled="true" nameSpec="Flicker Strike"/>
+			<Gem level="1" skillId="SupportMultistrike" quality="0" enabled="false" nameSpec="Multistrike"/>
+			<Gem level="1" skillId="SupportSpiritStrike" quality="0" enabled="true" nameSpec="Ancestral Call"/>
+			<Gem level="1" skillId="SupportMeleeSplash" quality="0" enabled="true" nameSpec="Melee Splash"/>
+			<Gem level="1" skillId="SupportFortify" quality="0" enabled="false" nameSpec="Fortify"/>
+			<Gem level="5" skillId="SupportLifeGainOnHit" skillPart="1" quality="0" enabled="true" nameSpec="Life Gain on Hit" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="1" skillId="DoubleStrike" quality="0" enabled="true" nameSpec="Double Strike"/>
+			<Gem level="1" skillId="SupportMultistrike" quality="0" enabled="false" nameSpec="Multistrike"/>
+			<Gem level="1" skillId="SupportSpiritStrike" quality="0" enabled="false" nameSpec="Ancestral Call"/>
+			<Gem level="5" skillId="SupportLifeGainOnHit" skillPart="1" quality="0" enabled="true" nameSpec="Life Gain on Hit"/>
+			<Gem level="1" skillId="SupportFortify" quality="0" enabled="false" nameSpec="Fortify"/>
+			<Gem level="1" skillId="SupportFasterAttack" quality="0" enabled="true" nameSpec="Faster Attacks"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="1" skillId="ChargedAttack" skillPart="1" quality="0" enabled="true" nameSpec="Blade Flurry"/>
+			<Gem level="1" skillId="SupportFasterAttack" quality="0" enabled="true" nameSpec="Faster Attacks"/>
+			<Gem level="5" skillId="SupportLifeGainOnHit" skillPart="1" quality="0" enabled="true" nameSpec="Life Gain on Hit"/>
+			<Gem level="1" skillId="SupportFortify" quality="0" enabled="false" nameSpec="Fortify"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="1" skillId="LightningStrike" skillPart="2" quality="0" enabled="true" nameSpec="Lightning Strike"/>
+			<Gem level="1" skillId="SupportFasterAttack" quality="0" enabled="true" nameSpec="Faster Attacks"/>
+			<Gem level="1" skillId="SupportGreaterMultipleProjectiles" quality="0" enabled="true" nameSpec="Greater Multiple Projectiles"/>
+			<Gem level="5" skillId="SupportLifeGainOnHit" skillPart="1" quality="0" enabled="true" nameSpec="Life Gain on Hit" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" mainActiveSkill="nil">
+			<Gem level="1" skillId="Cyclone" quality="0" enabled="true" nameSpec="Cyclone"/>
+			<Gem level="1" skillId="SupportFasterAttack" quality="0" enabled="true" nameSpec="Faster Attacks"/>
+			<Gem level="1" skillId="SupportLifeGainOnHit" skillPart="1" quality="0" enabled="true" nameSpec="Life Gain on Hit"/>
+			<Gem level="1" skillId="SupportFortify" quality="0" enabled="false" nameSpec="Fortify"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="false" mainActiveSkill="1">
+			<Gem level="1" skillId="MoltenStrike" skillPart="2" quality="0" enabled="true" nameSpec="Molten Strike"/>
+			<Gem level="1" skillId="SupportFasterAttack" skillPart="1" quality="0" enabled="true" nameSpec="Faster Attacks" skillMinion="SummonedChaosGolem"/>
+			<Gem level="1" skillId="SupportGreaterMultipleProjectiles" skillPart="1" quality="0" enabled="true" nameSpec="Greater Multiple Projectiles"/>
+			<Gem level="5" skillId="SupportLifeGainOnHit" skillPart="1" quality="0" enabled="true" nameSpec="Life Gain on Hit"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="--------------------------------------------------" enabled="true" mainActiveSkill="1"/>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="false" mainActiveSkill="1">
+			<Gem level="1" skillId="BloodRage" skillPart="1" quality="0" enabled="true" nameSpec="Blood Rage"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="false" mainActiveSkill="1">
+			<Gem level="1" skillId="PoachersMark" quality="0" enabled="true" nameSpec="Poacher&apos;s Mark"/>
+			<Gem level="1" skillId="SupportBlasphemy" skillPart="1" quality="0" enabled="true" nameSpec="Blasphemy"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="false" mainActiveSkill="1">
+			<Gem level="1" skillId="SummonRockGolem" skillMinionSkill="1" skillMinionSkillCalcs="1" quality="0" enabled="true" nameSpec="Summon Stone Golem" skillMinion="SummonedStoneGolem"/>
+			<Gem level="1" skillId="EnduringCry" quality="0" enabled="true" nameSpec="Enduring Cry"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="1" skillId="MoltenShell" quality="0" enabled="true" nameSpec="Molten Shell"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="false" mainActiveSkill="nil">
+			<Gem level="7" skillId="RejuvenationTotem" quality="0" enabled="true" nameSpec="Rejuvenation Totem"/>
+			<Gem level="1" skillId="SupportIncreasedDuration" quality="0" enabled="true" nameSpec="Increased Duration"/>
+			<Gem level="1" skillId="SupportEfficacy" quality="0" enabled="true" nameSpec="Efficacy"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" mainActiveSkill="nil">
+			<Gem level="20" skillId="EnduringCry" skillPart="1" quality="0" enabled="true" nameSpec="Enduring Cry" skillMinion="SummonedChaosGolem"/>
+			<Gem level="1" skillId="SupportIncreasedDuration" quality="0" enabled="true" nameSpec="Increased Duration"/>
+			<Gem level="1" skillId="SupportEfficacy" quality="0" enabled="true" nameSpec="Efficacy"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="--------------------------------------------------" enabled="true" mainActiveSkill="1"/>
+	</Skills>
+	<Tree activeSpec="1">
+		<Spec>
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMAABzcaPJxedgkkSu86mpDogBtGacIna7fsBEtA3WYrY9GEmkXHCycuJPwHwj0KPoy0Y6-ksFFR1JTBLN8gz1fVkjAZh0Ul_Tr7l8E
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+- Avoir beaucoup de vita - res - armure (granite flask,ruby flask,sulphur flask etc) pour pouvoir tanker les gros coups des boss
+
+probleme c&apos;est que la life augmente le degen, mais tant qu&apos;on a une flask + le life gain on hit, on devrait etre pas pire
+
+REGEN  :
+- Maximiser le nombre de hits/sec pour maximiser le life gain on hit
+	-&gt; Flicker Strike pour hit les mobs
+	-&gt; Blade Flurry, Lightning Strike ou Double Strike pour hit les boss
+
+- Pas besoin de Blood Rage, ca fait mal au regen.
+	On peut l&apos;utiliser pour clear pour generer des frenzy charges en attendant d&apos;avoir Blasphemy + Poacher&apos;s Mark
+
+Sources de regen possibles :
+	-&gt; Life gain on hit (claw, poachers mark) (attack with high atkspd or projectiles for high hit/s)
+		- ex: flicker strike + multistrike + ancestral call + melee splash + life gain on hit, on a ~75 LGoH, versus 3 ennemis, on cast 1 fois, ca tape chaque target en zone 3 fois. 3*3*3 ca fait 27 hits total. 27*75 = 2025 de regen d&apos;un coup
+	-&gt; Life leech
+	-&gt; Regen % ou fixe sur items ou passifs
+	-&gt; ES Recharge
+	-&gt; ES/Life on block
+	-&gt; ES/Life on kill
+	-&gt; Bone Offering, Spirit Offering + unearth (necromancer)
+	-&gt; Enduring Cry (+duration de gems marche pas)
+	-&gt; Consecrated Ground
+	-&gt; Stone Golem
+	-&gt; Rejuv Totem
+	-&gt; Devouring Totem + unearth
+	-&gt; Life pots
+	-&gt; Jewels +1% regen while moving
+	-&gt; Vitality
+
+MITIGATION :
+Sources de mitigation :
+	- Fire :
+		-&gt; Ruby Flask
+		-&gt; Divination distillate
+		-&gt; Flask effect
+		-&gt; Purity of Fire
+		-&gt; Aura effect
+	- Others :
+		-&gt; Fortify (20% dmg reduc) / vigilant strike
+		-&gt; Granite Flask (3000 armour)
+		-&gt; Basalt Flask (20% phys dmg reduc)
+		-&gt; Endurance charges (phys dmg reduc)
+		-&gt; Block
+		-&gt; Enfeeble curse
+		-&gt; Temporal Chains curse
+		-&gt; Phase Run
+		-&gt; Immortal Call
+
+On peut donc utiliser :
+	- Partout : 
+		-&gt; Stone Golem
+		-&gt; Vitality &amp; Purity of Fire (les 2 tres faible au debut)
+		-&gt; Life pots (pas enormement besoin, j&apos;aime pas, c&apos;est clunky vu que ca arrete quand on reach max life)
+	- Quand on se promene et qu&apos;il y a rien a taper : 
+		-&gt; [Enduring Cry + duration] actually non il faut avoir des mobs pour avoir que sa marche
+		-&gt; Life pots, pas le choix
+		-&gt; Jewels +1% regen while moving
+	- Pour mob clear : 
+		-&gt; Flicker Strike + LGoH
+		-&gt; Ruby Flask + Poacher&apos;s Mark + Blasphemy
+	- Pour boss : 
+		-&gt; Blade Flurry, Lightning Strike ou Double Strike  + LGoH
+		-&gt; Rejuv Totem
+
+(Pour l&apos;instant j&apos;ai active aucun regen a part springleaf et shaper&apos;s seed.)
+
+	</Notes>
+	<TreeView searchStr="skill duration" zoomY="240.32222222222" showHeatMap="false" zoomLevel="4" showStatDifferences="true" zoomX="-186.85"/>
+	<Items activeItemSet="1" useSecondWeaponSet="false">
+		<Item variant="3" id="1">
+			Rarity: Unique
+Pyre
+Sapphire Ring
+Variant: Pre 2.6.0
+Variant: {2_6}Pre 3.0.0
+Variant: Current
+Requires Level 11
++(20-30)% to Cold Resistance
++(25-35)% to Fire Resistance
+{variant:1,2}(25-35)% increased Burning Damage
+{variant:3}(60-80)% increased Burning Damage
+{variant:1}100% of Cold Damage Converted to Fire Damage
+{variant:2,3}40% of Cold Damage Converted to Fire Damage
+10% increased Light Radius
+Ignited Enemies you hit are destroyed on Kill
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item variant="4" id="2">
+			Rarity: Unique
+Springleaf
+Plank Kite Shield
+Variant: Pre 1.1.0
+Variant: Pre 2.0.0
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 7
+Implicits: 2
+{variant:1}+8% to all Elemental Resistances
+{variant:2,3,4}+4% to all Elemental Resistances
+(80-120)% increased Armour and Energy Shield
+50% reduced Freeze Duration on You
+{variant:3}1% of Life Regenerated per Second
+{variant:4}3% of Life Regenerated per Second
+{variant:1,2}6% of Life Regenerated per Second while on Low Life
+{variant:3}5% of Life Regenerated per Second while on Low Life
+{variant:4}3% of Life Regenerated per Second while on Low Life
+			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item variant="2" id="3">
+			Rarity: Unique
+Shaper&apos;s Seed
+Agate Amulet
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 16
++(16-24) to Strength and Intelligence
+(30-50)% increased Mana Regeneration Rate
+2% of Life Regenerated per Second
+{variant:1}Nearby Allies gain 1% of Life Regenerated per Second
+{variant:2}Nearby Allies gain 2% of Life Regenerated per Second
+Nearby Allies gain 40% increased Mana Regeneration Rate
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+		</Item>
+		<Item id="4">
+			Rarity: RARE
+New Item
+Plated Gauntlets
+Crafted: true
+Prefix: {range:0.5}IncreasedLife4
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: {range:1}FireResist4
+Quality: 20
+Sockets: R-R-R-R
+LevelReq: 28
+Implicits: 0
++45 to maximum Life
++29% to Fire Resistance
+		</Item>
+		<Item id="5">
+			Rarity: MAGIC
+Perpetual Ruby Flask
+Crafted: true
+Prefix: {range:0.5}FlaskChargesAddedIncreasePercent1
+Suffix: None
+Quality: 20
+LevelReq: 18
+Implicits: 0
+30% increased Charge Recovery
+		</Item>
+		<Item variant="2" id="6">
+			Rarity: Unique
+Kikazaru
+Topaz Ring
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 20
++(20-30)% to Lightning Resistance
++(10-15) to all Attributes
+{variant:1}(13-17) Life Regenerated per second
+{variant:2}1 Life Regenerated per second per Level
+(20-40)% increased Mana Regeneration Rate
+{variant:1}20% reduced Effect of Curses on You
+{variant:2}40% reduced Effect of Curses on You
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="3" id="7">
+			Rarity: Unique
+Aurumvorax
+Basket Rapier
+Variant: Pre 2.2.0
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 17, 62 Dex
+Implicits: 3
+{variant:1}+20% to Global Critical Strike Multiplier
+{variant:2}+30% to Global Critical Strike Multiplier
+{variant:3}+25% to Global Critical Strike Multiplier
+(120-150)% increased Physical Damage
+20% reduced Rarity of Items found
++(40-60)% to all Elemental Resistances
++3 Life gained for each Enemy hit by your Attacks
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="8">
+			Rarity: MAGIC
+Saturated Giant Life Flask
+Crafted: true
+Prefix: {range:0.5}FlaskIncreasedRecoveryAmount1
+Suffix: None
+Quality: 20
+LevelReq: 24
+Implicits: 0
+50% increased Amount Recovered
+33% reduced Recovery rate
+		</Item>
+		<Slot name="Gloves" itemId="4"/>
+		<Slot name="Weapon 1" itemId="7"/>
+		<Slot name="Flask 1" itemId="5"/>
+		<Slot name="Amulet" itemId="3"/>
+		<Slot active="true" name="Flask 2" itemId="8"/>
+		<Slot name="Weapon 2" itemId="2"/>
+		<Slot name="Ring 2" itemId="1"/>
+		<Slot name="Ring 1" itemId="1"/>
+		<ItemSet useSecondWeaponSet="false" id="1">
+			<Slot name="Gloves" itemId="4"/>
+			<Slot name="Weapon 1" itemId="7"/>
+			<Slot name="Flask 1" itemId="5"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot name="Flask 3" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Amulet" itemId="3"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="0"/>
+			<Slot active="true" name="Flask 2" itemId="8"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2" itemId="2"/>
+			<Slot name="Body Armour" itemId="0"/>
+			<Slot name="Belt" itemId="0"/>
+			<Slot name="Flask 5" itemId="0"/>
+			<Slot name="Ring 2" itemId="1"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="0"/>
+			<Slot name="Flask 4" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Boots" itemId="0"/>
+			<Slot name="Ring 1" itemId="1"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Helmet" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="0"/>
+		</ItemSet>
+	</Items>
+	<Config>
+		<Input name="resistancePenalty" number="0"/>
+		<Input name="enemyIsBoss" string="NONE"/>
+		<Input name="enemyConditionHitByLightningDamage" boolean="true"/>
+	</Config>
+</PathOfBuilding>

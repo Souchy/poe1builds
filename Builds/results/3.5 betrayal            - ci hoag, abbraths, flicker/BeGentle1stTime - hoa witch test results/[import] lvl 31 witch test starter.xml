@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="31" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="None" mainSocketGroup="3" viewMode="NOTES" banditCruel="None">
+		<PlayerStat stat="AverageHit" value="0"/>
+		<PlayerStat stat="AverageDamage" value="0"/>
+		<PlayerStat stat="Speed" value="0"/>
+		<PlayerStat stat="Speed" value="0"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="0"/>
+		<PlayerStat stat="CritChance" value="0"/>
+		<PlayerStat stat="CritMultiplier" value="1.5"/>
+		<PlayerStat stat="HitChance" value="100"/>
+		<PlayerStat stat="TotalDPS" value="0"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="WithPoisonDPS" value="0"/>
+		<PlayerStat stat="Cooldown" value="1"/>
+		<PlayerStat stat="ManaCost" value="42"/>
+		<PlayerStat stat="Str" value="53"/>
+		<PlayerStat stat="ReqStr" value="27"/>
+		<PlayerStat stat="Dex" value="101"/>
+		<PlayerStat stat="ReqDex" value="95"/>
+		<PlayerStat stat="Int" value="162"/>
+		<PlayerStat stat="ReqInt" value="67"/>
+		<PlayerStat stat="Life" value="697"/>
+		<PlayerStat stat="Spec:LifeInc" value="33"/>
+		<PlayerStat stat="LifeUnreserved" value="697"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="6.97"/>
+		<PlayerStat stat="LifeLeechGainRate" value="0"/>
+		<PlayerStat stat="Mana" value="411"/>
+		<PlayerStat stat="Spec:ManaInc" value="28"/>
+		<PlayerStat stat="ManaUnreserved" value="-190"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="-46.228710462287"/>
+		<PlayerStat stat="ManaRegen" value="9"/>
+		<PlayerStat stat="ManaLeechGainRate" value="0"/>
+		<PlayerStat stat="EnergyShield" value="115"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="12"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="701"/>
+		<PlayerStat stat="Spec:EvasionInc" value="0"/>
+		<PlayerStat stat="MeleeEvadeChance" value="44"/>
+		<PlayerStat stat="MeleeEvadeChance" value="44"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="44"/>
+		<PlayerStat stat="Armour" value="4"/>
+		<PlayerStat stat="Spec:ArmourInc" value="0"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="1"/>
+		<PlayerStat stat="EffectiveMovementSpeedMod" value="1.2"/>
+		<PlayerStat stat="BlockChance" value="0"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="0"/>
+		<PlayerStat stat="SpellDodgeChance" value="0"/>
+		<PlayerStat stat="FireResist" value="-29"/>
+		<PlayerStat stat="ColdResist" value="-28"/>
+		<PlayerStat stat="LightningResist" value="-46"/>
+		<PlayerStat stat="ChaosResist" value="-60"/>
+		<PlayerStat stat="FireResistOverCap" value="0"/>
+		<PlayerStat stat="ColdResistOverCap" value="0"/>
+		<PlayerStat stat="LightningResistOverCap" value="0"/>
+		<PlayerStat stat="ChaosResistOverCap" value="0"/>
+		<PlayerStat stat="PowerCharges" value="0"/>
+		<PlayerStat stat="PowerChargesMax" value="3"/>
+		<PlayerStat stat="FrenzyCharges" value="0"/>
+		<PlayerStat stat="FrenzyChargesMax" value="3"/>
+		<PlayerStat stat="EnduranceCharges" value="0"/>
+		<PlayerStat stat="EnduranceChargesMax" value="3"/>
+		<MinionStat stat="AverageDamage" value="2611.759095"/>
+		<MinionStat stat="Speed" value="1.4153846153846"/>
+		<MinionStat stat="TotalDPS" value="3696.6436421538"/>
+		<MinionStat stat="TotalDot" value="0"/>
+		<MinionStat stat="WithPoisonDPS" value="3696.6436421538"/>
+		<MinionStat stat="Life" value="311"/>
+		<MinionStat stat="LifeRegen" value="3.11"/>
+		<MinionStat stat="LifeLeechGainRate" value="0"/>
+	</Build>
+	<Import lastAccountHash="3d064a59c968ea303ce1609259c90d0eea477c73" lastCharacterHash="7beef670715a4b6064faf1dd0ef9123c9215f3be"/>
+	<Calcs>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="skill_number" number="1"/>
+		<Section collapsed="false" id="SkillSelect"/>
+		<Section collapsed="false" id="HitDamage"/>
+		<Section collapsed="false" id="Dot"/>
+		<Section collapsed="false" id="Speed"/>
+		<Section collapsed="false" id="Crit"/>
+		<Section collapsed="false" id="HitChance"/>
+		<Section collapsed="false" id="SkillTypeStats"/>
+		<Section collapsed="false" id="Bleed"/>
+		<Section collapsed="false" id="Poison"/>
+		<Section collapsed="false" id="Ignite"/>
+		<Section collapsed="false" id="Decay"/>
+		<Section collapsed="false" id="LeechGain"/>
+		<Section collapsed="false" id="MiscEffects"/>
+		<Section collapsed="false" id="Attributes"/>
+		<Section collapsed="false" id="Life"/>
+		<Section collapsed="false" id="Mana"/>
+		<Section collapsed="false" id="EnergyShield"/>
+		<Section collapsed="false" id="Armour"/>
+		<Section collapsed="false" id="Evasion"/>
+		<Section collapsed="false" id="Resist"/>
+		<Section collapsed="false" id="DamageTaken"/>
+		<Section collapsed="false" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="nil" defaultGemLevel="1" sortGemsByDPS="true">
+		<Skill mainActiveSkillCalcs="1" label="HoA + dmg + speed + void" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem level="3" enableGlobal1="true" gemId="Metadata/Items/Gems/HeraldOfAgony" skillMinionSkill="2" enableGlobal2="false" quality="0" skillPart="1" skillMinionSkillCalcs="1" skillId="HeraldOfAgony" skillMinionCalcs="HeraldOfAgonySpiderPlated" enabled="true" nameSpec="Herald of Agony" skillMinion="HeraldOfAgonySpiderPlated"/>
+			<Gem level="7" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMinionDamage" enableGlobal2="false" quality="0" skillId="SupportMinionDamage" enabled="true" nameSpec="Minion Damage"/>
+			<Gem level="7" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemVoidManipulation" enableGlobal2="false" quality="0" skillId="SupportVoidManipulation" enabled="true" nameSpec="Void Manipulation"/>
+			<Gem level="4" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMinionSpeed" enableGlobal2="false" quality="0" skillId="SupportMinionSpeed" enabled="true" nameSpec="Minion Speed"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="HoA + dmg + speed + pierce" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem level="3" enableGlobal1="true" gemId="Metadata/Items/Gems/HeraldOfAgony" skillMinionSkill="2" enableGlobal2="false" quality="0" skillMinionSkillCalcs="1" skillId="HeraldOfAgony" enabled="true" nameSpec="Herald of Agony" skillMinion="HeraldOfAgonySpiderPlated"/>
+			<Gem level="7" enableGlobal1="false" gemId="Metadata/Items/Gems/SupportGemMinionDamage" enableGlobal2="false" quality="0" skillId="SupportMinionDamage" enabled="true" nameSpec="Minion Damage"/>
+			<Gem level="1" enableGlobal1="false" gemId="Metadata/Items/Gems/SupportGemPierce" enableGlobal2="false" quality="0" skillId="SupportPierce" enabled="true" nameSpec="Pierce"/>
+			<Gem level="4" enableGlobal1="false" gemId="Metadata/Items/Gems/SupportGemMinionSpeed" enableGlobal2="false" quality="0" skillId="SupportMinionSpeed" enabled="true" nameSpec="Minion Speed"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="HoA + Vicious Proj (act 3) (GGGB)" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem level="3" enableGlobal1="true" gemId="Metadata/Items/Gems/HeraldOfAgony" skillMinionSkill="2" enableGlobal2="false" quality="0" skillMinionSkillCalcs="1" skillId="HeraldOfAgony" enabled="true" nameSpec="Herald of Agony" skillMinion="HeraldOfAgonySpiderPlated"/>
+			<Gem level="7" enableGlobal1="false" gemId="Metadata/Items/Gems/SupportGemMinionDamage" enableGlobal2="false" quality="0" skillId="SupportMinionDamage" enabled="true" nameSpec="Minion Damage"/>
+			<Gem level="1" enableGlobal1="false" gemId="Metadata/Items/Gems/SupportGemPhysicalProjectileAttackDamage" enableGlobal2="false" quality="0" skillId="SupportPhysicalProjectileAttackDamage" enabled="true" nameSpec="Vicious Projectiles"/>
+			<Gem level="4" enableGlobal1="false" gemId="Metadata/Items/Gems/SupportGemPierce" enableGlobal2="false" quality="0" skillId="SupportPierce" enabled="true" nameSpec="Pierce"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2 Swap" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemRaiseSpectre" enableGlobal2="false" quality="0" skillId="RaiseSpectre" enabled="true" nameSpec="Raise Spectre"/>
+			<Gem level="6" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMinionDamage" enableGlobal2="false" quality="0" skillId="SupportMinionDamage" enabled="true" nameSpec="Minion Damage"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1 Swap" mainActiveSkill="1">
+			<Gem level="5" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemBoneLance" enableGlobal2="false" quality="0" skillId="BoneLance" enabled="true" nameSpec="Unearth"/>
+			<Gem level="6" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemSpellTotem" enableGlobal2="false" quality="0" skillId="SupportSpellTotem" enabled="true" nameSpec="Spell Totem"/>
+			<Gem level="4" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemFasterCast" enableGlobal2="false" quality="0" skillId="SupportFasterCast" enabled="true" nameSpec="Faster Casting"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="1">
+			<Gem level="4" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemDesecrate" enableGlobal2="false" quality="0" skillId="Desecrate" enabled="true" nameSpec="Desecrate"/>
+			<Gem level="3" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemDecoyTotem" enableGlobal2="false" quality="0" skillId="DecoyTotem" enabled="true" nameSpec="Decoy Totem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemFlameDash" enableGlobal2="false" quality="0" skillPart="1" skillId="FlameDash" enabled="true" nameSpec="Flame Dash" skillMinion="SummonedPhantasm"/>
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemFasterCast" enableGlobal2="false" quality="0" skillPart="1" skillId="SupportFasterCast" enabled="true" nameSpec="Faster Casting"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="-----------------------------------------------bow" enabled="true" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemPortal" enableGlobal2="false" quality="0" skillPart="1" skillId="Portal" enabled="true" nameSpec="Portal" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem level="4" enableGlobal1="true" gemId="Metadata/Items/Gems/RainOfSpores" enableGlobal2="false" quality="0" skillId="RainOfSpores" enabled="true" nameSpec="Toxic Rain"/>
+			<Gem level="9" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemLesserPoison" enableGlobal2="false" quality="0" skillId="SupportLesserPoison" enabled="true" nameSpec="Lesser Poison"/>
+			<Gem level="4" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemFasterAttack" enableGlobal2="false" quality="0" skillId="SupportFasterAttack" enabled="true" nameSpec="Faster Attacks"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="false" gemId="Metadata/Items/Gems/SkillGemTornadoShot" enableGlobal2="false" quality="0" skillPart="1" skillId="TornadoShot" enabled="true" nameSpec="Tornado Shot" skillMinion="SummonedPhantasm"/>
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemPoison" enableGlobal2="false" quality="0" skillPart="1" skillId="SupportPoison" enabled="true" nameSpec="Poison" skillMinion="SummonedChaosGolem"/>
+			<Gem level="6" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemLesserMultipleProjectiles" enableGlobal2="false" quality="0" skillPart="1" skillId="SupportLesserMultipleProjectiles" enabled="true" nameSpec="Lesser Multiple Projectiles" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="----------------------------------------------wand" enabled="true" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="false" gemId="Metadata/Items/Gems/SkillGemPortal" enableGlobal2="false" quality="0" skillId="Portal" enabled="true" nameSpec="Portal"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="KB (GGB)" enabled="true" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemKineticBlast" enableGlobal2="false" quality="0" skillPart="1" skillId="ClusterBurst" enabled="true" nameSpec="Kinetic Blast" skillMinion="SummonedChaosGolem"/>
+			<Gem level="6" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemLesserMultipleProjectiles" enableGlobal2="false" quality="0" skillPart="1" skillId="SupportLesserMultipleProjectiles" enabled="true" nameSpec="Lesser Multiple Projectiles" skillMinion="SummonedChaosGolem"/>
+			<Gem level="9" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemLesserPoison" enableGlobal2="false" quality="0" skillPart="1" skillId="SupportLesserPoison" enabled="true" nameSpec="Lesser Poison" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="----------------------------------------------both" enabled="true" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="false" gemId="Metadata/Items/Gems/SkillGemPortal" enableGlobal2="false" quality="0" skillId="Portal" enabled="true" nameSpec="Portal"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Barrage (GGG)" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem level="4" enableGlobal1="false" gemId="Metadata/Items/Gems/SkillGemBarrage" skillMinionSkill="1" enableGlobal2="false" quality="0" skillPart="1" skillMinionSkillCalcs="1" skillId="Barrage" enabled="true" nameSpec="Barrage" skillMinion="Clone"/>
+			<Gem level="9" enableGlobal1="false" gemId="Metadata/Items/Gems/SupportGemLesserPoison" enableGlobal2="false" quality="0" skillId="SupportLesserPoison" enabled="true" nameSpec="Lesser Poison"/>
+			<Gem level="4" enableGlobal1="false" gemId="Metadata/Items/Gems/SupportGemFasterAttack" enableGlobal2="false" quality="0" skillId="SupportFasterAttack" enabled="true" nameSpec="Faster Attacks"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
+			<Gem level="3" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemFrenzy" enableGlobal2="false" quality="0" skillId="Frenzy" enabled="true" nameSpec="Frenzy"/>
+			<Gem level="6" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemLesserMultipleProjectiles" enableGlobal2="false" quality="0" skillId="SupportLesserMultipleProjectiles" enabled="true" nameSpec="Lesser Multiple Projectiles"/>
+			<Gem level="6" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemParallelProjectiles" enableGlobal2="false" quality="0" skillId="SupportParallelProjectiles" enabled="true" nameSpec="Volley"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="---------------------------------------------spell" enabled="true" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemPortal" enableGlobal2="false" quality="0" skillPart="1" skillId="Portal" enabled="true" nameSpec="Portal" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem level="5" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemVolatileDead" enableGlobal2="false" quality="0" skillPart="1" skillId="VolatileDead" enabled="true" nameSpec="Volatile Dead"/>
+			<Gem level="7" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemAddedLightningDamage" enableGlobal2="false" quality="0" skillId="SupportAddedLightningDamage" enabled="true" nameSpec="Added Lightning Damage"/>
+			<Gem level="7" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemChanceToIgnite" enableGlobal2="false" quality="0" skillId="SupportChanceToIgnite" enabled="true" nameSpec="Combustion"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="--------------------------------------------------" enabled="true" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="false" gemId="Metadata/Items/Gems/SkillGemPortal" enableGlobal2="false" quality="0" skillId="Portal" enabled="true" nameSpec="Portal"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Lightning Golem + Culling (act 4 start)" enabled="true" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemSummonLightningGolem" skillMinionSkill="1" enableGlobal2="false" quality="0" skillPart="1" skillMinionSkillCalcs="1" skillId="SummonLightningGolem" enabled="true" nameSpec="Summon Lightning Golem" skillMinion="SummonedLightningGolem"/>
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemCullingStrike" enableGlobal2="false" quality="0" skillPart="1" skillId="SupportCullingStrike" enabled="true" nameSpec="Culling Strike" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+	</Skills>
+	<Tree activeSpec="3">
+		<Spec>
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMAAGKGYPgYXR0USp86xiUhZp4QUSWybRmnCBEtwGYy0ekCj0b60iyc7IqJvGvbrfGevUVHpqxncXyDYvRxst-Kqql9GOvuoOY=
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="37">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMAAGKGYPgYXR0USp86xn0YZp6iACWybRlncREtwGYy0ekCj0b60iyc7IqJvOvuqqlr26cInr1FRyUhBLN8g2L0cbKg5t-KEFGt8aas
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="40">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMAAGKGYPgYXR0USp86xiUhvOpqQ6IAJbJtGWdxES3AZjLR6QKPRvrSLJzsiqDmrfEQUd-Kpqxr2wj0nr1FR3GyBLN8g2L0Zp6qqYm8pwjr7n0Y
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		ATTACKS :
+
+wands are better than bows :  have more attack speed early (1.5 base + dual wield)
+they also have better animations
+
+KB / Barrage are the best
+KB gets to 40 stacks easily in packs and close space
+rest of skills get about 15 max
+
+tornado shot, toxic rain aren&apos;t as good (less stacks, slower)
+frenzy is the worst
+
+
+SPELLS :
+
+desecrate + volatile dead is incredibly strong too from level 10-12
+you kill a pack of mobs, then use their corpse to kill the next pack etc etc
+
+spectres dont really help
+
+golem + culling strike at start of act 4
+
+
+TO BUY :
+
+keep your chance orbs to buy gems in act 3
+	buy 2 Poisons for Barrage and KB
+	buy Vicious Projectiles
+	totem res can help on decoy if have slots
+act 4 end :
+	1 alchs to buy 1 GMP (other gmp given by quest)
+
+if you can :
+	i already have 3 chaos when doing lab at lvl 37 so you can def buy this
+	Mark of Submission curse on hit poacher&apos;s mark (lgoh+mgoh+frenzies) ou temporal chains (slow + longer poisons)
+    Asenath&apos;s Gentle Touch curse on hit Temporal Chains
+
+    Sidhebreath amulet (minion stats)
+	Briskwrap chest unique (10% as, 5% ms, 15% dex, 35% cold res, evasion)
+
+ITEM FILTER :
+carved wands with attack speed and resistances and +gem level
+evasion/es hybrid armors to get green sockets (need GGGB for KB+Barrarge and GGGB for HoA)
+		hybrid life+es items very good
+		T1 = 1.5-2 life / lvl on every item (ex 50-59 at 30)
+
+
+RESULT : 
+
+i shit on dominus with decoy totem + barrage, got to 40 stacks after 1-2 sec
+
+
+IZARO :
+once you get : [KB poison lmp], [Barrage poison lmp], [HoA pierce vicious minion dmg], [decoy totem res], [flame dash faster]
+the build really takes off
+get your gloves before, the enchant can really help get poison stacks etc
+
+1st lab : profane bloom
+2nd lab : wicked ward + vile bastion (remove profane bloom for obliteration wands) and reset to full ES
+
+
+Could try Barrage + power siphon or elemental hit at lvl 12    //// power siphon feels bad
+Otherwise just Desecrate(16) + Unearth(10)  + Volatile Dead(12)
+	</Notes>
+	<TreeView searchStr="" zoomY="293" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="-127"/>
+	<Items activeItemSet="1" useSecondWeaponSet="false">
+		<Item id="1">
+			Rarity: UNIQUE
+Briskwrap
+Strapped Leather
+Unique ID: 09bb1f36e9df0b921032d6bb739b26793fa2a75f4a3370b1b005640298758e89
+Item Level: 71
+Quality: 20
+Sockets: B-G-G-B G
+LevelReq: 9
+Implicits: 0
+10% increased Attack Speed
++156 to Evasion Rating
++32% to Cold Resistance
+5% increased Movement Speed
+24% increased Mana Recovery from Flasks
+15% increased Dexterity
+		</Item>
+		<Item id="2">
+			Rarity: NORMAL
+Quicksilver Flask
+Unique ID: fc0db6b75360312ab523ddc4ca59c2b65aa915cd661b35d1dc178d519447cdd3
+Item Level: 3
+Quality: 0
+Implicits: 0
+		</Item>
+		<Item id="3">
+			Rarity: NORMAL
+Carved Wand
+Unique ID: 381c9cbaeea49b03d1263b7b4f9cae51ef33282ae7283988e33a5822be075252
+Item Level: 27
+Quality: 0
+Sockets: B-B
+LevelReq: 12
+Implicits: 1
+13% increased Spell Damage
+		</Item>
+		<Item id="4">
+			Rarity: NORMAL
+Carved Wand
+Unique ID: 2b77d4cf1c15c1e01f92ef60196c1cc40337af18ae9fe2922bf766c5f2086e0b
+Item Level: 13
+Quality: 0
+Sockets: R-G-B
+LevelReq: 12
+Implicits: 1
+14% increased Spell Damage
+		</Item>
+		<Item id="5">
+			Rarity: NORMAL
+Coral Ring
+Unique ID: b01b5b96a67410bfd61e74e3cb8195474ed2be14cc6d3f7b4722ce0546079276
+Item Level: 14
+Implicits: 1
++22 to maximum Life
+		</Item>
+		<Item id="6">
+			Rarity: MAGIC
+Strapped Mitts of the Mongoose
+Unique ID: 0c4b10125b3e64022b520fc6994bcc96ebe365106c5e8c5c673cc0cb5152f32e
+Item Level: 30
+Quality: 0
+Sockets: G-G-B-B
+LevelReq: 16
+Implicits: 0
++8 to Dexterity
+		</Item>
+		<Item id="7">
+			Rarity: MAGIC
+Glowing Two-Stone Ring of the Lynx
+Unique ID: d43eab5ea00e115ac80eabf4388fb9f10af3868dc078be30c7e945f1e477f6f7
+Item Level: 23
+LevelReq: 20
+Implicits: 1
++14% to Fire and Lightning Resistances
++14 to Dexterity
++15 to maximum Energy Shield
+		</Item>
+		<Item id="8">
+			Rarity: NORMAL
+Large Hybrid Flask
+Unique ID: 6c2656f62ba7cf9206962cbfbf7c16c0c16b1578d78773bf7dccab2245575a05
+Item Level: 31
+Quality: 0
+LevelReq: 30
+Implicits: 0
+		</Item>
+		<Item id="9">
+			Rarity: MAGIC
+Lacquered Leather Belt
+Unique ID: 3a029ae530270044396a27d73bd5f49aef6125352bc737c92e0764a700874bb3
+Item Level: 17
+LevelReq: 8
+Implicits: 1
++36 to maximum Life
++4 to Armour
+		</Item>
+		<Item id="10">
+			Rarity: MAGIC
+Sprinter&apos;s Clasped Boots of Stone Skin
+Unique ID: 81049ec769b1dd545f2c3b125c4744f1651031db387c964ec696bfb2d475fdba
+Item Level: 32
+Quality: 0
+Sockets: G-B-R
+LevelReq: 27
+Implicits: 0
+15% increased Movement Speed
+14% increased Stun and Block Recovery
+		</Item>
+		<Item id="11">
+			Rarity: RARE
+Tempest Locket
+Jade Amulet
+Unique ID: f821301b1f987e74ea0d4a6175c3285471a1abf7508af746fd7669c59c46a633
+Item Level: 27
+LevelReq: 18
+Implicits: 1
++22 to Dexterity
++19 to Strength
++15 to maximum Energy Shield
++17% to Fire Resistance
++6 Life gained on Kill
+		</Item>
+		<Item id="12">
+			Rarity: NORMAL
+Stibnite Flask
+Unique ID: efb365c874c62f4241584ef9badd3812a8272ea8d64d26c6f71f3c550affc4c7
+Item Level: 29
+Quality: 0
+LevelReq: 14
+Implicits: 1
+Creates a Smoke Cloud on Use
+		</Item>
+		<Item id="13">
+			Rarity: NORMAL
+Colossal Mana Flask
+Unique ID: 6f5d4d0fbbc0028f4c1b112f9e7eb477e93be280f67cd719662c06cf69757339
+Item Level: 34
+Quality: 0
+LevelReq: 30
+Implicits: 0
+		</Item>
+		<Item id="14">
+			Rarity: NORMAL
+Colossal Life Flask
+Unique ID: 3478fec41bdab799ff5e0fb28c2d20a7977c562fb46763f13ede8bcb62ed8981
+Item Level: 33
+Quality: 0
+LevelReq: 30
+Implicits: 0
+		</Item>
+		<Item id="15">
+			Rarity: NORMAL
+Royal Bow
+Unique ID: c1ada9666740b286a071fec40ce8918b3e45a6fb58b6c445d963cbc7acf281fa
+Item Level: 29
+Quality: 0
+Sockets: G-G-G
+LevelReq: 28
+Implicits: 1
+24% increased Elemental Damage with Attack Skills
+		</Item>
+		<Item id="16">
+			Rarity: NORMAL
+Sharktooth Arrow Quiver
+Unique ID: 37aa506a469e4a20535efff4a01db9db1d051b316a9ff71b75e7cc4a2d87def4
+Item Level: 13
+LevelReq: 10
+Implicits: 1
++4 Life gained for each Enemy hit by your Attacks
+		</Item>
+		<Item id="17">
+			Rarity: NORMAL
+Tricorne
+Unique ID: 522ee7dc021093491895aa80449e8de48e71758eaa06e88ae0159f5a777359c4
+Item Level: 10
+Quality: 0
+Sockets: G-G-G
+LevelReq: 10
+Implicits: 0
+		</Item>
+		<Slot name="Gloves" itemId="6"/>
+		<Slot name="Weapon 1" itemId="15"/>
+		<Slot name="Flask 3" itemId="2"/>
+		<Slot name="Amulet" itemId="11"/>
+		<Slot name="Flask 1" itemId="14"/>
+		<Slot name="Flask 5" itemId="12"/>
+		<Slot name="Flask 2" itemId="8"/>
+		<Slot name="Weapon 2 Swap" itemId="3"/>
+		<Slot name="Weapon 2" itemId="16"/>
+		<Slot name="Body Armour" itemId="1"/>
+		<Slot name="Flask 4" itemId="13"/>
+		<Slot name="Weapon 1 Swap" itemId="4"/>
+		<Slot name="Ring 2" itemId="5"/>
+		<Slot name="Boots" itemId="10"/>
+		<Slot name="Ring 1" itemId="7"/>
+		<Slot name="Helmet" itemId="17"/>
+		<Slot name="Belt" itemId="9"/>
+		<ItemSet useSecondWeaponSet="false" id="1">
+			<Slot name="Gloves" itemId="6"/>
+			<Slot name="Weapon 1" itemId="15"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot name="Flask 3" itemId="2"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Amulet" itemId="11"/>
+			<Slot name="Flask 1" itemId="14"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Flask 5" itemId="12"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="0"/>
+			<Slot name="Flask 2" itemId="8"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Swap" itemId="3"/>
+			<Slot name="Weapon 1 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2" itemId="16"/>
+			<Slot name="Body Armour" itemId="1"/>
+			<Slot name="Flask 4" itemId="13"/>
+			<Slot name="Weapon 1 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1 Swap" itemId="4"/>
+			<Slot name="Ring 2" itemId="5"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Boots" itemId="10"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Ring 1" itemId="7"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Helmet" itemId="17"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt" itemId="9"/>
+		</ItemSet>
+	</Items>
+	<Config>
+		<Input name="heraldOfAgonyVirulenceStack" number="40"/>
+	</Config>
+</PathOfBuilding>

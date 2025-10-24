@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="93" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Occultist" mainSocketGroup="5" viewMode="TREE" banditCruel="None">
+		<PlayerStat stat="AverageHit" value="0"/>
+		<PlayerStat stat="AverageDamage" value="0"/>
+		<PlayerStat stat="Speed" value="4.2666666666667"/>
+		<PlayerStat stat="Speed" value="4.2666666666667"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="0"/>
+		<PlayerStat stat="CritChance" value="0"/>
+		<PlayerStat stat="CritMultiplier" value="1.71"/>
+		<PlayerStat stat="HitChance" value="100"/>
+		<PlayerStat stat="TotalDPS" value="0"/>
+		<PlayerStat stat="TotalDot" value="7988.3579890401"/>
+		<PlayerStat stat="WithPoisonDPS" value="7988.3579890401"/>
+		<PlayerStat stat="AreaOfEffectRadius" value="37"/>
+		<PlayerStat stat="ManaCost" value="10"/>
+		<PlayerStat stat="Str" value="110"/>
+		<PlayerStat stat="ReqStr" value="0"/>
+		<PlayerStat stat="Dex" value="136"/>
+		<PlayerStat stat="ReqDex" value="106"/>
+		<PlayerStat stat="Int" value="531"/>
+		<PlayerStat stat="ReqInt" value="163"/>
+		<PlayerStat stat="Life" value="1"/>
+		<PlayerStat stat="Spec:LifeInc" value="5"/>
+		<PlayerStat stat="LifeUnreserved" value="1"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="0"/>
+		<PlayerStat stat="LifeLeechGainRate" value="0"/>
+		<PlayerStat stat="Mana" value="1045"/>
+		<PlayerStat stat="Spec:ManaInc" value="8"/>
+		<PlayerStat stat="ManaUnreserved" value="344"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="32.918660287081"/>
+		<PlayerStat stat="ManaRegen" value="30.9"/>
+		<PlayerStat stat="ManaLeechGainRate" value="0"/>
+		<PlayerStat stat="EnergyShield" value="5815"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="211"/>
+		<PlayerStat stat="EnergyShieldRegen" value="84.71"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="1221"/>
+		<PlayerStat stat="Spec:EvasionInc" value="35"/>
+		<PlayerStat stat="MeleeEvadeChance" value="12"/>
+		<PlayerStat stat="MeleeEvadeChance" value="12"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="12"/>
+		<PlayerStat stat="Armour" value="0"/>
+		<PlayerStat stat="Spec:ArmourInc" value="0"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="0"/>
+		<PlayerStat stat="MovementSpeedMod" value="1.17"/>
+		<PlayerStat stat="BlockChance" value="15"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="0"/>
+		<PlayerStat stat="SpellDodgeChance" value="0"/>
+		<PlayerStat stat="FireResist" value="75"/>
+		<PlayerStat stat="ColdResist" value="75"/>
+		<PlayerStat stat="LightningResist" value="76"/>
+		<PlayerStat stat="ChaosResist" value="100"/>
+		<PlayerStat stat="FireResistOverCap" value="33"/>
+		<PlayerStat stat="ColdResistOverCap" value="25"/>
+		<PlayerStat stat="LightningResistOverCap" value="18"/>
+		<PlayerStat stat="ChaosResistOverCap" value="0"/>
+	</Build>
+	<Calcs>
+		<Input name="skill_number" number="1"/>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Section collapsed="false" id="SkillSelect"/>
+		<Section collapsed="false" id="HitDamage"/>
+		<Section collapsed="false" id="Dot"/>
+		<Section collapsed="false" id="Speed"/>
+		<Section collapsed="false" id="Crit"/>
+		<Section collapsed="false" id="HitChance"/>
+		<Section collapsed="false" id="SkillTypeStats"/>
+		<Section collapsed="false" id="Bleed"/>
+		<Section collapsed="false" id="Poison"/>
+		<Section collapsed="false" id="Ignite"/>
+		<Section collapsed="false" id="Decay"/>
+		<Section collapsed="false" id="LeechGain"/>
+		<Section collapsed="false" id="MiscEffects"/>
+		<Section collapsed="false" id="Attributes"/>
+		<Section collapsed="false" id="Life"/>
+		<Section collapsed="false" id="Mana"/>
+		<Section collapsed="false" id="EnergyShield"/>
+		<Section collapsed="false" id="Armour"/>
+		<Section collapsed="false" id="Evasion"/>
+		<Section collapsed="false" id="Resist"/>
+		<Section collapsed="false" id="DamageTaken"/>
+		<Section collapsed="false" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="0" defaultGemLevel="17" sortGemsByDPS="true">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem level="17" skillId="EssenceDrain" skillPart="1" quality="0" skillPartCalcs="1" enabled="true" nameSpec="Essence Drain"/>
+			<Gem level="17" skillId="SupportGreaterMultipleProjectiles" quality="0" enabled="true" nameSpec="Greater Multiple Projectiles"/>
+			<Gem level="17" skillId="SupportEfficacy" quality="0" enabled="true" nameSpec="Efficacy"/>
+			<Gem level="17" skillId="SupportControlledDestruction" quality="0" enabled="true" nameSpec="Controlled Destruction"/>
+			<Gem level="17" skillId="SupportVoidManipulation" skillPart="1" quality="0" enabled="true" nameSpec="Void Manipulation"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="4">
+			<Gem level="17" skillId="Despair" quality="0" enabled="true" nameSpec="Despair"/>
+			<Gem level="17" skillId="TemporalChains" quality="0" enabled="true" nameSpec="Temporal Chains"/>
+			<Gem level="17" skillId="Discipline" skillPart="1" quality="0" enabled="true" nameSpec="Discipline" skillMinion="SummonedIceGolem"/>
+			<Gem level="17" skillId="SummonLightningGolem" skillMinionSkill="1" skillPart="1" skillMinionSkillCalcs="1" quality="0" enabled="true" nameSpec="Summon Lightning Golem" skillMinion="SummonedLightningGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Blight gloves" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem level="17" skillId="SupportEfficacy" skillPart="1" quality="0" enabled="true" nameSpec="Efficacy"/>
+			<Gem level="17" skillId="SupportRapidDecay" skillPart="1" quality="0" enabled="true" nameSpec="Swift Affliction"/>
+			<Gem level="17" skillId="SupportVoidManipulation" quality="0" enabled="true" nameSpec="Void Manipulation"/>
+			<Gem level="17" skillId="SupportIncreasedAreaOfEffect" skillPart="1" quality="0" enabled="true" nameSpec="Increased Area of Effect" skillMinion="SummonedIceGolem"/>
+			<Gem level="22" skillId="Blight" skillPart="1" quality="0" enabled="true" nameSpec="Blight"/>
+		</Skill>
+		<Skill source="Item:6:Allelopathy, Sorcerer Gloves" mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem level="1" skillId="EnchantmentOfInfernoOnKill3" quality="0" enabled="true" nameSpec="EnchantmentOfInfernoOnKill3"/>
+		</Skill>
+		<Skill source="Item:6:Allelopathy, Sorcerer Gloves" mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem level="22" skillId="Blight" quality="0" enabled="true" nameSpec="Blight"/>
+			<Gem level="17" skillId="SupportEfficacy" skillPart="1" quality="0" enabled="true" nameSpec="Efficacy"/>
+			<Gem level="17" skillId="SupportRapidDecay" skillPart="1" quality="0" enabled="true" nameSpec="Swift Affliction"/>
+			<Gem level="17" skillId="SupportVoidManipulation" quality="0" enabled="true" nameSpec="Void Manipulation"/>
+			<Gem level="17" skillId="SupportIncreasedAreaOfEffect" skillPart="1" quality="0" enabled="true" nameSpec="Increased Area of Effect" skillMinion="SummonedIceGolem"/>
+		</Skill>
+	</Skills>
+	<Tree activeSpec="1">
+		<Spec>
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMBABzcenBEqx0UdZ7NFmwLtzAtqFXgtNHfihEvgKQPq4IQ7-sYakNU-wmnCOq6doIXL61Ku02nKzdmwcWm6-kCLKaPphV-lG9d8mZULJzZW5u1hMVYWvfXGYpcQIMJoS9GcRslUfsTbWf8voAOSLv8EVAmiPfBS661SCy_j_o3g88VVa60DEJ6NbnsGPRxHU8UCb6KiEIaj6yYf8ZmnisKsZCbofrSbRnfsCSLknQ0Cg18XGtYB_baES1yDx3ZfIOPRlKvVdYRlnzljxrr7lIpw2188MrTZOfDOpEHhEhwu4fLIvQfGN1feC87Dcb3Fr_IDBEP62Onm5Mn
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="14"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="15"/>
+				<Socket nodeId="36634" itemId="16"/>
+				<Socket nodeId="33989" itemId="16"/>
+				<Socket nodeId="21984" itemId="12"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="41263" itemId="16"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="16"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="61419" itemId="16"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+	</Notes>
+	<TreeView searchStr="" zoomY="206.79463174441" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="-91.621641056052"/>
+	<Items activeItemSet="1" useSecondWeaponSet="false">
+		<Item variant="2" id="2">
+			Rarity: Unique
+Heartbreaker
+Royal Skean
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 50, 71 Dex, 102 Int
+30% increased Global Critical Strike Chance
+{variant:1}(40-50)% increased Spell Damage
+{variant:2}(60-70)% increased Spell Damage
++(40-50) to maximum Mana
++50 to maximum Energy Shield
+10% faster start of Energy Shield Recharge
+Your Spells have Culling Strike
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item variant="2" id="1">
+			Rarity: Unique
+Heartbreaker
+Royal Skean
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 50, 71 Dex, 102 Int
+30% increased Global Critical Strike Chance
+{variant:1}(40-50)% increased Spell Damage
+{variant:2}(60-70)% increased Spell Damage
++(40-50) to maximum Mana
++50 to maximum Energy Shield
+10% faster start of Energy Shield Recharge
+Your Spells have Culling Strike
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item id="3">
+			Rarity: Unique
+Heretic&apos;s Veil
+Deicide Mask
+--------
+Quality: +20% (augmented)
+Evasion Rating: 422 (augmented)
+Energy Shield: 206 (augmented)
+--------
+Requirements:
+Level: 67
+Dex: 79
+Int: 142
+--------
+Sockets: B-G-B-B 
+--------
+Item Level: 77
+--------
++1 to Level of Socketed Curse Gems
+Socketed Curse Gems are Supported by Level 22 Blasphemy
+Socketed Curse Gems have 12% reduced Mana Reservation
+102% increased Evasion and Energy Shield
++48 to maximum Energy Shield
+--------
+Branded a heretic for your beliefs,
+You stand alone against many.
+May the truth that fuels their anger,
+Carry your blade into their hearts.
+		</Item>
+		<Item id="5">
+			Rarity: Rare
+Rage Keep
+Destroyer Regalia
+--------
+Energy Shield: 250 (augmented)
+--------
+Requirements:
+Level: 64
+Dex: 63
+Int: 144
+--------
+Sockets: G-B-B-B-B 
+--------
+Item Level: 70
+--------
++38 to Intelligence
++54 to maximum Energy Shield
+58% increased Energy Shield
++20% to Fire Resistance
++23% to Cold Resistance
+		</Item>
+		<Item id="6">
+			Rarity: Unique
+Allelopathy
+Sorcerer Gloves
+--------
+Energy Shield: 102 (augmented)
+--------
+Requirements:
+Level: 69
+Dex: 81
+Int: 105
+--------
+Sockets: B-G-B-G 
+--------
+Item Level: 78
+--------
+Trigger Decree of Inferno on Kill
+--------
+Grants Level 22 Blight Skill
+26% increased Damage over Time
+117% increased Energy Shield
+10% increased Area of Effect
+Blight has 23% increased Hinder Duration
+You cannot be Hindered
+--------
+&quot;Nothing is more natural than competition.
+One feasts, another starves.
+One blossoms, another withers.
+And one cannot catch the golden sunlight
+without casting a bitter shadow.&quot;
+- Cadiro Perandus
+		</Item>
+		<Item id="4">
+			Rarity: Rare
+Nemesis Trail
+Conjurer Boots
+--------
+Energy Shield: 48 (augmented)
+--------
+Requirements:
+Level: 64
+Str: 50
+Dex: 60
+Int: 140
+--------
+Sockets: B-R-B B 
+--------
+Item Level: 52
+--------
+60% increased Critical Strike Chance if you haven&apos;t Crit Recently
+--------
++25% to Fire Resistance
++22% to Cold Resistance
++20% to Lightning Resistance
+10% increased Movement Speed
+42% increased Energy Shield
+		</Item>
+		<Item id="10">
+			Rarity: Rare
+Glyph Gorget
+Agate Amulet
+--------
+Requirements:
+Level: 28
+--------
+Item Level: 35
+--------
++21 to Strength and Intelligence
+--------
+Adds 4 to 9 Physical Damage to Attacks
++26 to Intelligence
+Adds 1 to 33 Lightning Damage to Attacks
++21% to Global Critical Strike Multiplier
+24% increased Mana Regeneration Rate
++14 to maximum Energy Shield
+		</Item>
+		<Item id="8">
+			Rarity: Rare
+Rapture Circle
+Two-Stone Ring
+--------
+Requirements:
+Level: 59
+--------
+Item Level: 75
+--------
++14% to Fire and Lightning Resistances
+--------
++40 to Intelligence
++14 to all Attributes
+Adds 1 to 27 Lightning Damage to Attacks
++45 to maximum Energy Shield
++31% to Fire Resistance
+18% faster start of Energy Shield Recharge
+		</Item>
+		<Item id="9">
+			Rarity: Rare
+Torment Nail
+Two-Stone Ring
+--------
+Requirements:
+Level: 59
+--------
+Item Level: 76
+--------
++15% to Fire and Lightning Resistances
+--------
++41 to Strength
++38 to Dexterity
++10 to Accuracy Rating
++47 to maximum Energy Shield
+19% faster start of Energy Shield Recharge
+		</Item>
+		<Item id="7">
+			Rarity: Rare
+Glyph Trap
+Chain Belt
+--------
+Requirements:
+Level: 59
+--------
+Item Level: 80
+--------
++19 to maximum Energy Shield
+--------
++47 to maximum Energy Shield
+3.3 Life Regenerated per second
++42% to Cold Resistance
++42% to Lightning Resistance
+		</Item>
+		<Item id="15">
+			Rarity: Rare
+Hypnotic Bliss
+Cobalt Jewel
+--------
+Item Level: 75
+--------
+3% increased Cast Speed with Fire Skills
+6% faster start of Energy Shield Recharge
++10% to Fire and Cold Resistances
++10% to Cold and Lightning Resistances
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="14">
+			Rarity: Unique
+Poacher&apos;s Aim
+Viridian Jewel
+--------
+Limited to: 1
+--------
+Item Level: 1
+--------
+Projectiles Pierce an additional Target
+10% increased Projectile Damage
+--------
+A sharp eye can be more deadly than a sharp blade.
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="13">
+			Rarity: Magic
+Serene Cobalt Jewel of Insulation
+--------
+Item Level: 47
+--------
+5% faster start of Energy Shield Recharge
++12% to Fire and Lightning Resistances
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="11">
+			Rarity: Magic
+Serene Cobalt Jewel of Shelter
+--------
+Item Level: 71
+--------
+6% faster start of Energy Shield Recharge
++11% to Cold and Lightning Resistances
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="12">
+			Rarity: Unique
+Spreading Rot
+Cobalt Jewel
+--------
+Limited to: 2
+Radius: Medium
+--------
+Item Level: 1
+--------
+9% increased Chaos Damage
+With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration
+With at least 40 Intelligence in Radius, Enemies Hindered by
+Blight take 25% increased Chaos Damage
+--------
+The Cataclysm was but the first act in a play of horrors.
+The dead lingered, and the living began to rot.
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="16">
+			Rarity: MAGIC
+Serene Cobalt Jewel of Resistance
+Crafted: true
+Prefix: {range:1}EnergyShieldDelayJewel
+Suffix: {range:0.5}AllResistancesJewel
+Quality: 0
+LevelReq: 0
+Implicits: 0
+6% faster start of Energy Shield Recharge
++9% to all Elemental Resistances
+{custom}6% increased maximum Energy Shield
+		</Item>
+		<Item id="17">
+			Rarity: Unique
+Brittle Barrier
+Cobalt Jewel
+20% faster start of Energy Shield Recharge
+10% increased Damage Taken while Energy Shield is Full
+Corrupted
+		</Item>
+		<Slot name="Gloves" itemId="6"/>
+		<Slot name="Weapon 1" itemId="2"/>
+		<Slot name="Amulet" itemId="10"/>
+		<Slot name="Weapon 2" itemId="1"/>
+		<Slot name="Boots" itemId="4"/>
+		<Slot name="Ring 2" itemId="9"/>
+		<Slot name="Belt" itemId="7"/>
+		<Slot name="Ring 1" itemId="8"/>
+		<Slot name="Body Armour" itemId="5"/>
+		<Slot name="Helmet" itemId="3"/>
+		<ItemSet useSecondWeaponSet="false" id="1">
+			<Slot name="Gloves" itemId="6"/>
+			<Slot name="Weapon 1" itemId="2"/>
+			<Slot name="Flask 1" itemId="0"/>
+			<Slot name="Flask 3" itemId="0"/>
+			<Slot name="Amulet" itemId="10"/>
+			<Slot name="Flask 2" itemId="0"/>
+			<Slot name="Weapon 2" itemId="1"/>
+			<Slot name="Boots" itemId="4"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Ring 2" itemId="9"/>
+			<Slot name="Flask 5" itemId="0"/>
+			<Slot name="Flask 4" itemId="0"/>
+			<Slot name="Belt" itemId="7"/>
+			<Slot name="Ring 1" itemId="8"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Body Armour" itemId="5"/>
+			<Slot name="Helmet" itemId="3"/>
+		</ItemSet>
+	</Items>
+	<Config/>
+</PathOfBuilding>
