@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build className="Ranger" ascendClassName="None" targetVersion="3_0" pantheonMajorGod="None" pantheonMinorGod="None" bandit="None" level="90" characterLevelAutoMode="false" mainSocketGroup="1" viewMode="CALCS">
+		<PlayerStat value="0.55" stat="AverageDamage"/>
+		<PlayerStat value="0.55" stat="AverageBurstDamage"/>
+		<PlayerStat value="1.26" stat="Speed"/>
+		<PlayerStat value="0" stat="PreEffectiveCritChance"/>
+		<PlayerStat value="0" stat="CritChance"/>
+		<PlayerStat value="1.5" stat="CritMultiplier"/>
+		<PlayerStat value="44" stat="HitChance"/>
+		<PlayerStat value="0.693" stat="TotalDPS"/>
+		<PlayerStat value="0" stat="TotalDot"/>
+		<PlayerStat value="0.693" stat="WithBleedDPS"/>
+		<PlayerStat value="0.693" stat="WithIgniteDPS"/>
+		<PlayerStat value="0.693" stat="WithPoisonDPS"/>
+		<PlayerStat value="0" stat="TotalDotDPS"/>
+		<PlayerStat value="0" stat="CullingDPS"/>
+		<PlayerStat value="0" stat="ReservationDPS"/>
+		<PlayerStat value="0.693" stat="CombinedDPS"/>
+		<PlayerStat value="0" stat="ManaCost"/>
+		<PlayerStat value="0" stat="ManaPercentCost"/>
+		<PlayerStat value="0" stat="ManaPerSecondCost"/>
+		<PlayerStat value="0" stat="ManaPercentPerSecondCost"/>
+		<PlayerStat value="0" stat="LifeCost"/>
+		<PlayerStat value="0" stat="LifePercentCost"/>
+		<PlayerStat value="0" stat="LifePerSecondCost"/>
+		<PlayerStat value="0" stat="LifePercentPerSecondCost"/>
+		<PlayerStat value="0" stat="ESCost"/>
+		<PlayerStat value="0" stat="ESPerSecondCost"/>
+		<PlayerStat value="0" stat="ESPercentPerSecondCost"/>
+		<PlayerStat value="0" stat="RageCost"/>
+		<PlayerStat value="0" stat="SoulCost"/>
+		<PlayerStat value="14" stat="Str"/>
+		<PlayerStat value="66" stat="ReqStr"/>
+		<PlayerStat value="152" stat="Dex"/>
+		<PlayerStat value="66" stat="ReqDex"/>
+		<PlayerStat value="24" stat="Int"/>
+		<PlayerStat value="66" stat="ReqInt"/>
+		<PlayerStat value="0" stat="Devotion"/>
+		<PlayerStat value="2222.3201153784" stat="TotalEHP"/>
+		<PlayerStat value="3350" stat="PhysicalMaximumHitTaken"/>
+		<PlayerStat value="2055" stat="LightningMaximumHitTaken"/>
+		<PlayerStat value="2055" stat="FireMaximumHitTaken"/>
+		<PlayerStat value="2055" stat="ColdMaximumHitTaken"/>
+		<PlayerStat value="2094" stat="ChaosMaximumHitTaken"/>
+		<PlayerStat value="512" stat="MainHandAccuracy"/>
+		<PlayerStat value="1373" stat="Life"/>
+		<PlayerStat value="22" stat="Spec:LifeInc"/>
+		<PlayerStat value="1373" stat="LifeUnreserved"/>
+		<PlayerStat value="1373" stat="LifeRecoverable"/>
+		<PlayerStat value="100" stat="LifeUnreservedPercent"/>
+		<PlayerStat value="0" stat="LifeRegenRecovery"/>
+		<PlayerStat value="0" stat="LifeLeechGainRate"/>
+		<PlayerStat value="586" stat="Mana"/>
+		<PlayerStat value="0" stat="Spec:ManaInc"/>
+		<PlayerStat value="586" stat="ManaUnreserved"/>
+		<PlayerStat value="100" stat="ManaUnreservedPercent"/>
+		<PlayerStat value="15.6" stat="ManaRegenRecovery"/>
+		<PlayerStat value="0" stat="ManaLeechGainRate"/>
+		<PlayerStat value="0" stat="EnergyShield"/>
+		<PlayerStat value="0" stat="EnergyShieldRecoveryCap"/>
+		<PlayerStat value="0" stat="Spec:EnergyShieldInc"/>
+		<PlayerStat value="0" stat="EnergyShieldRegenRecovery"/>
+		<PlayerStat value="0" stat="EnergyShieldLeechGainRate"/>
+		<PlayerStat value="1977" stat="Ward"/>
+		<PlayerStat value="0" stat="RageRegenRecovery"/>
+		<PlayerStat value="20" stat="Evasion"/>
+		<PlayerStat value="0" stat="Spec:EvasionInc"/>
+		<PlayerStat value="0" stat="MeleeEvadeChance"/>
+		<PlayerStat value="0" stat="ProjectileEvadeChance"/>
+		<PlayerStat value="0" stat="Armour"/>
+		<PlayerStat value="0" stat="Spec:ArmourInc"/>
+		<PlayerStat value="0" stat="PhysicalDamageReduction"/>
+		<PlayerStat value="0" stat="EffectiveBlockChance"/>
+		<PlayerStat value="0" stat="EffectiveSpellBlockChance"/>
+		<PlayerStat value="0" stat="AttackDodgeChance"/>
+		<PlayerStat value="0" stat="SpellDodgeChance"/>
+		<PlayerStat value="0" stat="EffectiveSpellSuppressionChance"/>
+		<PlayerStat value="-60" stat="FireResist"/>
+		<PlayerStat value="0" stat="FireResistOverCap"/>
+		<PlayerStat value="-60" stat="ColdResist"/>
+		<PlayerStat value="0" stat="ColdResistOverCap"/>
+		<PlayerStat value="-60" stat="LightningResist"/>
+		<PlayerStat value="0" stat="LightningResistOverCap"/>
+		<PlayerStat value="-60" stat="ChaosResist"/>
+		<PlayerStat value="0" stat="ChaosResistOverCap"/>
+		<PlayerStat value="1" stat="EffectiveMovementSpeedMod"/>
+		<PlayerStat value="0" stat="FullDPS"/>
+		<PlayerStat value="0" stat="FullDotDPS"/>
+		<PlayerStat value="0" stat="PowerCharges"/>
+		<PlayerStat value="3" stat="PowerChargesMax"/>
+		<PlayerStat value="0" stat="FrenzyCharges"/>
+		<PlayerStat value="3" stat="FrenzyChargesMax"/>
+		<PlayerStat value="0" stat="EnduranceCharges"/>
+		<PlayerStat value="3" stat="EnduranceChargesMax"/>
+		<TimelessData searchList="" searchListFallback="" devotionVariant1="1" devotionVariant2="1" socketFilterDistance="0"/>
+	</Build>
+	<Calcs>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="skill_number" number="1"/>
+		<Section collapsed="false" subsection="ViewSkillDetails" id="SkillSelect"/>
+		<Section collapsed="false" subsection="SkillHitDamage" id="HitDamage"/>
+		<Section collapsed="false" subsection="ExertingWarcries" id="Warcries"/>
+		<Section collapsed="false" subsection="SkillDamageoverTime" id="Dot"/>
+		<Section collapsed="false" subsection="AttackCastRate" id="Speed"/>
+		<Section collapsed="false" subsection="Crits" id="Crit"/>
+		<Section collapsed="false" subsection="Impale" id="Impale"/>
+		<Section collapsed="false" subsection="SkilltypespecificStats" id="SkillTypeStats"/>
+		<Section collapsed="false" subsection="Accuracy" id="HitChance"/>
+		<Section collapsed="false" subsection="Bleed" id="Bleed"/>
+		<Section collapsed="false" subsection="Poison" id="Poison"/>
+		<Section collapsed="false" subsection="Ignite" id="Ignite"/>
+		<Section collapsed="false" subsection="Decay" id="Decay"/>
+		<Section collapsed="false" subsection="LeechGainonHit" id="LeechGain"/>
+		<Section collapsed="false" subsection="NonDamagingAilments" id="EleAilments"/>
+		<Section collapsed="false" subsection="OtherEffects" id="MiscEffects"/>
+		<Section collapsed="false" subsection="Attributes" id="Attributes"/>
+		<Section collapsed="false" subsection="Life" id="Life"/>
+		<Section collapsed="false" subsection="Mana" id="Mana"/>
+		<Section collapsed="false" subsection="EnergyShield" id="EnergyShield"/>
+		<Section collapsed="false" subsection="Ward" id="Ward"/>
+		<Section collapsed="false" subsection="Resists" id="Resist"/>
+		<Section collapsed="false" subsection="Armour" id="Armour"/>
+		<Section collapsed="false" subsection="Evasion" id="Evasion"/>
+		<Section collapsed="false" subsection="DamageAvoidance" id="DamageAvoidance"/>
+		<Section collapsed="false" subsection="Block" id="DamageAvoidance"/>
+		<Section collapsed="false" subsection="Dodge" id="DamageAvoidance"/>
+		<Section collapsed="false" subsection="SpellSuppression" id="DamageAvoidance"/>
+		<Section collapsed="false" subsection="Flasks" id="Flasks"/>
+		<Section collapsed="true" subsection="UtilityFlasks" id="Flasks"/>
+		<Section collapsed="true" subsection="LifeFlasks" id="Flasks"/>
+		<Section collapsed="true" subsection="ManaFlasks" id="Flasks"/>
+		<Section collapsed="true" subsection="Tinctures" id="Flasks"/>
+		<Section collapsed="true" subsection="Rage" id="Rage"/>
+		<Section collapsed="true" subsection="Charges" id="Charges"/>
+		<Section collapsed="true" subsection="Endurance" id="Charges"/>
+		<Section collapsed="true" subsection="Frenzy" id="Charges"/>
+		<Section collapsed="true" subsection="Power" id="Charges"/>
+		<Section collapsed="false" subsection="OtherDefences" id="MiscDefences"/>
+		<Section collapsed="false" subsection="Fortification" id="MiscDefences"/>
+		<Section collapsed="false" subsection="StunDuration" id="MiscDefences"/>
+		<Section collapsed="true" subsection="OtherAvoidance" id="MiscDefences"/>
+		<Section collapsed="true" subsection="OtherAilmentDefences" id="MiscDefences"/>
+		<Section collapsed="false" subsection="DamageTaken" id="DamageTaken"/>
+		<Section collapsed="false" subsection="DamagingHits" id="DamageTaken"/>
+		<Section collapsed="false" subsection="EffectiveHealthPool" id="DamageTaken"/>
+		<Section collapsed="false" subsection="MaximumHitTaken" id="DamageTaken"/>
+		<Section collapsed="true" subsection="RecoupandHitTakenOverTime" id="DamageTaken"/>
+		<Section collapsed="false" subsection="DotsandBuildDegens" id="DamageTaken"/>
+		<Section collapsed="true" subsection="EnemyDegens" id="DamageTaken"/>
+	</Calcs>
+	<Notes>
+		
+	</Notes>
+	<Config activeConfigSet="1">
+		<ConfigSet title="Default" id="1">
+			<Input name="buffAlchemistsGenius" boolean="true"/>
+			<Input name="customMods" string="-- below is for 3 regenerative runes, set to 8 for 4 notable version 
+Utility Flasks gain 6 charges every 1 seconds
+"/>
+			<Placeholder name="enemyFireResist" number="50"/>
+			<Placeholder name="enemyCritChance" number="5"/>
+			<Placeholder name="projectileDistance" number="40"/>
+			<Placeholder name="ScorchStacks" number="1"/>
+			<Placeholder name="enemyPhysicalDamage" number="2241"/>
+			<Placeholder name="multiplierEnemyHallowingFlame" number="1"/>
+			<Placeholder name="enemyColdDamage" number="2241"/>
+			<Placeholder name="enemyEvasion" number="10143"/>
+			<Placeholder name="enemyFirePen" number="3"/>
+			<Placeholder name="enemyColdPen" number="3"/>
+			<Placeholder name="enemyLightningPen" number="3"/>
+			<Placeholder name="enemyLightningResist" number="50"/>
+			<Placeholder name="configSpectralTigerCount" number="5"/>
+			<Placeholder name="enemyLightningDamage" number="2241"/>
+			<Placeholder name="enemyChaosResist" number="30"/>
+			<Placeholder name="ShockStacks" number="1"/>
+			<Placeholder name="enemyDamageRollRange" number="70"/>
+			<Placeholder name="enemyLevel" number="84"/>
+			<Placeholder name="multiplierWitheredStackCountSelf" number="15"/>
+			<Placeholder name="enemySpeed" number="700"/>
+			<Placeholder name="meleeDistance" number="15"/>
+			<Placeholder name="enemyColdResist" number="50"/>
+			<Placeholder name="enemyChaosDamage" number="896"/>
+			<Placeholder name="enemyCritDamage" number="30"/>
+			<Placeholder name="enemyFireDamage" number="2241"/>
+			<Placeholder name="sigilOfPowerStages" number="1"/>
+			<Placeholder name="multiplierHallowingFlameStacksRemovedByAlly" number="1"/>
+			<Placeholder name="enemyArmour" number="61989"/>
+		</ConfigSet>
+	</Config>
+	<Tree activeSpec="1">
+		<Spec secondaryAscendClassId="nil" nodes="22266,50459,49978,65817,31585,50690,36221,12412,17790,18436,8938,23334,65808,59370,66832,32555,32763,63795,17788,59606,65824,43491,66841,41420,6797,6538,65826,33753,22748,66835,16882,65811,19858,3676,65834,42133,38662,20807,45035,1461,36287,6910,9206" ascendClassId="0" treeVersion="3_28" masteryEffects="" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABgIAIVb6wzp7YcYCjX0wfEV-SAQi6lsm5-p_K3_7-TNFfOjWqeOhzBqNGYqD2VjcQfJNkg5cpJWXBlFHr-sFtY2_Gv4j9gkBGQEQBRABIAUZASIFEwETASoA
+			</URL>
+			<Sockets>
+				<Socket nodeId="60735" itemId="18"/>
+				<Socket nodeId="32763" itemId="6"/>
+				<Socket nodeId="33989" itemId="14"/>
+				<Socket nodeId="33753" itemId="7"/>
+				<Socket nodeId="6910" itemId="9"/>
+			</Sockets>
+			<Overrides>
+				<Override nodeId="9393" dn="Runegraft of the Fortress" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon1.png" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png">
+					10% reduced Attributes
+					40% increased Global Defences
+					Limited to 1 Runegraft of the Fortress
+				</Override>
+				<Override nodeId="44316" dn="Runegraft of Quaffing" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon21.png" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png">
+					25% reduced Mana Recovery from Flasks
+					Non-instant Mana Recovery from Flasks is also Recovered as Life
+					Limited to 1 Runegraft of Quaffing
+				</Override>
+			</Overrides>
+		</Spec>
+	</Tree>
+	<TreeView zoomLevel="4" showStatDifferences="true" zoomY="-184.29023486321" searchStr="alchemi" zoomX="-679.61266003658"/>
+	<Skills defaultGemQuality="0" showSupportGemTypes="ALL" showLegacyGems="false" sortGemsByDPSField="CombinedDPS" defaultGemLevel="normalMaximum" sortGemsByDPS="true" showAltQualityGems="false" activeSkillSet="1">
+		<SkillSet id="1"/>
+	</Skills>
+	<Import importLink="https://pobb.in/pob/5hksiyvbW9_J" exportParty="false"/>
+	<Party append="false" ShowAdvanceTools="false" destination="All"/>
+	<Items useSecondWeaponSet="false" showStatDifferences="true" activeItemSet="1">
+		<Item id="1">
+			Rarity: RARE
+New Item
+Runic Crown
+Ward: 778
+WardBasePercentile: 1
+Crafted: true
+Prefix: {range:0.549}LocalIncreasedWard8__
+Prefix: {range:0.408}LocalIncreasedWardPercent7
+Prefix: {range:0.479}LocalIncreasedWardPercentAndStunRecovery5
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: G-G-G-G
+LevelReq: 68
+Implicits: 0
++93 to Ward
+130% increased Ward
+14% increased Stun and Block Recovery
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item id="2">
+			Rarity: RARE
+New Item
+Runic Gauntlets
+Ward: 540
+WardBasePercentile: 1
+Crafted: true
+Prefix: {range:0.482}LocalIncreasedWard7
+Prefix: {range:0.458}LocalIncreasedWardPercent7
+Prefix: {range:0.563}LocalIncreasedWardPercentAndStunRecovery5
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: G-G-G-G
+LevelReq: 69
+Implicits: 0
++77 to Ward
+132% increased Ward
+15% increased Stun and Block Recovery
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item id="3">
+			Rarity: RARE
+New Item
+Runic Sabatons
+Ward: 459
+WardBasePercentile: 1
+Crafted: true
+Prefix: {range:0.556}LocalIncreasedWard7
+Prefix: {range:0.556}LocalIncreasedWardPercent7
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: G-G-G-G
+LevelReq: 69
+Implicits: 0
++78 to Ward
+96% increased Ward
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+		</Item>
+		<Item id="4">
+			Rarity: MAGIC
+Allocated Iron Flask
+Crafted: true
+Prefix: {range:0.732}FlaskIncreasedRecoveryReducedEffect4_
+Suffix: None
+Quality: 20
+LevelReq: 54
+Implicits: 1
+{tags:flask}Restores Ward on use
+59% increased Charge Recovery
+25% reduced effect
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item id="6">
+			Rarity: RARE
+New Item
+Large Cluster Jewel
+Crafted: true
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Cluster Jewel Skill: affliction_attack_damage_
+Cluster Jewel Node Count: 8
+Implicits: 3
+{crafted}Adds 8 Passive Skills
+{crafted}2 Added Passive Skills are Jewel Sockets
+{crafted}Added Small Passive Skills grant: 10% increased Attack Damage
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item id="7">
+			Rarity: RARE
+New Item
+Medium Cluster Jewel
+Crafted: true
+Prefix: {range:0.5}AfflictionNotableSpikedConcoction
+Prefix: {range:0.5}AfflictionNotableFasting
+Suffix: None
+Suffix: None
+Cluster Jewel Skill: affliction_flask_duration
+Cluster Jewel Node Count: 4
+LevelReq: 40
+Implicits: 3
+{crafted}Adds 4 Passive Skills
+{crafted}1 Added Passive Skill is a Jewel Socket
+{crafted}Added Small Passive Skills grant: 6% increased Flask Effect Duration
+1 Added Passive Skill is Fasting
+1 Added Passive Skill is Spiked Concoction
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item id="9">
+			Rarity: RARE
+New Item
+Medium Cluster Jewel
+Crafted: true
+Prefix: {range:0.5}AfflictionNotableFasting
+Prefix: {range:0.5}AfflictionNotableBrewedforPotency
+Suffix: None
+Suffix: {range:0.5}AfflictionJewelSmallPassivesGrantFlaskChargesGained
+Cluster Jewel Skill: affliction_flask_duration
+Cluster Jewel Node Count: 4
+LevelReq: 40
+Implicits: 3
+{crafted}Adds 4 Passive Skills
+{crafted}1 Added Passive Skill is a Jewel Socket
+{crafted}Added Small Passive Skills grant: 6% increased Flask Effect Duration
+Added Small Passive Skills also grant: 1% increased Flask Charges gained
+1 Added Passive Skill is Brewed for Potency
+1 Added Passive Skill is Fasting
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="8">
+			Rarity: RARE
+synth dextral cata
+Rustic Sash
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: {range:1}BeltReducedFlaskChargesUsed1
+Suffix: None
+LevelReq: 2
+Implicits: 1
+15% reduced flask charges used
+24% reduced Flask Charges used
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+		</Item>
+		<Item id="10">
+			Rarity: RARE
+dextral cata
+Cord Belt
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: None
+Suffix: {range:1}BeltReducedFlaskChargesUsed1
+Suffix: None
+Suffix: None
+LevelReq: 2
+Implicits: 1
+Can be Anointed
+24% reduced Flask Charges used
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+		</Item>
+		<Item id="5">
+			Rarity: RARE
+New Item
+Blue Pearl Amulet
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+LevelReq: 77
+Implicits: 2
+{crafted}Allocates Essence Extraction
+{tags:resource,mana}{range:0.5}(48-56)% increased Mana Regeneration Rate
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+		</Item>
+		<Item id="11">
+			Rarity: RARE
+New Item
+Royal Plate
+Armour: 5625
+ArmourBasePercentile: 1
+Crafted: true
+Prefix: {range:1}LocalIncreasedPhysicalDamageReductionRating11
+Prefix: {range:1}LocalIncreasedPhysicalDamageReductionRatingPercent8_
+Prefix: {range:1}LocalIncreasedPhysicalDamageReductionRatingPercentAndStunRecovery6
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: R-R-R-R-R-R
+LevelReq: 84
+Implicits: 0
++500 to Armour
+152% increased Armour
+17% increased Stun and Block Recovery
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item id="13">
+			Rarity: UNIQUE
+Ynda&apos;s Stand
+Studded Belt
+League: Settlers of Kalguur
+Catalyst: Tempering
+CatalystQuality: 20
+LevelReq: 52
+Implicits: 1
+{range:0.5}(20-30)% increased Stun Duration on Enemies
+{tags:life}{range:0.5}Regenerate (30-50) Life per second
+{tags:jewellery_resistance}{range:0.5}+(20-30)% to Fire Resistance
+{tags:jewellery_resistance}{range:0.5}+(20-30)% to Cold Resistance
+{tags:jewellery_defense}Gain Ward Instead of 50% of Armour and Evasion Rating From Equipped Body Armour
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="3" id="14">
+			Rarity: UNIQUE
+Impossible Escape
+Viridian Jewel
+League: Sentinel
+Variant: Acrobatics
+Variant: Ancestral Bond
+Variant: Arrow Dancing
+Variant: Arsenal of Vengeance
+Variant: Avatar of Fire
+Variant: Blood Magic
+Variant: Bloodsoaked Blade
+Variant: Call to Arms
+Variant: Chaos Inoculation
+Variant: Conduit
+Variant: Crimson Dance
+Variant: Divine Shield
+Variant: Eldritch Battery
+Variant: Elemental Equilibrium
+Variant: Elemental Overload
+Variant: Eternal Youth
+Variant: Ghost Dance
+Variant: Ghost Reaver
+Variant: Glancing Blows
+Variant: Hex Master
+Variant: Imbalanced Guard
+Variant: Iron Grip
+Variant: Iron Reflexes
+Variant: Iron Will
+Variant: Lethe Shade
+Variant: Magebane
+Variant: Mind Over Matter
+Variant: Minion Instability
+Variant: Necromantic Aegis
+Variant: Pain Attunement
+Variant: Perfect Agony
+Variant: Point Blank
+Variant: Precise Technique
+Variant: Resolute Technique
+Variant: Runebinder
+Variant: Solipsism
+Variant: Supreme Ego
+Variant: The Agnostic
+Variant: The Impaler
+Variant: Unwavering Stance
+Variant: Vaal Pact
+Variant: Versatile Combatant
+Variant: Wicked Ward
+Variant: Wind Dancer
+Variant: Zealot&apos;s Oath
+Variant: Everything (QoL Test Variant)
+Selected Variant: 3
+Radius: Small
+Limited to: 1
+Implicits: 0
+{variant:1,46}Passive Skills in radius of Acrobatics can be allocated without being connected to your tree
+{variant:2,46}Passive Skills in radius of Ancestral Bond can be allocated without being connected to your tree
+{variant:46,3}Passive Skills in radius of Arrow Dancing can be allocated without being connected to your tree
+{variant:46,4}Passive Skills in radius of Arsenal of Vengeance can be allocated without being connected to your tree
+{variant:5,46}Passive Skills in radius of Avatar of Fire can be allocated without being connected to your tree
+{variant:46,6}Passive Skills in radius of Blood Magic can be allocated without being connected to your tree
+{variant:7,46}Passive Skills in radius of Bloodsoaked Blade can be allocated without being connected to your tree
+{variant:46,8}Passive Skills in radius of Call to Arms can be allocated without being connected to your tree
+{variant:46,9}Passive Skills in radius of Chaos Inoculation can be allocated without being connected to your tree
+{variant:10,46}Passive Skills in radius of Conduit can be allocated without being connected to your tree
+{variant:11,46}Passive Skills in radius of Crimson Dance can be allocated without being connected to your tree
+{variant:46,12}Passive Skills in radius of Divine Shield can be allocated without being connected to your tree
+{variant:46,13}Passive Skills in radius of Eldritch Battery can be allocated without being connected to your tree
+{variant:14,46}Passive Skills in radius of Elemental Equilibrium can be allocated without being connected to your tree
+{variant:15,46}Passive Skills in radius of Elemental Overload can be allocated without being connected to your tree
+{variant:46,16}Passive Skills in radius of Eternal Youth can be allocated without being connected to your tree
+{variant:17,46}Passive Skills in radius of Ghost Dance can be allocated without being connected to your tree
+{variant:46,18}Passive Skills in radius of Ghost Reaver can be allocated without being connected to your tree
+{variant:46,19}Passive Skills in radius of Glancing Blows can be allocated without being connected to your tree
+{variant:20,46}Passive Skills in radius of Hex Master can be allocated without being connected to your tree
+{variant:46,21}Passive Skills in radius of Imbalanced Guard can be allocated without being connected to your tree
+{variant:22,46}Passive Skills in radius of Iron Grip can be allocated without being connected to your tree
+{variant:23,46}Passive Skills in radius of Iron Reflexes can be allocated without being connected to your tree
+{variant:46,24}Passive Skills in radius of Iron Will can be allocated without being connected to your tree
+{variant:25,46}Passive Skills in radius of Lethe Shade can be allocated without being connected to your tree
+{variant:46,26}Passive Skills in radius of Magebane can be allocated without being connected to your tree
+{variant:46,27}Passive Skills in radius of Mind Over Matter can be allocated without being connected to your tree
+{variant:28,46}Passive Skills in radius of Minion Instability can be allocated without being connected to your tree
+{variant:46,29}Passive Skills in radius of Necromantic Aegis can be allocated without being connected to your tree
+{variant:30,46}Passive Skills in radius of Pain Attunement can be allocated without being connected to your tree
+{variant:31,46}Passive Skills in radius of Perfect Agony can be allocated without being connected to your tree
+{variant:46,32}Passive Skills in radius of Point Blank can be allocated without being connected to your tree
+{variant:33,46}Passive Skills in radius of Precise Technique can be allocated without being connected to your tree
+{variant:34,46}Passive Skills in radius of Resolute Technique can be allocated without being connected to your tree
+{variant:35,46}Passive Skills in radius of Runebinder can be allocated without being connected to your tree
+{variant:46,36}Passive Skills in radius of Solipsism can be allocated without being connected to your tree
+{variant:46,37}Passive Skills in radius of Supreme Ego can be allocated without being connected to your tree
+{variant:46,38}Passive Skills in radius of The Agnostic can be allocated without being connected to your tree
+{variant:46,39}Passive Skills in radius of The Impaler can be allocated without being connected to your tree
+{variant:40,46}Passive Skills in radius of Unwavering Stance can be allocated without being connected to your tree
+{variant:46,41}Passive Skills in radius of Vaal Pact can be allocated without being connected to your tree
+{variant:46,42}Passive Skills in radius of Versatile Combatant can be allocated without being connected to your tree
+{variant:46,43}Passive Skills in radius of Wicked Ward can be allocated without being connected to your tree
+{variant:44,46}Passive Skills in radius of Wind Dancer can be allocated without being connected to your tree
+{variant:45,46}Passive Skills in radius of Zealot&apos;s Oath can be allocated without being connected to your tree
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+			<ModRange range="0.5" id="10"/>
+			<ModRange range="0.5" id="11"/>
+			<ModRange range="0.5" id="12"/>
+			<ModRange range="0.5" id="13"/>
+			<ModRange range="0.5" id="14"/>
+			<ModRange range="0.5" id="15"/>
+			<ModRange range="0.5" id="16"/>
+			<ModRange range="0.5" id="17"/>
+			<ModRange range="0.5" id="18"/>
+			<ModRange range="0.5" id="19"/>
+			<ModRange range="0.5" id="20"/>
+			<ModRange range="0.5" id="21"/>
+			<ModRange range="0.5" id="22"/>
+			<ModRange range="0.5" id="23"/>
+			<ModRange range="0.5" id="24"/>
+			<ModRange range="0.5" id="25"/>
+			<ModRange range="0.5" id="26"/>
+			<ModRange range="0.5" id="27"/>
+			<ModRange range="0.5" id="28"/>
+			<ModRange range="0.5" id="29"/>
+			<ModRange range="0.5" id="30"/>
+			<ModRange range="0.5" id="31"/>
+			<ModRange range="0.5" id="32"/>
+			<ModRange range="0.5" id="33"/>
+			<ModRange range="0.5" id="34"/>
+			<ModRange range="0.5" id="35"/>
+			<ModRange range="0.5" id="36"/>
+			<ModRange range="0.5" id="37"/>
+			<ModRange range="0.5" id="38"/>
+			<ModRange range="0.5" id="39"/>
+			<ModRange range="0.5" id="40"/>
+			<ModRange range="0.5" id="41"/>
+			<ModRange range="0.5" id="42"/>
+			<ModRange range="0.5" id="43"/>
+			<ModRange range="0.5" id="44"/>
+			<ModRange range="0.5" id="45"/>
+		</Item>
+		<Item variant="5" id="17">
+			Rarity: UNIQUE
+Thread of Hope
+Crimson Jewel
+Variant: Small Ring
+Variant: Medium Ring
+Variant: Large Ring
+Variant: Very Large Ring
+Variant: Massive Ring (Uber)
+Selected Variant: 5
+Radius: Variable
+Implicits: 0
+{variant:1}Only affects Passives in Small Ring
+{variant:2}Only affects Passives in Medium Ring
+{variant:3}Only affects Passives in Large Ring
+{variant:4}Only affects Passives in Very Large Ring
+{variant:5}Only affects Passives in Massive Ring
+Passive Skills in Radius can be Allocated without being connected to your tree
+{range:0.5}-(20-10)% to all Elemental Resistances
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item variant="37" id="18">
+			Rarity: UNIQUE
+Impossible Escape
+Viridian Jewel
+League: Sentinel
+Variant: Acrobatics
+Variant: Ancestral Bond
+Variant: Arrow Dancing
+Variant: Arsenal of Vengeance
+Variant: Avatar of Fire
+Variant: Blood Magic
+Variant: Bloodsoaked Blade
+Variant: Call to Arms
+Variant: Chaos Inoculation
+Variant: Conduit
+Variant: Crimson Dance
+Variant: Divine Shield
+Variant: Eldritch Battery
+Variant: Elemental Equilibrium
+Variant: Elemental Overload
+Variant: Eternal Youth
+Variant: Ghost Dance
+Variant: Ghost Reaver
+Variant: Glancing Blows
+Variant: Hex Master
+Variant: Imbalanced Guard
+Variant: Iron Grip
+Variant: Iron Reflexes
+Variant: Iron Will
+Variant: Lethe Shade
+Variant: Magebane
+Variant: Mind Over Matter
+Variant: Minion Instability
+Variant: Necromantic Aegis
+Variant: Pain Attunement
+Variant: Perfect Agony
+Variant: Point Blank
+Variant: Precise Technique
+Variant: Resolute Technique
+Variant: Runebinder
+Variant: Solipsism
+Variant: Supreme Ego
+Variant: The Agnostic
+Variant: The Impaler
+Variant: Unwavering Stance
+Variant: Vaal Pact
+Variant: Versatile Combatant
+Variant: Wicked Ward
+Variant: Wind Dancer
+Variant: Zealot&apos;s Oath
+Variant: Everything (QoL Test Variant)
+Selected Variant: 37
+Radius: Small
+Limited to: 1
+Implicits: 0
+{variant:1,46}Passive Skills in radius of Acrobatics can be allocated without being connected to your tree
+{variant:2,46}Passive Skills in radius of Ancestral Bond can be allocated without being connected to your tree
+{variant:46,3}Passive Skills in radius of Arrow Dancing can be allocated without being connected to your tree
+{variant:46,4}Passive Skills in radius of Arsenal of Vengeance can be allocated without being connected to your tree
+{variant:5,46}Passive Skills in radius of Avatar of Fire can be allocated without being connected to your tree
+{variant:46,6}Passive Skills in radius of Blood Magic can be allocated without being connected to your tree
+{variant:7,46}Passive Skills in radius of Bloodsoaked Blade can be allocated without being connected to your tree
+{variant:46,8}Passive Skills in radius of Call to Arms can be allocated without being connected to your tree
+{variant:46,9}Passive Skills in radius of Chaos Inoculation can be allocated without being connected to your tree
+{variant:10,46}Passive Skills in radius of Conduit can be allocated without being connected to your tree
+{variant:11,46}Passive Skills in radius of Crimson Dance can be allocated without being connected to your tree
+{variant:46,12}Passive Skills in radius of Divine Shield can be allocated without being connected to your tree
+{variant:46,13}Passive Skills in radius of Eldritch Battery can be allocated without being connected to your tree
+{variant:14,46}Passive Skills in radius of Elemental Equilibrium can be allocated without being connected to your tree
+{variant:15,46}Passive Skills in radius of Elemental Overload can be allocated without being connected to your tree
+{variant:46,16}Passive Skills in radius of Eternal Youth can be allocated without being connected to your tree
+{variant:17,46}Passive Skills in radius of Ghost Dance can be allocated without being connected to your tree
+{variant:46,18}Passive Skills in radius of Ghost Reaver can be allocated without being connected to your tree
+{variant:46,19}Passive Skills in radius of Glancing Blows can be allocated without being connected to your tree
+{variant:20,46}Passive Skills in radius of Hex Master can be allocated without being connected to your tree
+{variant:46,21}Passive Skills in radius of Imbalanced Guard can be allocated without being connected to your tree
+{variant:22,46}Passive Skills in radius of Iron Grip can be allocated without being connected to your tree
+{variant:23,46}Passive Skills in radius of Iron Reflexes can be allocated without being connected to your tree
+{variant:46,24}Passive Skills in radius of Iron Will can be allocated without being connected to your tree
+{variant:25,46}Passive Skills in radius of Lethe Shade can be allocated without being connected to your tree
+{variant:46,26}Passive Skills in radius of Magebane can be allocated without being connected to your tree
+{variant:46,27}Passive Skills in radius of Mind Over Matter can be allocated without being connected to your tree
+{variant:28,46}Passive Skills in radius of Minion Instability can be allocated without being connected to your tree
+{variant:46,29}Passive Skills in radius of Necromantic Aegis can be allocated without being connected to your tree
+{variant:30,46}Passive Skills in radius of Pain Attunement can be allocated without being connected to your tree
+{variant:31,46}Passive Skills in radius of Perfect Agony can be allocated without being connected to your tree
+{variant:46,32}Passive Skills in radius of Point Blank can be allocated without being connected to your tree
+{variant:33,46}Passive Skills in radius of Precise Technique can be allocated without being connected to your tree
+{variant:34,46}Passive Skills in radius of Resolute Technique can be allocated without being connected to your tree
+{variant:35,46}Passive Skills in radius of Runebinder can be allocated without being connected to your tree
+{variant:46,36}Passive Skills in radius of Solipsism can be allocated without being connected to your tree
+{variant:46,37}Passive Skills in radius of Supreme Ego can be allocated without being connected to your tree
+{variant:46,38}Passive Skills in radius of The Agnostic can be allocated without being connected to your tree
+{variant:46,39}Passive Skills in radius of The Impaler can be allocated without being connected to your tree
+{variant:40,46}Passive Skills in radius of Unwavering Stance can be allocated without being connected to your tree
+{variant:46,41}Passive Skills in radius of Vaal Pact can be allocated without being connected to your tree
+{variant:46,42}Passive Skills in radius of Versatile Combatant can be allocated without being connected to your tree
+{variant:46,43}Passive Skills in radius of Wicked Ward can be allocated without being connected to your tree
+{variant:44,46}Passive Skills in radius of Wind Dancer can be allocated without being connected to your tree
+{variant:45,46}Passive Skills in radius of Zealot&apos;s Oath can be allocated without being connected to your tree
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+			<ModRange range="0.5" id="10"/>
+			<ModRange range="0.5" id="11"/>
+			<ModRange range="0.5" id="12"/>
+			<ModRange range="0.5" id="13"/>
+			<ModRange range="0.5" id="14"/>
+			<ModRange range="0.5" id="15"/>
+			<ModRange range="0.5" id="16"/>
+			<ModRange range="0.5" id="17"/>
+			<ModRange range="0.5" id="18"/>
+			<ModRange range="0.5" id="19"/>
+			<ModRange range="0.5" id="20"/>
+			<ModRange range="0.5" id="21"/>
+			<ModRange range="0.5" id="22"/>
+			<ModRange range="0.5" id="23"/>
+			<ModRange range="0.5" id="24"/>
+			<ModRange range="0.5" id="25"/>
+			<ModRange range="0.5" id="26"/>
+			<ModRange range="0.5" id="27"/>
+			<ModRange range="0.5" id="28"/>
+			<ModRange range="0.5" id="29"/>
+			<ModRange range="0.5" id="30"/>
+			<ModRange range="0.5" id="31"/>
+			<ModRange range="0.5" id="32"/>
+			<ModRange range="0.5" id="33"/>
+			<ModRange range="0.5" id="34"/>
+			<ModRange range="0.5" id="35"/>
+			<ModRange range="0.5" id="36"/>
+			<ModRange range="0.5" id="37"/>
+			<ModRange range="0.5" id="38"/>
+			<ModRange range="0.5" id="39"/>
+			<ModRange range="0.5" id="40"/>
+			<ModRange range="0.5" id="41"/>
+			<ModRange range="0.5" id="42"/>
+			<ModRange range="0.5" id="43"/>
+			<ModRange range="0.5" id="44"/>
+			<ModRange range="0.5" id="45"/>
+		</Item>
+		<Item variant="27" id="12">
+			Rarity: UNIQUE
+Skin of the Lords
+Simple Robe
+League: Breach
+Variant: Acrobatics
+Variant: Ancestral Bond
+Variant: Arrow Dancing
+Variant: Arsenal of Vengeance
+Variant: Avatar of Fire
+Variant: Blood Magic
+Variant: Bloodsoaked Blade
+Variant: Call to Arms
+Variant: Conduit
+Variant: Crimson Dance
+Variant: Divine Shield
+Variant: Eldritch Battery
+Variant: Elemental Equilibrium
+Variant: Elemental Overload
+Variant: Eternal Youth
+Variant: Ghost Dance
+Variant: Ghost Reaver
+Variant: Glancing Blows
+Variant: Hex Master
+Variant: Imbalanced Guard
+Variant: Iron Grip
+Variant: Iron Reflexes
+Variant: Iron Will
+Variant: Lethe Shade
+Variant: Magebane
+Variant: Mind Over Matter
+Variant: Minion Instability
+Variant: Pain Attunement
+Variant: Perfect Agony
+Variant: Point Blank
+Variant: Precise Technique
+Variant: Resolute Technique
+Variant: Runebinder
+Variant: Solipsism
+Variant: Supreme Ego
+Variant: The Agnostic
+Variant: The Impaler
+Variant: Unwavering Stance
+Variant: Vaal Pact
+Variant: Versatile Combatant
+Variant: Wicked Ward
+Variant: Wind Dancer
+Variant: Zealot&apos;s Oath
+Selected Variant: 27
+Quality: 0
+Sockets: B-B-B-B-B-B
+Implicits: 0
+Sockets cannot be modified
++2 to Level of Socketed Gems
+100% increased Global Defences
+You can only Socket Corrupted Gems in this item
+{variant:1}Acrobatics
+{variant:2}Ancestral Bond
+{variant:3}Arrow Dancing
+{variant:4}Arsenal of Vengeance
+{variant:5}Avatar of Fire
+{variant:6}Blood Magic
+{variant:7}Bloodsoaked Blade
+{variant:8}Call to Arms
+{variant:9}Conduit
+{variant:10}Crimson Dance
+{variant:11}Divine Shield
+{variant:12}Eldritch Battery
+{variant:13}Elemental Equilibrium
+{variant:14}Elemental Overload
+{variant:15}Eternal Youth
+{variant:16}Ghost Dance
+{variant:17}Ghost Reaver
+{variant:18}Glancing Blows
+{variant:19}Hex Master
+{variant:20}Imbalanced Guard
+{variant:21}Iron Grip
+{variant:22}Iron Reflexes
+{variant:23}Iron Will
+{variant:24}Lethe Shade
+{variant:25}Magebane
+{variant:26}Mind Over Matter
+{variant:27}Minion Instability
+{variant:28}Pain Attunement
+{variant:29}Perfect Agony
+{variant:30}Point Blank
+{variant:31}Precise Technique
+{variant:32}Resolute Technique
+{variant:33}Runebinder
+{variant:34}Solipsism
+{variant:35}Supreme Ego
+{variant:36}The Agnostic
+{variant:37}The Impaler
+{variant:38}Unwavering Stance
+{variant:39}Vaal Pact
+{variant:40}Versatile Combatant
+{variant:41}Wicked Ward
+{variant:42}Wind Dancer
+{variant:43}Zealot&apos;s Oath
+Corrupted
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+			<ModRange range="0.5" id="10"/>
+			<ModRange range="0.5" id="11"/>
+			<ModRange range="0.5" id="12"/>
+			<ModRange range="0.5" id="13"/>
+			<ModRange range="0.5" id="14"/>
+			<ModRange range="0.5" id="15"/>
+			<ModRange range="0.5" id="16"/>
+			<ModRange range="0.5" id="17"/>
+			<ModRange range="0.5" id="18"/>
+			<ModRange range="0.5" id="19"/>
+			<ModRange range="0.5" id="20"/>
+			<ModRange range="0.5" id="21"/>
+			<ModRange range="0.5" id="22"/>
+			<ModRange range="0.5" id="23"/>
+			<ModRange range="0.5" id="24"/>
+			<ModRange range="0.5" id="25"/>
+			<ModRange range="0.5" id="26"/>
+			<ModRange range="0.5" id="27"/>
+			<ModRange range="0.5" id="28"/>
+			<ModRange range="0.5" id="29"/>
+			<ModRange range="0.5" id="30"/>
+			<ModRange range="0.5" id="31"/>
+			<ModRange range="0.5" id="32"/>
+			<ModRange range="0.5" id="33"/>
+			<ModRange range="0.5" id="34"/>
+			<ModRange range="0.5" id="35"/>
+			<ModRange range="0.5" id="36"/>
+			<ModRange range="0.5" id="37"/>
+			<ModRange range="0.5" id="38"/>
+			<ModRange range="0.5" id="39"/>
+			<ModRange range="0.5" id="40"/>
+			<ModRange range="0.5" id="41"/>
+			<ModRange range="0.5" id="42"/>
+			<ModRange range="0.5" id="43"/>
+			<ModRange range="0.5" id="44"/>
+			<ModRange range="0.5" id="45"/>
+			<ModRange range="0.5" id="46"/>
+			<ModRange range="0.5" id="47"/>
+		</Item>
+		<Item id="15">
+			Rarity: MAGIC
+Rationed Iron Flask
+Crafted: true
+Prefix: {range:1}FlaskIncreasedRecoveryReducedEffect5
+Suffix: None
+Quality: 20
+LevelReq: 67
+Implicits: 1
+{tags:flask}Restores Ward on use
+66% increased Charge Recovery
+25% reduced effect
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item id="16">
+			Rarity: UNIQUE
+Bonemeld
+Marble Amulet
+LevelReq: 74
+Implicits: 2
+{crafted}Allocates Essence Extraction
+{tags:life}{range:0.5}Regenerate (1.2-1.6)% of Life per second
+{tags:jewellery_attribute}{range:0.5}+(10-20) to all Attributes
+{range:0.5}+(1-2) to Level of all Minion Skill Gems
+{tags:jewellery_resistance}-2% to all Resistances per Minion from your Non-Vaal Skills
+{tags:jewellery_defense}{range:0.5}(3-4)% increased Defences per Minion from your Non-Vaal Skills
+{tags:jewellery_resistance}Minions gain added Resistances equal to 50% of your Resistances
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item id="19">
+			Rarity: UNIQUE
+Sap of the Seasons
+Prismatic Tincture
+League: Settlers of Kalguur
+Quality: 20
+LevelReq: 18
+Implicits: 1
+{range:0.5}(70-100)% increased Elemental Damage with Melee Weapons
+Melee Weapon Damage Penetrates 1% Elemental Resistance per Mana Burn, up to a maximum of 200%
+{range:0.5}(20-40)% increased Cooldown Recovery Rate
+{range:0.5}(35--35)% increased Mana Burn rate
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item variant="2" id="20">
+			Rarity: UNIQUE
+The Overflowing Chalice
+Sulphur Flask
+Variant: Pre 3.15.0
+Variant: Current
+Selected Variant: 2
+Quality: 20
+LevelReq: 27
+Implicits: 3
+{crafted}{range:1}(80-100)% increased Duration
+{crafted}Gains no Charges during Effect
+Creates Consecrated Ground on Use
+{variant:1}100% increased Charge Recovery
+{variant:2}{range:0.5}(40-60)% increased Charge Recovery
+{variant:1}{range:0.5}(10-20)% increased Duration
+{variant:1}100% increased Charges gained by Other Flasks during Effect
+{variant:2}100% increased Charges gained by Other Flasks during Effect
+Gains no Charges during Effect of any Overflowing Chalice Flask
+			<ModRange range="1" id="2"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+		</Item>
+		<Item id="21">
+			Rarity: UNIQUE
+Khatal&apos;s Geyser
+Lapis Amulet
+LevelReq: 56
+Implicits: 2
+{crafted}Allocates Essence Extraction
+{tags:jewellery_attribute}{range:0.5}+(20-30) to Intelligence
+Can&apos;t use Life Flasks
++65 to maximum Mana
+Increases and Reductions to Effect of Flasks applied to you also applies to Effect of Arcane Surge on you at 210% of their value
+You have Arcane Surge during Effect of any Mana Flask
+Mana Flask Effects are not removed when Unreserved Mana is Filled
+Mana Flask Effects do not Queue
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<ItemSet useSecondWeaponSet="false" id="1">
+			<Slot itemId="0" name="Flask 4" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Abyssal Socket 1" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Abyssal Socket 5" itemPbURL=""/>
+			<Slot itemId="0" name="Body Armour Abyssal Socket 2" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Abyssal Socket 3" itemPbURL=""/>
+			<Slot itemId="0" name="Belt Abyssal Socket 2" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Abyssal Socket 4" itemPbURL=""/>
+			<Slot itemId="0" name="Body Armour Abyssal Socket 5" itemPbURL=""/>
+			<Slot itemId="0" name="Body Armour Abyssal Socket 3" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Abyssal Socket 4" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Abyssal Socket 6" itemPbURL=""/>
+			<Slot itemId="0" name="Belt Abyssal Socket 3" itemPbURL=""/>
+			<Slot itemId="0" name="Helmet Abyssal Socket 1" itemPbURL=""/>
+			<Slot itemId="0" name="Gloves Abyssal Socket 1" itemPbURL=""/>
+			<Slot itemId="0" name="Gloves Abyssal Socket 4" itemPbURL=""/>
+			<Slot itemId="0" name="Body Armour Abyssal Socket 6" itemPbURL=""/>
+			<Slot itemId="4" active="true" name="Flask 1" itemPbURL=""/>
+			<Slot itemId="0" name="Graft 1" itemPbURL=""/>
+			<Slot itemId="0" name="Gloves Abyssal Socket 5" itemPbURL=""/>
+			<Slot itemId="0" name="Belt Abyssal Socket 4" itemPbURL=""/>
+			<Slot itemId="0" name="Gloves Abyssal Socket 6" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Abyssal Socket 3" itemPbURL=""/>
+			<Slot itemId="0" name="Helmet Abyssal Socket 2" itemPbURL=""/>
+			<Slot itemId="0" name="Gloves Abyssal Socket 2" itemPbURL=""/>
+			<Slot itemId="0" name="Boots Abyssal Socket 1" itemPbURL=""/>
+			<Slot itemId="0" name="Belt Abyssal Socket 5" itemPbURL=""/>
+			<Slot itemId="0" name="Helmet Abyssal Socket 4" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Abyssal Socket 2" itemPbURL=""/>
+			<Slot itemId="0" name="Boots Abyssal Socket 2" itemPbURL=""/>
+			<Slot itemId="0" name="Body Armour Abyssal Socket 1" itemPbURL=""/>
+			<Slot itemId="0" name="Graft 2" itemPbURL=""/>
+			<Slot itemId="0" name="Boots Abyssal Socket 3" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Swap Abyssal Socket 2" itemPbURL=""/>
+			<Slot itemId="0" name="Gloves Abyssal Socket 3" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Swap Abyssal Socket 3" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Swap" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Swap Abyssal Socket 4" itemPbURL=""/>
+			<Slot itemId="0" name="Boots Abyssal Socket 4" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Swap Abyssal Socket 5" itemPbURL=""/>
+			<Slot itemId="0" name="Helmet Abyssal Socket 3" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Swap" itemPbURL=""/>
+			<Slot itemId="0" name="Boots Abyssal Socket 5" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Swap Abyssal Socket 1" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Abyssal Socket 6" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Swap Abyssal Socket 4" itemPbURL=""/>
+			<Slot itemId="0" name="Boots Abyssal Socket 6" itemPbURL=""/>
+			<SocketIdURL nodeId="6910" name="Jewel 6910" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Swap Abyssal Socket 2" itemPbURL=""/>
+			<Slot itemId="0" name="Helmet Abyssal Socket 5" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Swap Abyssal Socket 1" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Abyssal Socket 1" itemPbURL=""/>
+			<Slot itemId="0" name="Ring 2" itemPbURL=""/>
+			<Slot itemId="0" name="Belt Abyssal Socket 1" itemPbURL=""/>
+			<Slot itemId="5" name="Amulet" itemPbURL=""/>
+			<Slot itemId="1" name="Helmet" itemPbURL=""/>
+			<Slot itemId="0" name="Flask 3" itemPbURL=""/>
+			<Slot itemId="0" name="Body Armour" itemPbURL=""/>
+			<Slot itemId="2" name="Gloves" itemPbURL=""/>
+			<SocketIdURL nodeId="32763" name="Jewel 32763" itemPbURL=""/>
+			<Slot itemId="0" name="Ring 1" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Abyssal Socket 2" itemPbURL=""/>
+			<Slot itemId="0" name="Ring 3" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Swap Abyssal Socket 5" itemPbURL=""/>
+			<Slot itemId="0" name="Flask 5" itemPbURL=""/>
+			<SocketIdURL nodeId="33753" name="Jewel 33753" itemPbURL=""/>
+			<Slot itemId="3" name="Boots" itemPbURL=""/>
+			<Slot itemId="10" name="Belt" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Abyssal Socket 5" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Swap Abyssal Socket 6" itemPbURL=""/>
+			<Slot itemId="15" name="Flask 2" itemPbURL=""/>
+			<SocketIdURL nodeId="22748" name="Jewel 22748" itemPbURL=""/>
+			<Slot itemId="0" name="Belt Abyssal Socket 6" itemPbURL=""/>
+			<Slot itemId="0" name="Helmet Abyssal Socket 6" itemPbURL=""/>
+			<Slot itemId="0" name="Body Armour Abyssal Socket 4" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 1 Swap Abyssal Socket 3" itemPbURL=""/>
+			<Slot itemId="0" name="Weapon 2 Swap Abyssal Socket 6" itemPbURL=""/>
+			<SocketIdURL nodeId="18436" name="Jewel 18436" itemPbURL=""/>
+		</ItemSet>
+		<TradeSearchWeights/>
+	</Items>
+</PathOfBuilding>
