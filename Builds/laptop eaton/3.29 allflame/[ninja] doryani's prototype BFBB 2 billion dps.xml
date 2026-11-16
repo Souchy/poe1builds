@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build className="Scion" level="98" targetVersion="3_0" pantheonMajorGod="TheBrineKing" pantheonMinorGod="Ralakesh" bandit="Eramir" mainSocketGroup="3" viewMode="SKILLS" ascendClassName="Reliquarian" characterLevelAutoMode="false">
-		<PlayerStat value="6294.7422935646" stat="AverageHit"/>
-		<PlayerStat value="6294.7422935646" stat="AverageBurstDamage"/>
-		<PlayerStat value="0" stat="Speed"/>
-		<PlayerStat value="6.84" stat="HitSpeed"/>
-		<PlayerStat value="11.88" stat="PreEffectiveCritChance"/>
-		<PlayerStat value="11.88" stat="CritChance"/>
-		<PlayerStat value="5.61" stat="CritMultiplier"/>
+	<Build className="Scion" viewMode="ITEMS" ascendClassName="Reliquarian" pantheonMajorGod="TheBrineKing" pantheonMinorGod="Ralakesh" characterLevelAutoMode="false" mainSocketGroup="1" targetVersion="3_0" level="98" bandit="Eramir">
+		<PlayerStat value="4585332.8367" stat="AverageHit"/>
+		<PlayerStat value="13755998.5101" stat="AverageBurstDamage"/>
+		<PlayerStat value="8.26" stat="Speed"/>
+		<PlayerStat value="100" stat="PreEffectiveCritChance"/>
+		<PlayerStat value="100" stat="CritChance"/>
+		<PlayerStat value="7.56" stat="CritMultiplier"/>
 		<PlayerStat value="100" stat="HitChance"/>
-		<PlayerStat value="43056.037287982" stat="TotalDPS"/>
+		<PlayerStat value="1893742461.5571" stat="TotalDPS"/>
 		<PlayerStat value="0" stat="TotalDot"/>
-		<PlayerStat value="43056.037287982" stat="WithBleedDPS"/>
-		<PlayerStat value="43056.037287982" stat="WithIgniteDPS"/>
-		<PlayerStat value="43056.037287982" stat="WithPoisonDPS"/>
+		<PlayerStat value="1893742461.5571" stat="WithBleedDPS"/>
+		<PlayerStat value="1893742461.5571" stat="WithIgniteDPS"/>
+		<PlayerStat value="1893742461.5571" stat="WithPoisonDPS"/>
 		<PlayerStat value="0" stat="TotalDotDPS"/>
-		<PlayerStat value="4784.0041431091" stat="CullingDPS"/>
+		<PlayerStat value="210415829.0619" stat="CullingDPS"/>
 		<PlayerStat value="0" stat="ReservationDPS"/>
-		<PlayerStat value="47840.041431091" stat="CombinedDPS"/>
-		<PlayerStat value="1.023" stat="Cooldown"/>
-		<PlayerStat value="3.5" stat="AreaOfEffectRadiusMetres"/>
-		<PlayerStat value="0" stat="ManaCost"/>
+		<PlayerStat value="2104158290.619" stat="CombinedDPS"/>
+		<PlayerStat value="1.7" stat="AreaOfEffectRadiusMetres"/>
+		<PlayerStat value="20" stat="ManaCost"/>
 		<PlayerStat value="0" stat="ManaPercentCost"/>
-		<PlayerStat value="0" stat="ManaPerSecondCost"/>
+		<PlayerStat value="55.066666666667" stat="ManaPerSecondCost"/>
 		<PlayerStat value="0" stat="ManaPercentPerSecondCost"/>
 		<PlayerStat value="0" stat="LifeCost"/>
 		<PlayerStat value="0" stat="LifePercentCost"/>
@@ -40,7 +38,7 @@
 		<PlayerStat value="226" stat="Int"/>
 		<PlayerStat value="224" stat="ReqInt"/>
 		<PlayerStat value="0" stat="Devotion"/>
-		<PlayerStat value="185208.18606269" stat="TotalEHP"/>
+		<PlayerStat value="215862.86438609" stat="TotalEHP"/>
 		<PlayerStat value="12799" stat="PhysicalMaximumHitTaken"/>
 		<PlayerStat value="55528" stat="LightningMaximumHitTaken"/>
 		<PlayerStat value="56145" stat="FireMaximumHitTaken"/>
@@ -57,7 +55,7 @@
 		<PlayerStat value="77" stat="Spec:ManaInc"/>
 		<PlayerStat value="91" stat="ManaUnreserved"/>
 		<PlayerStat value="6.7657992565056" stat="ManaUnreservedPercent"/>
-		<PlayerStat value="79.6" stat="ManaRegenRecovery"/>
+		<PlayerStat value="81.4" stat="ManaRegenRecovery"/>
 		<PlayerStat value="0" stat="ManaLeechGainRate"/>
 		<PlayerStat value="6442" stat="EnergyShield"/>
 		<PlayerStat value="6442" stat="EnergyShieldRecoveryCap"/>
@@ -74,7 +72,7 @@
 		<PlayerStat value="0" stat="Spec:ArmourInc"/>
 		<PlayerStat value="76" stat="PhysicalDamageReduction"/>
 		<PlayerStat value="75" stat="EffectiveBlockChance"/>
-		<PlayerStat value="69" stat="EffectiveSpellBlockChance"/>
+		<PlayerStat value="77" stat="EffectiveSpellBlockChance"/>
 		<PlayerStat value="0" stat="AttackDodgeChance"/>
 		<PlayerStat value="0" stat="SpellDodgeChance"/>
 		<PlayerStat value="0" stat="EffectiveSpellSuppressionChance"/>
@@ -95,305 +93,64 @@
 		<PlayerStat value="3" stat="FrenzyChargesMax"/>
 		<PlayerStat value="0" stat="EnduranceCharges"/>
 		<PlayerStat value="3" stat="EnduranceChargesMax"/>
-		<TimelessData socketFilterDistance="0" devotionVariant1="1" devotionVariant2="1" searchListFallback="" searchList=""/>
+		<TimelessData socketFilterDistance="0" searchListFallback="" searchList="" devotionVariant1="1" devotionVariant2="1"/>
 	</Build>
-	<Calcs>
-		<Input number="6" name="skill_number"/>
-		<Input string="EFFECTIVE" name="misc_buffMode"/>
-		<Section subsection="ViewSkillDetails" collapsed="false" id="SkillSelect"/>
-		<Section subsection="SkillHitDamage" collapsed="false" id="HitDamage"/>
-		<Section subsection="ExertingWarcries" collapsed="false" id="Warcries"/>
-		<Section subsection="EmpoweredSpells" collapsed="false" id="Pacts"/>
-		<Section subsection="SkillDamageoverTime" collapsed="false" id="Dot"/>
-		<Section subsection="AttackCastRate" collapsed="false" id="Speed"/>
-		<Section subsection="Crits" collapsed="false" id="Crit"/>
-		<Section subsection="Impale" collapsed="false" id="Impale"/>
-		<Section subsection="SkilltypespecificStats" collapsed="false" id="SkillTypeStats"/>
-		<Section subsection="Accuracy" collapsed="false" id="HitChance"/>
-		<Section subsection="Bleed" collapsed="false" id="Bleed"/>
-		<Section subsection="Poison" collapsed="false" id="Poison"/>
-		<Section subsection="Ignite" collapsed="false" id="Ignite"/>
-		<Section subsection="Decay" collapsed="false" id="Decay"/>
-		<Section subsection="LeechGainonHit" collapsed="false" id="LeechGain"/>
-		<Section subsection="NonDamagingAilments" collapsed="false" id="EleAilments"/>
-		<Section subsection="OtherEffects" collapsed="false" id="MiscEffects"/>
-		<Section subsection="Attributes" collapsed="false" id="Attributes"/>
-		<Section subsection="Life" collapsed="false" id="Life"/>
-		<Section subsection="Mana" collapsed="false" id="Mana"/>
-		<Section subsection="EnergyShield" collapsed="false" id="EnergyShield"/>
-		<Section subsection="Ward" collapsed="false" id="Ward"/>
-		<Section subsection="Resists" collapsed="false" id="Resist"/>
-		<Section subsection="Armour" collapsed="false" id="Armour"/>
-		<Section subsection="Evasion" collapsed="false" id="Evasion"/>
-		<Section subsection="DamageAvoidance" collapsed="false" id="DamageAvoidance"/>
-		<Section subsection="Block" collapsed="false" id="DamageAvoidance"/>
-		<Section subsection="Dodge" collapsed="false" id="DamageAvoidance"/>
-		<Section subsection="SpellSuppression" collapsed="false" id="DamageAvoidance"/>
-		<Section subsection="Flasks" collapsed="false" id="Flasks"/>
-		<Section subsection="UtilityFlasks" collapsed="true" id="Flasks"/>
-		<Section subsection="LifeFlasks" collapsed="true" id="Flasks"/>
-		<Section subsection="ManaFlasks" collapsed="true" id="Flasks"/>
-		<Section subsection="Tinctures" collapsed="true" id="Flasks"/>
-		<Section subsection="Rage" collapsed="true" id="Rage"/>
-		<Section subsection="Charges" collapsed="true" id="Charges"/>
-		<Section subsection="Endurance" collapsed="true" id="Charges"/>
-		<Section subsection="Frenzy" collapsed="true" id="Charges"/>
-		<Section subsection="Power" collapsed="true" id="Charges"/>
-		<Section subsection="OtherDefences" collapsed="false" id="MiscDefences"/>
-		<Section subsection="Fortification" collapsed="false" id="MiscDefences"/>
-		<Section subsection="StunDuration" collapsed="false" id="MiscDefences"/>
-		<Section subsection="OtherAvoidance" collapsed="true" id="MiscDefences"/>
-		<Section subsection="OtherAilmentDefences" collapsed="true" id="MiscDefences"/>
-		<Section subsection="DamageTaken" collapsed="false" id="DamageTaken"/>
-		<Section subsection="DamagingHits" collapsed="false" id="DamageTaken"/>
-		<Section subsection="EffectiveHealthPool" collapsed="false" id="DamageTaken"/>
-		<Section subsection="MaximumHitTaken" collapsed="false" id="DamageTaken"/>
-		<Section subsection="RecoupandHitTakenOverTime" collapsed="true" id="DamageTaken"/>
-		<Section subsection="DotsandBuildDegens" collapsed="false" id="DamageTaken"/>
-		<Section subsection="EnemyDegens" collapsed="true" id="DamageTaken"/>
-	</Calcs>
-	<Notes>
-		
-	</Notes>
-	<Config activeConfigSet="1">
-		<ConfigSet title="Default" id="1">
-			<Input boolean="true" name="conditionEnemyChilled"/>
-			<Input boolean="true" name="conditionEnemyIgnited"/>
-			<Input number="1" name="BrandsAttachedToEnemy"/>
-			<Input boolean="true" name="conditionEnemyUnnerved"/>
-			<Input boolean="true" name="conditionGainedPowerChargeRecently"/>
-			<Input boolean="true" name="conditionHaveEnergyShield"/>
-			<Input boolean="true" name="conditionSpawnedCorpseRecently"/>
-			<Input boolean="true" name="usePowerCharges"/>
-			<Input number="1" name="multiplierNearbyRareOrUniqueEnemies"/>
-			<Input number="1" name="multiplierNearbyEnemies"/>
-			<Input boolean="true" name="conditionUsedRubyFlaskRecently"/>
-			<Input boolean="true" name="conditionMinionsDiedRecently"/>
-			<Input boolean="true" name="conditionFullLife"/>
-			<Input boolean="true" name="conditionEnemyBleeding"/>
-			<Input boolean="true" name="conditionCritRecently"/>
-			<Input boolean="true" name="conditionBlockedRecently"/>
-			<Input string="TheBrineKing" name="pantheonMajorGod"/>
-			<Input string="Ralakesh" name="pantheonMinorGod"/>
-			<Input boolean="true" name="DisableEHPGainOnBlock"/>
-			<Input boolean="true" name="buffArcaneSurge"/>
-			<Input string="Eramir" name="bandit"/>
-			<Input boolean="true" name="conditionBeenHitRecently"/>
-			<Placeholder number="2241" name="enemyColdDamage"/>
-			<Placeholder number="1" name="multiplierHallowingFlameStacksRemovedByAlly"/>
-			<Placeholder number="15" name="multiplierWitheredStackCountSelf"/>
-			<Placeholder number="3" name="enemyColdPen"/>
-			<Placeholder number="40" name="projectileDistance"/>
-			<Placeholder number="1" name="ScorchStacks"/>
-			<Placeholder number="50" name="enemyColdResist"/>
-			<Placeholder number="1" name="sigilOfPowerStages"/>
-			<Placeholder number="3" name="enemyLightningPen"/>
-			<Placeholder number="5" name="enemyCritChance"/>
-			<Placeholder number="5" name="configSpectralTigerCount"/>
-			<Placeholder number="50" name="enemyLightningResist"/>
-			<Placeholder number="30" name="enemyCritDamage"/>
-			<Placeholder number="2241" name="enemyLightningDamage"/>
-			<Placeholder number="2241" name="enemyPhysicalDamage"/>
-			<Placeholder number="70" name="enemyDamageRollRange"/>
-			<Placeholder number="84" name="enemyLevel"/>
-			<Placeholder number="700" name="enemySpeed"/>
-			<Placeholder number="50" name="enemyFireResist"/>
-			<Placeholder number="896" name="enemyChaosDamage"/>
-			<Placeholder number="3" name="enemyFirePen"/>
-			<Placeholder number="10143" name="enemyEvasion"/>
-			<Placeholder number="15" name="meleeDistance"/>
-			<Placeholder number="2241" name="enemyFireDamage"/>
-			<Placeholder number="30" name="enemyChaosResist"/>
-			<Placeholder number="1" name="ShockStacks"/>
-			<Placeholder number="1" name="multiplierEnemyHallowingFlame"/>
-			<Placeholder number="61989" name="enemyArmour"/>
-			<CustomModifierBlock title="Default" enabled="true">
-				
-			</CustomModifierBlock>
-		</ConfigSet>
-	</Config>
-	<TreeView zoomX="63.601302566301" zoomY="306.42336596936" searchStr="" showStatDifferences="true" zoomLevel="4"/>
-	<Import exportParty="false"/>
-	<Tree activeSpec="1">
-		<Spec masteryEffects="{53188,64875},{38921,4500},{5230,28589},{16123,2987},{6507,56471},{13712,28638},{55491,61097},{63482,28569}" classId="0" secondaryAscendClassId="7" treeVersion="3_29" clusterHashFormatVersion="2" ascendClassId="2" nodes="7918,39841,64583,20987,15544,21984,60247,65891,16123,34171,63447,46842,36452,57736,33508,66582,22618,19919,12143,48828,61419,41263,55743,18990,13961,55491,60440,26557,29712,48423,60085,22628,26270,6967,6230,10108,40366,24362,65552,66576,53188,20528,39761,14665,58833,65568,65894,2151,15117,22702,49651,4367,37671,7444,13712,65561,60472,52502,9408,20261,65097,18033,42917,5230,65895,6764,49605,32932,37303,36489,65888,65570,33545,54694,6507,65578,38246,53957,11455,5296,66579,46092,66585,65899,65898,16633,19501,35233,65889,65893,35936,33310,32710,31683,9086,45456,65897,26196,59826,38921,4977,12032,26070,56922,17570,48778,29781,7960,63425,21033,21974,55571,36678,27415,37690,7594,42760,47062,47504,36881,48768,65890,24229,49698,51923,18174,2460,56153,22441,63398,62697,28859,63482,64210,12613,13170,44184,11688">
-			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgAedB7um6H8R1H7PLhV4OtXPvuFe_fXtvqOZOGIguRYWk3PL2--vO_roS_Zv0ouNonYw-wYZ710EL0n6rVYZGaeGzcYVp2uXyrPxFAwm1E5SQhnOw1YrsHzEQ-TJx0UNZDsOM0WJMBPJf5JRnGnpRRuGmzBxYCkkbeOiYMJ1aYZa5Vm0sUsvxSwtAxA-UwtiaGMYIIef8Z7w7GQZlTpspgJE3EvAGXW3lpEor6KdFUfGPfBUilV1tkTj0ZrF5M6HaqnCLfWuZCQEb6AXqXCIsrTRv4JnNtZV6n3pvTpcLv3-vrSMUUzcqyYLagTAWMEFgAQBBAAIAFmABkBZwFgACIAKgQTBBkBawFqAWEBZQFpAWIIC6s---6p2MP9a8_Eb941kG-tFG7clxlrEZSYCW-Z9_o=
-			</URL>
-			<Sockets>
-				<Socket itemId="7" nodeId="64583"/>
-				<Socket itemId="8" nodeId="9408"/>
-				<Socket itemId="4" nodeId="12613"/>
-				<Socket itemId="12" nodeId="31683"/>
-				<Socket itemId="10" nodeId="7960"/>
-				<Socket itemId="9" nodeId="13170"/>
-				<Socket itemId="6" nodeId="26196"/>
-				<Socket itemId="11" nodeId="21984"/>
-				<Socket itemId="13" nodeId="61419"/>
-				<Socket itemId="3" nodeId="41263"/>
-				<Socket itemId="1" nodeId="6230"/>
-				<Socket itemId="2" nodeId="48768"/>
-				<Socket itemId="5" nodeId="29712"/>
-			</Sockets>
-			<Overrides>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="7388">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="64210">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="36678">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Runegraft of the Soulwick" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon12.png" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" nodeId="21143">
-					Gain 1 Vaal Soul per second
-					Limited to 1 Runegraft of the Soulwick
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="7444">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="27415">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="39841">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="19501">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Ngamahu Firewalker" icon="Art/2DArt/SkillIcons/passives/FireResistNode.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/NgamahuTribePassiveBG.png" nodeId="60472">
-					+6% to Fire Resistance
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="47251">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="60440">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="33479">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="33310">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="51923">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="44184">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="32710">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="49605">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="18033">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="48778">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="42760">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Runegraft of the Jeweller" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon8.png" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" nodeId="6507">
-					10% increased Damage for each unlinked Socket in Equipped Two Handed Weapon
-					Limited to 1 Runegraft of the Jeweller
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="46092">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="46340">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="15117">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Ngamahu Firewalker" icon="Art/2DArt/SkillIcons/passives/FireResistNode.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/NgamahuTribePassiveBG.png" nodeId="34171">
-					+6% to Fire Resistance
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="63447">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Runegraft of Treachery" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon20.png" activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" nodeId="14113">
-					15% increased Reservation Efficiency of Skills
-					Auras from your Skills which affect Allies also affect Enemies
-					Limited to 1 Runegraft of Treachery
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="5296">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="4367">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="10490">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="60398">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-				<Override dn="Tattoo of the Kitava Heart Eater" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" nodeId="37671">
-					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
-				</Override>
-			</Overrides>
-		</Spec>
-	</Tree>
-	<Skills defaultGemLevel="normalMaximum" sortGemsByDPS="true" showSupportGemTypes="ALL" sortGemsByDPSField="CombinedDPS" showLegacyGems="false" activeSkillSet="1" defaultGemQuality="0">
+	<Skills activeSkillSet="1" sortGemsByDPS="true" sortGemsByDPSField="CombinedDPS" showSupportGemTypes="ALL" showLegacyGems="false" defaultGemLevel="normalMaximum" defaultGemQuality="0">
 		<SkillSet id="1">
-			<Skill includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" slot="Weapon 1">
-				<Gem level="21" enabled="true" nameSpec="Assassin&apos;s Mark" enableGlobal1="true" enableGlobal2="true" variantId="AssassinsMark" skillId="AssassinsMark" count="1" gemId="Metadata/Items/Gems/SkillGemCriticalWeakness" quality="20"/>
-				<Gem level="3" enabled="true" nameSpec="Cast on Ward Break" enableGlobal1="true" enableGlobal2="true" variantId="SupportCastOnWardBreak" skillId="SupportCastOnWardBreak" count="1" gemId="Metadata/Items/Gems/SupportGemCastOnWardBreak" quality="20"/>
+			<Skill slot="Body Armour" mainActiveSkill="2" includeInFullDPS="false" mainActiveSkillCalcs="1" label="" enabled="true">
+				<Gem quality="23" enableGlobal1="true" enableGlobal2="true" skillId="BladefallAltZ" count="1" level="20" gemId="Metadata/Items/Gems/SkillGemBladefall" nameSpec="Bladefall of Trarthus" variantId="BladefallAltZ" enabled="true"/>
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="SupportPhysicalToLightning" count="1" level="21" gemId="Metadata/Items/Gems/SupportGemPhysicalToLightning" nameSpec="Physical to Lightning" variantId="SupportPhysicalToLightning" enabled="true"/>
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="BladeBlast" skillPart="1" count="1" level="21" gemId="Metadata/Items/Gems/SkillGemBladeBlast" nameSpec="Blade Blast" variantId="BladeBlast" enabled="true" skillPartCalcs="1"/>
+				<Gem quality="23" enableGlobal1="true" enableGlobal2="true" skillId="SupportArcaneSurge" count="1" level="20" gemId="Metadata/Items/Gems/SupportGemArcaneSurge" nameSpec="Arcane Surge" variantId="SupportArcaneSurge" enabled="true"/>
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="SupportGreaterSpellEcho" count="1" level="4" gemId="Metadata/Items/Gems/SupportGemGreaterSpellEcho" nameSpec="Greater Spell Echo" variantId="SupportGreaterSpellEcho" enabled="true"/>
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="SupportIncreasedCriticalDamage" count="1" level="21" gemId="Metadata/Items/Gems/SupportGemIncreasedCriticalDamage" nameSpec="Increased Critical Damage" variantId="SupportIncreasedCriticalDamage" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" slot="Weapon 1">
-				<Gem level="4" enabled="true" nameSpec="Congregation" enableGlobal1="true" enableGlobal2="true" variantId="SupportCongregation" skillId="SupportCongregation" count="1" gemId="Metadata/Items/Gems/SupportGemCongregation" quality="20"/>
+			<Skill slot="Boots" mainActiveSkill="1" includeInFullDPS="false" mainActiveSkillCalcs="1" label="" enabled="true">
+				<Gem quality="23" enableGlobal1="true" enableGlobal2="true" skillId="Bladefall" count="1" level="1" gemId="Metadata/Items/Gems/SkillGemBladefall" nameSpec="Bladefall" variantId="Bladefall" enabled="true"/>
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="SupportCastOnWardBreak" count="1" level="3" gemId="Metadata/Items/Gems/SupportGemCastOnWardBreak" nameSpec="Cast on Ward Break" variantId="SupportCastOnWardBreak" enabled="true"/>
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="DetonateDeadAltY" skillPart="1" count="1" level="1" gemId="Metadata/Items/Gems/SkillGemDetonateDead" nameSpec="Detonate Dead of Chain Reaction" variantId="DetonateDeadAltY" enabled="true"/>
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="EtherealKnivesAltX" count="1" level="1" gemId="Metadata/Items/Gems/SkillGemEtherealKnives" nameSpec="Ethereal Knives of Lingering Blades" variantId="EtherealKnivesAltX" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" slot="Weapon 1">
-				<Gem level="20" enabled="true" nameSpec="Herald of Thunder" enableGlobal1="true" enableGlobal2="true" variantId="HeraldOfThunder" skillId="HeraldOfThunder" count="1" gemId="Metadata/Items/Gems/SkillGemHeraldOfThunder" quality="23"/>
+			<Skill slot="Gloves" mainActiveSkill="1" includeInFullDPS="false" mainActiveSkillCalcs="1" label="" enabled="true">
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="SupportCastOnWardBreak" count="1" level="3" gemId="Metadata/Items/Gems/SupportGemCastOnWardBreak" nameSpec="Cast on Ward Break" variantId="SupportCastOnWardBreak" enabled="true"/>
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="SupportGreaterSpellCascade" count="1" level="3" gemId="Metadata/Items/Gems/SupportGemGreaterSpellCascade" nameSpec="Greater Spell Cascade" variantId="SupportGreaterSpellCascade" enabled="true"/>
+				<Gem quality="12" enableGlobal1="true" enableGlobal2="true" skillId="VolatileDeadAltY" skillPart="1" count="1" level="1" gemId="Metadata/Items/Gems/SkillGemVolatileDead" nameSpec="Volatile Dead of Seething" variantId="VolatileDeadAltY" enabled="true"/>
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="Desecrate" count="1" level="1" gemId="Metadata/Items/Gems/SkillGemDesecrate" nameSpec="Desecrate" variantId="Desecrate" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" slot="Weapon 1">
-				<Gem level="21" enabled="true" nameSpec="Summon Phantasm" enableGlobal1="true" enableGlobal2="true" variantId="SupportSummonPhantasm" skillId="SupportSummonPhantasm" count="1" gemId="Metadata/Items/Gems/SupportGemSummonGhostOnKill" quality="20"/>
+			<Skill slot="Weapon 1" mainActiveSkill="1" includeInFullDPS="false" mainActiveSkillCalcs="1" label="" enabled="true">
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="AssassinsMark" count="1" level="21" gemId="Metadata/Items/Gems/SkillGemCriticalWeakness" nameSpec="Assassin&apos;s Mark" variantId="AssassinsMark" enabled="true"/>
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="SupportCastOnWardBreak" count="1" level="3" gemId="Metadata/Items/Gems/SupportGemCastOnWardBreak" nameSpec="Cast on Ward Break" variantId="SupportCastOnWardBreak" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" slot="Weapon 1">
-				<Gem level="20" enabled="true" nameSpec="Pact of Beidat" enableGlobal1="true" enableGlobal2="true" variantId="PactOfBeidat" skillId="PactOfBeidat" count="1" gemId="Metadata/Items/Gems/SkillGemPactOfBeidat" quality="20"/>
+			<Skill slot="Weapon 1" mainActiveSkill="1" includeInFullDPS="false" mainActiveSkillCalcs="1" label="" enabled="true">
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="SupportCongregation" count="1" level="4" gemId="Metadata/Items/Gems/SupportGemCongregation" nameSpec="Congregation" variantId="SupportCongregation" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="2" label="" mainActiveSkillCalcs="1" enabled="true" slot="Body Armour">
-				<Gem level="20" enabled="true" nameSpec="Bladefall of Trarthus" enableGlobal1="true" enableGlobal2="true" variantId="BladefallAltZ" skillId="BladefallAltZ" count="1" gemId="Metadata/Items/Gems/SkillGemBladefall" quality="23"/>
-				<Gem level="21" enabled="true" nameSpec="Physical to Lightning" enableGlobal1="true" enableGlobal2="true" variantId="SupportPhysicalToLightning" skillId="SupportPhysicalToLightning" count="1" gemId="Metadata/Items/Gems/SupportGemPhysicalToLightning" quality="20"/>
-				<Gem level="21" enabled="true" nameSpec="Blade Blast" enableGlobal1="true" enableGlobal2="true" variantId="BladeBlast" skillId="BladeBlast" count="1" skillPart="1" gemId="Metadata/Items/Gems/SkillGemBladeBlast" quality="20" skillPartCalcs="1"/>
-				<Gem level="20" enabled="true" nameSpec="Arcane Surge" enableGlobal1="true" enableGlobal2="true" variantId="SupportArcaneSurge" skillId="SupportArcaneSurge" count="1" gemId="Metadata/Items/Gems/SupportGemArcaneSurge" quality="23"/>
-				<Gem level="4" enabled="true" nameSpec="Greater Spell Echo" enableGlobal1="true" enableGlobal2="true" variantId="SupportGreaterSpellEcho" skillId="SupportGreaterSpellEcho" count="1" gemId="Metadata/Items/Gems/SupportGemGreaterSpellEcho" quality="20"/>
-				<Gem level="21" enabled="true" nameSpec="Increased Critical Damage" enableGlobal1="true" enableGlobal2="true" variantId="SupportIncreasedCriticalDamage" skillId="SupportIncreasedCriticalDamage" count="1" gemId="Metadata/Items/Gems/SupportGemIncreasedCriticalDamage" quality="20"/>
+			<Skill slot="Weapon 1" mainActiveSkill="1" includeInFullDPS="false" mainActiveSkillCalcs="1" label="" enabled="true">
+				<Gem quality="23" enableGlobal1="true" enableGlobal2="true" skillId="HeraldOfThunder" count="1" level="20" gemId="Metadata/Items/Gems/SkillGemHeraldOfThunder" nameSpec="Herald of Thunder" variantId="HeraldOfThunder" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" slot="Boots">
-				<Gem level="1" enabled="true" nameSpec="Bladefall" enableGlobal1="true" enableGlobal2="true" variantId="Bladefall" skillId="Bladefall" count="1" gemId="Metadata/Items/Gems/SkillGemBladefall" quality="23"/>
-				<Gem level="3" enabled="true" nameSpec="Cast on Ward Break" enableGlobal1="true" enableGlobal2="true" variantId="SupportCastOnWardBreak" skillId="SupportCastOnWardBreak" count="1" gemId="Metadata/Items/Gems/SupportGemCastOnWardBreak" quality="20"/>
-				<Gem level="1" enabled="true" nameSpec="Detonate Dead of Chain Reaction" enableGlobal1="true" enableGlobal2="true" variantId="DetonateDeadAltY" skillId="DetonateDeadAltY" count="1" skillPart="1" gemId="Metadata/Items/Gems/SkillGemDetonateDead" quality="20"/>
-				<Gem level="1" enabled="true" nameSpec="Ethereal Knives of Lingering Blades" enableGlobal1="true" enableGlobal2="true" variantId="EtherealKnivesAltX" skillId="EtherealKnivesAltX" count="1" gemId="Metadata/Items/Gems/SkillGemEtherealKnives" quality="20"/>
+			<Skill slot="Weapon 1" mainActiveSkill="1" includeInFullDPS="false" mainActiveSkillCalcs="1" label="" enabled="true">
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="SupportSummonPhantasm" count="1" level="21" gemId="Metadata/Items/Gems/SupportGemSummonGhostOnKill" nameSpec="Summon Phantasm" variantId="SupportSummonPhantasm" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" slot="Gloves">
-				<Gem level="3" enabled="true" nameSpec="Cast on Ward Break" enableGlobal1="true" enableGlobal2="true" variantId="SupportCastOnWardBreak" skillId="SupportCastOnWardBreak" count="1" gemId="Metadata/Items/Gems/SupportGemCastOnWardBreak" quality="20"/>
-				<Gem level="3" enabled="true" nameSpec="Greater Spell Cascade" enableGlobal1="true" enableGlobal2="true" variantId="SupportGreaterSpellCascade" skillId="SupportGreaterSpellCascade" count="1" gemId="Metadata/Items/Gems/SupportGemGreaterSpellCascade" quality="20"/>
-				<Gem level="1" enabled="true" nameSpec="Volatile Dead of Seething" enableGlobal1="true" enableGlobal2="true" variantId="VolatileDeadAltY" skillId="VolatileDeadAltY" count="1" skillPart="1" gemId="Metadata/Items/Gems/SkillGemVolatileDead" quality="12"/>
-				<Gem level="1" enabled="true" nameSpec="Desecrate" enableGlobal1="true" enableGlobal2="true" variantId="Desecrate" skillId="Desecrate" count="1" gemId="Metadata/Items/Gems/SkillGemDesecrate" quality="20"/>
+			<Skill slot="Weapon 1" mainActiveSkill="1" includeInFullDPS="false" mainActiveSkillCalcs="1" label="" enabled="true">
+				<Gem quality="20" enableGlobal1="true" enableGlobal2="true" skillId="PactOfBeidat" count="1" level="20" gemId="Metadata/Items/Gems/SkillGemPactOfBeidat" nameSpec="Pact of Beidat" variantId="PactOfBeidat" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="4" label="" mainActiveSkillCalcs="1" enabled="true" slot="Helmet">
-				<Gem skillMinion="AxisEliteSoldierHeraldOfLight" level="21" enabled="true" nameSpec="Herald of Purity" enableGlobal1="true" enableGlobal2="true" skillMinionSkill="1" variantId="HeraldOfPurity" skillId="HeraldOfPurity" count="1" gemId="Metadata/Items/Gems/SkillGemHeraldOfPurity" quality="0" skillMinionSkillCalcs="1"/>
-				<Gem level="21" enabled="true" nameSpec="Purity of Fire" enableGlobal1="true" enableGlobal2="true" variantId="PurityOfFire" skillId="PurityOfFire" count="1" gemId="Metadata/Items/Gems/SkillGemFireResistAura" quality="23"/>
-				<Gem level="21" enabled="true" nameSpec="Discipline" enableGlobal1="true" enableGlobal2="true" variantId="Discipline" skillId="Discipline" count="1" gemId="Metadata/Items/Gems/SkillGemDiscipline" quality="0"/>
-				<Gem level="21" enabled="true" nameSpec="Wrath" enableGlobal1="true" enableGlobal2="true" variantId="Wrath" skillId="Wrath" count="1" gemId="Metadata/Items/Gems/SkillGemWrath" quality="0"/>
+			<Skill slot="Helmet" mainActiveSkill="4" includeInFullDPS="false" mainActiveSkillCalcs="1" label="" enabled="true">
+				<Gem quality="0" skillMinionSkillCalcs="1" enableGlobal1="true" enableGlobal2="true" skillId="HeraldOfPurity" count="1" level="21" skillMinion="AxisEliteSoldierHeraldOfLight" gemId="Metadata/Items/Gems/SkillGemHeraldOfPurity" nameSpec="Herald of Purity" variantId="HeraldOfPurity" skillMinionSkill="1" enabled="true"/>
+				<Gem quality="23" enableGlobal1="true" enableGlobal2="true" skillId="PurityOfFire" count="1" level="21" gemId="Metadata/Items/Gems/SkillGemFireResistAura" nameSpec="Purity of Fire" variantId="PurityOfFire" enabled="true"/>
+				<Gem quality="0" enableGlobal1="true" enableGlobal2="true" skillId="Discipline" count="1" level="21" gemId="Metadata/Items/Gems/SkillGemDiscipline" nameSpec="Discipline" variantId="Discipline" enabled="true"/>
+				<Gem quality="0" enableGlobal1="true" enableGlobal2="true" skillId="Wrath" count="1" level="21" gemId="Metadata/Items/Gems/SkillGemWrath" nameSpec="Wrath" variantId="Wrath" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" slot="Weapon 1" source="Item:18:Soulwrest, Ezomyte Staff">
-				<Gem skillMinion="SummonedPhantasm" level="25" enabled="true" nameSpec="Triggered Summon Phantasm" enableGlobal1="true" enableGlobal2="true" skillMinionSkill="1" skillId="TriggeredSummonGhostOnKill" count="1" quality="0" skillMinionSkillCalcs="1"/>
+			<Skill slot="Weapon 1" mainActiveSkill="1" includeInFullDPS="false" mainActiveSkillCalcs="1" source="Item:18:Soulwrest, Ezomyte Staff" label="" enabled="true">
+				<Gem quality="0" skillMinionSkillCalcs="1" enableGlobal1="true" enableGlobal2="true" skillId="TriggeredSummonGhostOnKill" count="1" level="25" skillMinion="SummonedPhantasm" nameSpec="Triggered Summon Phantasm" skillMinionSkill="1" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1" enabled="true" slot="Boots" source="Item:23:Corpsewalker, Carnal Boots">
-				<Gem level="20" enabled="true" nameSpec="Corpse Walk" enableGlobal1="true" enableGlobal2="true" skillId="CorpseWalk" count="1" quality="0"/>
+			<Skill slot="Boots" mainActiveSkill="1" includeInFullDPS="false" mainActiveSkillCalcs="1" source="Item:23:Corpsewalker, Carnal Boots" label="" enabled="true">
+				<Gem quality="0" enableGlobal1="true" enableGlobal2="true" skillId="CorpseWalk" count="1" level="20" nameSpec="Corpse Walk" enabled="true"/>
 			</Skill>
-			<Skill includeInFullDPS="false" mainActiveSkill="1" label="On Kill Monster Explosion" mainActiveSkillCalcs="1" enabled="true" source="Explode">
-				<Gem level="1" enabled="true" nameSpec="" enableGlobal1="nil" enableGlobal2="nil" skillId="EnemyExplode" count="nil" skillPart="1" quality="0"/>
+			<Skill mainActiveSkill="1" includeInFullDPS="false" mainActiveSkillCalcs="1" source="Explode" label="On Kill Monster Explosion" enabled="true">
+				<Gem quality="0" enableGlobal1="nil" enableGlobal2="nil" skillId="EnemyExplode" skillPart="1" count="nil" level="1" nameSpec="" enabled="true"/>
 			</Skill>
 		</SkillSet>
 	</Skills>
-	<Items useSecondWeaponSet="false" activeItemSet="1" showStatDifferences="true">
+	<Items activeItemSet="1" useSecondWeaponSet="false" showStatDifferences="true">
 		<Item id="1">
 			Rarity: UNIQUE
 Transcendent Flesh
@@ -1033,95 +790,339 @@ Corrupted
 			<ModRange range="0.5" id="8"/>
 		</Item>
 		<ItemSet useSecondWeaponSet="false" id="1">
-			<Slot name="Weapon 2 Swap Abyssal Socket 5" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 2 Swap Abyssal Socket 6" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 2 Abyssal Socket 1" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 2 Abyssal Socket 2" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 2 Abyssal Socket 3" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 2 Abyssal Socket 4" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 2 Abyssal Socket 5" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 2 Abyssal Socket 6" itemPbURL="" itemId="0"/>
-			<Slot name="Helmet Abyssal Socket 1" itemPbURL="" itemId="0"/>
-			<Slot name="Helmet Abyssal Socket 2" itemPbURL="" itemId="0"/>
-			<Slot name="Helmet Abyssal Socket 3" itemPbURL="" itemId="0"/>
-			<Slot active="true" name="Flask 5" itemPbURL="" itemId="21"/>
-			<Slot name="Helmet Abyssal Socket 4" itemPbURL="" itemId="0"/>
-			<Slot name="Helmet Abyssal Socket 5" itemPbURL="" itemId="0"/>
-			<Slot name="Helmet Abyssal Socket 6" itemPbURL="" itemId="0"/>
-			<Slot name="Body Armour Abyssal Socket 1" itemPbURL="" itemId="0"/>
-			<Slot name="Body Armour Abyssal Socket 2" itemPbURL="" itemId="0"/>
-			<Slot name="Body Armour Abyssal Socket 3" itemPbURL="" itemId="0"/>
-			<Slot name="Body Armour Abyssal Socket 4" itemPbURL="" itemId="0"/>
-			<Slot name="Body Armour Abyssal Socket 5" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 12613" itemPbURL="" nodeId="12613"/>
-			<SocketIdURL name="Jewel 13170" itemPbURL="" nodeId="13170"/>
-			<Slot name="Gloves Abyssal Socket 1" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 21984" itemPbURL="" nodeId="21984"/>
-			<Slot name="Gloves Abyssal Socket 2" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 26196" itemPbURL="" nodeId="26196"/>
-			<Slot name="Gloves Abyssal Socket 4" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 29712" itemPbURL="" nodeId="29712"/>
-			<Slot name="Gloves Abyssal Socket 5" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 31683" itemPbURL="" nodeId="31683"/>
-			<Slot name="Gloves Abyssal Socket 6" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 41263" itemPbURL="" nodeId="41263"/>
-			<Slot name="Boots Abyssal Socket 1" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 48768" itemPbURL="" nodeId="48768"/>
-			<Slot name="Boots Abyssal Socket 2" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 61419" itemPbURL="" nodeId="61419"/>
-			<Slot name="Boots Abyssal Socket 3" itemPbURL="" itemId="0"/>
-			<Slot name="Boots Abyssal Socket 4" itemPbURL="" itemId="0"/>
-			<Slot name="Boots Abyssal Socket 5" itemPbURL="" itemId="0"/>
-			<Slot name="Boots Abyssal Socket 6" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 1 Swap" itemPbURL="" itemId="15"/>
-			<Slot name="Weapon 1 Swap Abyssal Socket 1" itemPbURL="" itemId="0"/>
-			<Slot name="Belt" itemPbURL="" itemId="22"/>
-			<Slot name="Weapon 1 Swap Abyssal Socket 2" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 1 Swap Abyssal Socket 3" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 1" itemPbURL="" itemId="18"/>
-			<Slot name="Amulet" itemPbURL="" itemId="20"/>
-			<Slot name="Helmet" itemPbURL="" itemId="25"/>
-			<Slot name="Weapon 2" itemPbURL="" itemId="0"/>
-			<Slot name="Body Armour" itemPbURL="" itemId="28"/>
-			<Slot name="Gloves" itemPbURL="" itemId="24"/>
-			<Slot name="Boots" itemPbURL="" itemId="23"/>
-			<Slot name="Ring 1" itemPbURL="" itemId="29"/>
-			<Slot name="Ring 2" itemPbURL="" itemId="19"/>
-			<Slot name="Ring 3" itemPbURL="" itemId="0"/>
-			<Slot name="Belt Abyssal Socket 4" itemPbURL="" itemId="0"/>
-			<Slot name="Belt Abyssal Socket 5" itemPbURL="" itemId="0"/>
-			<Slot name="Belt Abyssal Socket 6" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 1 Swap Abyssal Socket 4" itemPbURL="" itemId="0"/>
-			<Slot name="Graft 1" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 1 Swap Abyssal Socket 5" itemPbURL="" itemId="0"/>
-			<Slot name="Graft 2" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 1 Swap Abyssal Socket 6" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 1 Abyssal Socket 1" itemPbURL="" itemId="0"/>
-			<Slot active="true" name="Flask 1" itemPbURL="" itemId="26"/>
-			<Slot name="Weapon 1 Abyssal Socket 2" itemPbURL="" itemId="0"/>
-			<Slot active="true" name="Flask 2" itemPbURL="" itemId="17"/>
-			<Slot name="Weapon 1 Abyssal Socket 3" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 1 Abyssal Socket 4" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 1 Abyssal Socket 5" itemPbURL="" itemId="0"/>
-			<Slot active="true" name="Flask 4" itemPbURL="" itemId="16"/>
-			<SocketIdURL name="Jewel 64583" itemPbURL="" nodeId="64583"/>
-			<Slot name="Weapon 1 Abyssal Socket 6" itemPbURL="" itemId="0"/>
-			<Slot name="Belt Abyssal Socket 3" itemPbURL="" itemId="0"/>
-			<Slot name="Belt Abyssal Socket 1" itemPbURL="" itemId="0"/>
-			<Slot name="Gloves Abyssal Socket 3" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 6230" itemPbURL="" nodeId="6230"/>
-			<Slot name="Weapon 2 Swap" itemPbURL="" itemId="14"/>
-			<Slot name="Belt Abyssal Socket 2" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 7960" itemPbURL="" nodeId="7960"/>
-			<Slot name="Weapon 2 Swap Abyssal Socket 1" itemPbURL="" itemId="0"/>
-			<Slot active="true" name="Flask 3" itemPbURL="" itemId="27"/>
-			<Slot name="Weapon 2 Swap Abyssal Socket 2" itemPbURL="" itemId="0"/>
-			<SocketIdURL name="Jewel 9408" itemPbURL="" nodeId="9408"/>
-			<Slot name="Weapon 2 Swap Abyssal Socket 3" itemPbURL="" itemId="0"/>
-			<Slot name="Body Armour Abyssal Socket 6" itemPbURL="" itemId="0"/>
-			<Slot name="Weapon 2 Swap Abyssal Socket 4" itemPbURL="" itemId="0"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 6"/>
+			<SocketIdURL itemPbURL="" name="Jewel 6230" nodeId="6230"/>
+			<SocketIdURL itemPbURL="" name="Jewel 7960" nodeId="7960"/>
+			<SocketIdURL itemPbURL="" name="Jewel 9408" nodeId="9408"/>
+			<SocketIdURL itemPbURL="" name="Jewel 12613" nodeId="12613"/>
+			<SocketIdURL itemPbURL="" name="Jewel 13170" nodeId="13170"/>
+			<SocketIdURL itemPbURL="" name="Jewel 21984" nodeId="21984"/>
+			<SocketIdURL itemPbURL="" name="Jewel 26196" nodeId="26196"/>
+			<Slot itemPbURL="" itemId="15" name="Weapon 1 Swap"/>
+			<SocketIdURL itemPbURL="" name="Jewel 29712" nodeId="29712"/>
+			<SocketIdURL itemPbURL="" name="Jewel 31683" nodeId="31683"/>
+			<SocketIdURL itemPbURL="" name="Jewel 41263" nodeId="41263"/>
+			<SocketIdURL itemPbURL="" name="Jewel 48768" nodeId="48768"/>
+			<Slot itemPbURL="" itemId="18" name="Weapon 1"/>
+			<Slot itemPbURL="" itemId="20" name="Amulet"/>
+			<Slot itemPbURL="" itemId="25" name="Helmet"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2"/>
+			<Slot itemPbURL="" itemId="28" name="Body Armour"/>
+			<Slot itemPbURL="" itemId="24" name="Gloves"/>
+			<Slot itemPbURL="" itemId="23" name="Boots"/>
+			<Slot itemPbURL="" itemId="29" name="Ring 1"/>
+			<Slot itemPbURL="" itemId="19" name="Ring 2"/>
+			<Slot itemPbURL="" itemId="0" name="Ring 3"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="27" name="Flask 3" active="true"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 4"/>
+			<SocketIdURL itemPbURL="" name="Jewel 64583" nodeId="64583"/>
+			<SocketIdURL itemPbURL="" name="Jewel 61419" nodeId="61419"/>
+			<Slot itemPbURL="" itemId="22" name="Belt"/>
+			<Slot itemPbURL="" itemId="21" name="Flask 5" active="true"/>
+			<Slot itemPbURL="" itemId="16" name="Flask 4" active="true"/>
+			<Slot itemPbURL="" itemId="17" name="Flask 2" active="true"/>
+			<Slot itemPbURL="" itemId="26" name="Flask 1" active="true"/>
+			<Slot itemPbURL="" itemId="0" name="Graft 2"/>
+			<Slot itemPbURL="" itemId="0" name="Graft 1"/>
+			<Slot itemPbURL="" itemId="14" name="Weapon 2 Swap"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 6"/>
 		</ItemSet>
 		<TradeSearchWeights/>
 	</Items>
-	<Party destination="All" append="false" ShowAdvanceTools="false"/>
+	<Calcs>
+		<Input name="skill_number" number="1"/>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Section subsection="ViewSkillDetails" collapsed="false" id="SkillSelect"/>
+		<Section subsection="SkillHitDamage" collapsed="false" id="HitDamage"/>
+		<Section subsection="ExertingWarcries" collapsed="false" id="Warcries"/>
+		<Section subsection="EmpoweredSpells" collapsed="false" id="Pacts"/>
+		<Section subsection="SkillDamageoverTime" collapsed="false" id="Dot"/>
+		<Section subsection="AttackCastRate" collapsed="false" id="Speed"/>
+		<Section subsection="Crits" collapsed="false" id="Crit"/>
+		<Section subsection="Impale" collapsed="false" id="Impale"/>
+		<Section subsection="SkilltypespecificStats" collapsed="false" id="SkillTypeStats"/>
+		<Section subsection="Accuracy" collapsed="false" id="HitChance"/>
+		<Section subsection="Bleed" collapsed="false" id="Bleed"/>
+		<Section subsection="Poison" collapsed="false" id="Poison"/>
+		<Section subsection="Ignite" collapsed="false" id="Ignite"/>
+		<Section subsection="Decay" collapsed="false" id="Decay"/>
+		<Section subsection="LeechGainonHit" collapsed="false" id="LeechGain"/>
+		<Section subsection="NonDamagingAilments" collapsed="false" id="EleAilments"/>
+		<Section subsection="OtherEffects" collapsed="false" id="MiscEffects"/>
+		<Section subsection="Attributes" collapsed="false" id="Attributes"/>
+		<Section subsection="Life" collapsed="false" id="Life"/>
+		<Section subsection="Mana" collapsed="false" id="Mana"/>
+		<Section subsection="EnergyShield" collapsed="false" id="EnergyShield"/>
+		<Section subsection="Ward" collapsed="false" id="Ward"/>
+		<Section subsection="Resists" collapsed="false" id="Resist"/>
+		<Section subsection="Armour" collapsed="false" id="Armour"/>
+		<Section subsection="Evasion" collapsed="false" id="Evasion"/>
+		<Section subsection="DamageAvoidance" collapsed="false" id="DamageAvoidance"/>
+		<Section subsection="Block" collapsed="false" id="DamageAvoidance"/>
+		<Section subsection="Dodge" collapsed="false" id="DamageAvoidance"/>
+		<Section subsection="SpellSuppression" collapsed="false" id="DamageAvoidance"/>
+		<Section subsection="Flasks" collapsed="false" id="Flasks"/>
+		<Section subsection="UtilityFlasks" collapsed="true" id="Flasks"/>
+		<Section subsection="LifeFlasks" collapsed="true" id="Flasks"/>
+		<Section subsection="ManaFlasks" collapsed="true" id="Flasks"/>
+		<Section subsection="Tinctures" collapsed="true" id="Flasks"/>
+		<Section subsection="Rage" collapsed="true" id="Rage"/>
+		<Section subsection="Charges" collapsed="true" id="Charges"/>
+		<Section subsection="Endurance" collapsed="true" id="Charges"/>
+		<Section subsection="Frenzy" collapsed="true" id="Charges"/>
+		<Section subsection="Power" collapsed="true" id="Charges"/>
+		<Section subsection="OtherDefences" collapsed="false" id="MiscDefences"/>
+		<Section subsection="Fortification" collapsed="false" id="MiscDefences"/>
+		<Section subsection="StunDuration" collapsed="false" id="MiscDefences"/>
+		<Section subsection="OtherAvoidance" collapsed="true" id="MiscDefences"/>
+		<Section subsection="OtherAilmentDefences" collapsed="true" id="MiscDefences"/>
+		<Section subsection="DamageTaken" collapsed="false" id="DamageTaken"/>
+		<Section subsection="DamagingHits" collapsed="false" id="DamageTaken"/>
+		<Section subsection="EffectiveHealthPool" collapsed="false" id="DamageTaken"/>
+		<Section subsection="MaximumHitTaken" collapsed="false" id="DamageTaken"/>
+		<Section subsection="RecoupandHitTakenOverTime" collapsed="true" id="DamageTaken"/>
+		<Section subsection="DotsandBuildDegens" collapsed="false" id="DamageTaken"/>
+		<Section subsection="EnemyDegens" collapsed="true" id="DamageTaken"/>
+	</Calcs>
+	<Party destination="All" ShowAdvanceTools="false" append="false"/>
+	<Import exportParty="false"/>
+	<Tree activeSpec="1">
+		<Spec treeVersion="3_29" secondaryAscendClassId="7" clusterHashFormatVersion="2" masteryEffects="{53188,64875},{38921,4500},{5230,28589},{16123,2987},{6507,56471},{13712,28638},{55491,61097},{63482,28569}" classId="0" ascendClassId="2" nodes="7918,39841,64583,20987,15544,21984,60247,35936,16123,34171,63447,46842,36452,57736,33508,66582,26196,19919,12143,48828,61419,41263,55743,18990,51923,55491,18174,26557,29712,48423,60085,22628,26270,6967,6230,10108,40366,24362,65552,66576,53188,36678,39761,64210,58833,65568,65894,4977,15117,22702,9086,4367,37671,7444,13712,65561,60472,52502,9408,20261,65097,18033,42917,5230,65895,6764,49605,32932,37303,19501,65888,65570,33545,54694,6507,65578,38246,53957,11455,5296,66579,46092,13170,12613,45456,16633,22618,35233,44184,65893,65889,65898,65899,31683,66585,47062,65897,49651,24229,36881,2151,33310,32710,59826,17570,63425,29781,12032,26070,56922,21974,55571,20528,7960,14665,7594,21033,27415,38921,37690,48778,65890,42760,47504,60440,13961,2460,56153,49698,63398,48768,22441,62697,28859,63482,36489,65891,11688">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABgAedB7um6H8R1H7PLhV4OtXjGA--4V799e2-o5k4YiC5GZUTc8vb7687-uhL9m_Si7K09jDRv5nvXQQvSfqtVhkZp4bNxhWna5fKs_Ej0abUfrSE3E7DViuEQ-TJx0UNZDsOM0WJMBPJf5JRnGnpRRuGmzBxYCkkbdMLYMJ1aYZa5Vm0sUsvxSwtAwzcjFFsZBA-VhaiaGsmHvDt9bB816lkBEIZ4Ief8bpskSi98F0VS8AZdbeWlXW2RNQMB8YOUkdqlIpaxeYCZM6voqnCLmQ7Bg2iQmc21nCIvemvoBXqfTpcLv3-o6JLagTBBYAEAQQACABZgAZAWcBYAAiACoEEwFlAWEBagFrBBkBaQFiAWMIC6s---6p2MP9a8_Eb941kG-tFG7clxlrEZSYCW-Z9_o=
+			</URL>
+			<Sockets>
+				<Socket itemId="7" nodeId="64583"/>
+				<Socket itemId="8" nodeId="9408"/>
+				<Socket itemId="5" nodeId="29712"/>
+				<Socket itemId="11" nodeId="21984"/>
+				<Socket itemId="12" nodeId="31683"/>
+				<Socket itemId="10" nodeId="7960"/>
+				<Socket itemId="4" nodeId="12613"/>
+				<Socket itemId="9" nodeId="13170"/>
+				<Socket itemId="6" nodeId="26196"/>
+				<Socket itemId="13" nodeId="61419"/>
+				<Socket itemId="3" nodeId="41263"/>
+				<Socket itemId="1" nodeId="6230"/>
+				<Socket itemId="2" nodeId="48768"/>
+			</Sockets>
+			<Overrides>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="7388">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="37671">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="36678">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon12.png" dn="Runegraft of the Soulwick" nodeId="21143">
+					Gain 1 Vaal Soul per second
+					Limited to 1 Runegraft of the Soulwick
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="7444">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="64210">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="39841">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="19501">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="10490">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="47251">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="60440">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="33479">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="5296">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon20.png" dn="Runegraft of Treachery" nodeId="14113">
+					15% increased Reservation Efficiency of Skills
+					Auras from your Skills which affect Allies also affect Enemies
+					Limited to 1 Runegraft of Treachery
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="44184">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="32710">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="48778">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="18033">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/NgamahuTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/FireResistNode.png" dn="Tattoo of the Ngamahu Firewalker" nodeId="34171">
+					+6% to Fire Resistance
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="15117">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/Village/RuneCraftingPassiveBG.png" icon="Art/2DArt/SkillIcons/passives/AtlasTrees/RuneGraftingIcon8.png" dn="Runegraft of the Jeweller" nodeId="6507">
+					10% increased Damage for each unlinked Socket in Equipped Two Handed Weapon
+					Limited to 1 Runegraft of the Jeweller
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="46092">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="46340">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="42760">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="33310">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="63447">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="27415">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/NgamahuTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/FireResistNode.png" dn="Tattoo of the Ngamahu Firewalker" nodeId="60472">
+					+6% to Fire Resistance
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="4367">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="51923">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="60398">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+				<Override activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/KitavaTribePassiveBG.png" icon="Art/2DArt/SkillIcons/passives/lifegainpertarget.png" dn="Tattoo of the Kitava Heart Eater" nodeId="49605">
+					Killing Blows have 4% chance to Consume corpses to recover 10% of Maximum Life
+				</Override>
+			</Overrides>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+	</Notes>
+	<Config activeConfigSet="1">
+		<ConfigSet title="Default" id="1">
+			<Input name="multiplierNearbyEnemies" number="1"/>
+			<Input name="usePowerCharges" boolean="true"/>
+			<Input name="conditionMinionsDiedRecently" boolean="true"/>
+			<Input name="buffArcaneSurge" boolean="true"/>
+			<Input name="conditionGainedPowerChargeRecently" boolean="true"/>
+			<Input name="conditionCritRecently" boolean="true"/>
+			<Input name="conditionEnemyBleeding" boolean="true"/>
+			<Input name="conditionEnemyIgnited" boolean="true"/>
+			<Input name="conditionEnemyChilled" boolean="true"/>
+			<Input name="conditionHaveEnergyShield" boolean="true"/>
+			<Input name="bandit" string="Eramir"/>
+			<Input name="pantheonMajorGod" string="TheBrineKing"/>
+			<Input name="pantheonMinorGod" string="Ralakesh"/>
+			<Input name="conditionBeenHitRecently" boolean="true"/>
+			<Input name="conditionBlockedRecently" boolean="true"/>
+			<Input name="conditionFullLife" boolean="true"/>
+			<Input name="multiplierNearbyRareOrUniqueEnemies" number="1"/>
+			<Input name="conditionSpawnedCorpseRecently" boolean="true"/>
+			<Input name="conditionEnemyUnnerved" boolean="true"/>
+			<Input name="DisableEHPGainOnBlock" boolean="true"/>
+			<Input name="BrandsAttachedToEnemy" number="1"/>
+			<Input name="conditionUsedRubyFlaskRecently" boolean="true"/>
+			<Placeholder name="aspectOfLunarisLunarProtection" number="8"/>
+			<Placeholder name="enemyLightningResist" number="50"/>
+			<Placeholder name="enemyFireDamage" number="2241"/>
+			<Placeholder name="enemyColdResist" number="50"/>
+			<Placeholder name="enemySpeed" number="700"/>
+			<Placeholder name="enemyCritChance" number="5"/>
+			<Placeholder name="enemyCritDamage" number="30"/>
+			<Placeholder name="multiplierHallowingFlameStacksRemovedByAlly" number="1"/>
+			<Placeholder name="enemyFireResist" number="50"/>
+			<Placeholder name="aspectOfSolarisSunscaldStacks" number="5"/>
+			<Placeholder name="enemyPhysicalDamage" number="2241"/>
+			<Placeholder name="enemyLightningDamage" number="2241"/>
+			<Placeholder name="enemyColdDamage" number="2241"/>
+			<Placeholder name="enemyLevel" number="84"/>
+			<Placeholder name="sigilOfPowerStages" number="1"/>
+			<Placeholder name="ShockStacks" number="1"/>
+			<Placeholder name="enemyChaosResist" number="30"/>
+			<Placeholder name="enemyLightningPen" number="3"/>
+			<Placeholder name="enemyColdPen" number="3"/>
+			<Placeholder name="meleeDistance" number="15"/>
+			<Placeholder name="enemyArmour" number="61989"/>
+			<Placeholder name="enemyEvasion" number="10143"/>
+			<Placeholder name="projectileDistance" number="40"/>
+			<Placeholder name="ScorchStacks" number="1"/>
+			<Placeholder name="enemyDamageRollRange" number="70"/>
+			<Placeholder name="enemyChaosDamage" number="896"/>
+			<Placeholder name="enemyFirePen" number="3"/>
+			<Placeholder name="multiplierWitheredStackCountSelf" number="15"/>
+			<Placeholder name="configSpectralTigerCount" number="5"/>
+			<Placeholder name="multiplierEnemyHallowingFlame" number="1"/>
+			<Placeholder name="aspectOfLunarisLunarResistance" number="8"/>
+			<CustomModifierBlock enabled="true" title="Default">
+				
+			</CustomModifierBlock>
+		</ConfigSet>
+	</Config>
+	<TreeView zoomLevel="4" zoomX="-41.563049285551" zoomY="306.62938448788" searchStr="" showStatDifferences="true"/>
 </PathOfBuilding>
